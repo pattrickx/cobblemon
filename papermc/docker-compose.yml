@@ -9,4 +9,3 @@ services:
     volumes:
       - ./world:/home/papermc/world
     restart: 'unless-stopped'
-    tty: true

@@ -7,7 +7,7 @@ RUN apk update \
     && apk add bash \
     && apk add curl \
     && apk add jq \
-    && apk add tmux
+    && apk add rcon 
 
 # Create a user and usergroup with high UID and GID to not overlap with an existing host user or usergroup
 RUN addgroup -g 10001 papermc && \
