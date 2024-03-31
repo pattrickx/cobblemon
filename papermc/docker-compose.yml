@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  papermc:
+    image: delath/papermc
+    container_name: papermc
+    ports:
+      - "25565:25565"
+    volumes:
+      - ./world:/home/papermc/world
+    restart: 'unless-stopped'
+    tty: true

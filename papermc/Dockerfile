@@ -1,20 +1,30 @@
+# Use Alpine because it's more performance and size friendly
 FROM alpine:latest
 
+# Install everything we need
 RUN apk update \
     && apk add openjdk21-jre \
     && apk add bash \
-    && apk add wget \
-    && apk add jq
+    && apk add curl \
+    && apk add jq \
+    && apk add tmux
 
-RUN mkdir /app
+# Create a user and usergroup with high UID and GID to not overlap with an existing host user or usergroup
+RUN addgroup -g 10001 papermc && \
+    adduser -D -u 10000 -G papermc papermc
 
-COPY papermc.sh /app/papermc.sh
+# Set working directory
+WORKDIR /home/papermc
 
-RUN adduser -D -h /home/papermc papermc
+# Copy the entrypoint script
+COPY papermc.sh papermc.sh
 
-RUN chown -R papermc:papermc /app
-RUN chmod +x /app/papermc.sh
+# Fix entrypoint script permissions
+RUN chown papermc:papermc papermc.sh && \
+    chmod +x papermc.sh
 
-USER papermc
+# USER is not being used, but we are actually running the server as the user previously created inside the entrypoint
+# The reason is conflicts with volumes permissions while wanting to have this streamlined as much as possible 
 
-CMD ["bash", "./app/papermc.sh"]
+# Launch entrypoint script to run the server
+ENTRYPOINT /home/papermc/papermc.sh

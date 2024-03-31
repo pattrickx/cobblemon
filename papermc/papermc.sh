@@ -1,20 +1,32 @@
 #!/bin/bash
 
-jar_file = "/home/papermc/papermc.jar"
-ALLOCATED_RAM = "4G"
-
-if [[ -f "$jar_file" ]]; then # If a papermc.jar is already present
-    mv $jar_file $jar_file.bak
-fi
-
-
-
-if [[ -z "$ALLOCATED_RAM" ]]; then # We might want to default this
-    echo "Variable ALLOCATED_RAM not defined."
-
+# Check if EULA has been accepted
+if [[ -z "$EULA" ]]; then
+    echo "Variable EULA not defined, see docs to know how to accept EULA."
     exit 1
 fi
 
-java -Xmx${ALLOCATED_RAM} -Xms${ALLOCATED_RAM} -jar paper.jar --nogui
+# Fetch latest Paper jar name
+LATEST_VERSION=$(curl -s https://api.papermc.io/v2/projects/paper | jq -r '.versions[-1]')
+LATEST_BUILD=$(curl -s https://api.papermc.io/v2/projects/paper/versions/${LATEST_VERSION}/builds | jq -r '.builds | map(select(.channel == "default") | .build) | .[-1]')
+JAR_NAME=paper-${LATEST_VERSION}-${LATEST_BUILD}.jar
 
-exit 0
+# Default the allocated ram to 4G if not set
+if [[ -z "$ALLOCATED_RAM" ]]; then
+    echo "Variable ALLOCATED_RAM not defined."
+    ALLOCATED_RAM="4G"
+fi
+
+# Create a new tmux session
+tmux new-session -d -s "papermc"
+
+# Download the latest Paper jar and launch it with Aikar's Flags -> https://docs.papermc.io/paper/aikars-flags
+tmux send-keys -t "papermc" "cd /home/papermc/world" Enter
+tmux send-keys -t "papermc" "curl -o paper.jar https://api.papermc.io/v2/projects/paper/versions/${LATEST_VERSION}/builds/${LATEST_BUILD}/downloads/${JAR_NAME}" Enter
+tmux send-keys -t "papermc" "echo 'eula=${EULA}' > eula.txt" Enter
+tmux send-keys -t "papermc" "chown -R papermc:papermc /home/papermc" Enter
+tmux send-keys -t "papermc" "chmod +x paper.jar" Enter
+tmux send-keys -t "papermc" "su -c 'java -Xmx${ALLOCATED_RAM} -Xms${ALLOCATED_RAM} -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true -jar paper.jar --nogui' papermc" Enter
+
+# Attach to the tmux session
+tmux attach -t "papermc"
