@@ -7,5 +7,6 @@ services:
     ports:
       - "7777:7777"
     volumes:
-      - ./Worlds:/home/terraria/Worlds
+      - ./world:/home/terraria/world
     restart: 'unless-stopped'
+    tty: true

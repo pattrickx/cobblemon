@@ -1,7 +1,7 @@
 # The following are not meant to be changed
-worldname=World
-world=/home/terraria/Worlds/World.wld
-worldpath=/home/terraria/Worlds/
+worldname=world
+world=/home/terraria/world/world.wld
+worldpath=/home/terraria/world/
 port=7777
 # The following may be changed but not removed or commented
 autocreate=3
