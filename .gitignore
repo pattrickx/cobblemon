@@ -1,2 +1,2 @@
 # Used for custom docker composes
-*-local*
+docker-compose-local.yml
