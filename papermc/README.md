@@ -1,50 +1,50 @@
-  # Prerequisite
+# Prerequisite
 
-  You need to accept EULA to run this server, you can do so by adding the following environment variable to the service configuration:
+You need to accept EULA to run this server, you can do so by adding the following environment variable to the service configuration:
 
-  ```yaml
-  environment:
-    - EULA=true
-  ```
+```yaml
+environment:
+  - EULA=true
+```
 
-  # Increasing RAM Allocation
+# Increasing RAM Allocation
 
-  If you need to increase the RAM (by default it's 4GB), you can do so by adding the following environment variable to the service configuration:
+If you need to increase the RAM (by default it's 4GB), you can do so by adding the following environment variable to the service configuration:
 
-  ```yaml
-  environment:
-    - ALLOCATED_RAM=8G
-  ```
+```yaml
+environment:
+  - ALLOCATED_RAM=8G
+```
 
-  # Example
+# Example
 
-  ```yaml
-  version: '3.8'
+```yaml
+version: '3.8'
 
-  services:
-    papermc:
-      image: delath/papermc
-      container_name: papermc
-      ports:
-        - "25565:25565"
-      volumes:
-        - ./world:/home/papermc/world
-      restart: 'unless-stopped'
-      environment:
-        - ALLOCATED_RAM=8G
-        - EULA=true
-  ```
+services:
+  papermc:
+    image: delath/papermc
+    container_name: papermc
+    ports:
+      - "25565:25565"
+    volumes:
+      - ./world:/home/papermc/world
+    restart: 'unless-stopped'
+    environment:
+      - ALLOCATED_RAM=8G
+      - EULA=true
+```
 
-  # Sending commands to the server console
+# Sending commands to the server console
 
-  If you want to send commands to the console you can leverage minecraft official rcon support, you would need to generate all server files by starting the server at least once and edit the `server.properties` rcon related fields 
-  ```txt
-  enable-rcon=true
-  rcon.port=25575
-  rcon.password=<rcon_password>
-  ```
+If you want to send commands to the console you can leverage minecraft official rcon support, you would need to generate all server files by starting the server at least once and edit the `server.properties` rcon related fields 
+```txt
+enable-rcon=true
+rcon.port=25575
+rcon.password=<rcon_password>
+```
 
-  Then you can send any command with the following
-  ```bash
-  docker exec -it papermc sh -c "rcon -H localhost -p 25575 -P <rcon_password> <command>"
-  ```
+Then you can send any command with the following
+```bash
+docker exec -it papermc sh -c "rcon -H localhost -p 25575 -P <rcon_password> <command>"
+```

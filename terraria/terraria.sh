@@ -6,6 +6,48 @@ curl -o /home/terraria/terraria-server.zip https://terraria.org/api/download/pc-
 unzip /home/terraria/terraria-server.zip -d /home/terraria/
 rm /home/terraria/terraria-server.zip
 
+# Configure the server by building a config file with the environment variables
+CONFIG_FILE_PATH="/home/terraria/config"
+echo "worldname=world" >> "$CONFIG_FILE_PATH"
+echo "world=/home/terraria/world/world.wld" >> "$CONFIG_FILE_PATH"
+echo "worldpath=/home/terraria/world/" >> "$CONFIG_FILE_PATH"
+echo "port=7777" >> "$CONFIG_FILE_PATH"
+if [ -z "$AUTOCREATE" ]; then
+    AUTOCREATE=3
+fi
+echo "autocreate=$AUTOCREATE" >> "$CONFIG_FILE_PATH"
+if [ -n "$SEED" ]; then
+    echo "seed=$SEED" >> "$CONFIG_FILE_PATH"
+fi
+if [ -n "$DIFFICULTY" ]; then
+    echo "difficulty=$DIFFICULTY" >> "$CONFIG_FILE_PATH"
+fi
+if [ -n "$MAXPLAYERS" ]; then
+    echo "maxplayers=$MAXPLAYERS" >> "$CONFIG_FILE_PATH"
+fi
+if [ -n "$PASSWORD" ]; then
+    echo "password=$PASSWORD" >> "$CONFIG_FILE_PATH"
+fi
+if [ -n "$MOTD" ]; then
+    echo "motd=$MOTD" >> "$CONFIG_FILE_PATH"
+fi
+if [ -n "$SECURE" ]; then
+    echo "secure=$SECURE" >> "$CONFIG_FILE_PATH"
+fi
+if [ -z "$LANGUAGE" ]; then
+    LANGUAGE=en-US
+fi
+echo "language=$LANGUAGE" >> "$CONFIG_FILE_PATH"
+if [ -n "$UPNP" ]; then
+    echo "upnp=$UPNP" >> "$CONFIG_FILE_PATH"
+fi
+if [ -n "$NPCSTREAM" ]; then
+    echo "npcstream=$NPCSTREAM" >> "$CONFIG_FILE_PATH"
+fi
+if [ -n "$PRIORITY" ]; then
+    echo "priority=$PRIORITY" >> "$CONFIG_FILE_PATH"
+fi
+
 # Fix permissions to launch the terraria server
 chown -R terraria:terria /home/terraria
 chmod +x /home/terraria/$version/Linux/TerrariaServer.bin.x86*
