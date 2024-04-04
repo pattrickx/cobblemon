@@ -44,7 +44,7 @@ rcon.port=25575
 rcon.password=<rcon_password>
 ```
 
-Then you can send any command with the following
+Then you can send any command with the following syntax
 ```bash
 docker exec -it papermc sh -c "rcon -H localhost -p 25575 -P <rcon_password> <command>"
 ```
