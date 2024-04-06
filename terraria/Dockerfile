@@ -8,8 +8,8 @@ RUN apt-get update && apt-get install -y \
     tmux
 
 # Create a user and usergroup with high UID and GID to not overlap with an existing host user or usergroup
-RUN addgroup -g 10001 terraria && \
-    adduser -D -u 10000 -G terraria terraria
+RUN addgroup -gid 10001 terraria && \
+    adduser -disabled-password -u 10000 -ingroup terraria terraria
 
 # Set working directory
 WORKDIR /home/terraria

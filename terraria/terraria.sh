@@ -49,14 +49,14 @@ if [ -n "$PRIORITY" ]; then
 fi
 
 # Fix permissions to launch the terraria server
-chown -R terraria:terria /home/terraria
+chown -R terraria:terraria /home/terraria
 chmod +x /home/terraria/$version/Linux/TerrariaServer.bin.x86*
 
 # Create a new tmux session
 tmux new-session -d -s "terraria"
 
 # Start the server with the config file and allowing steam friends to join you easily
-tmux send-keys -t "papermc" "su -c '/home/terraria/$version/Linux/TerrariaServer.bin.x86_64 -config /home/terraria/config -steam -lobby friends' terraria" Enter
+tmux send-keys -t "terraria" "su -c '/home/terraria/$version/Linux/TerrariaServer.bin.x86_64 -config /home/terraria/config -steam -lobby friends' terraria" Enter
 
 # Attach to the tmux session
 tmux attach -t "terraria"
