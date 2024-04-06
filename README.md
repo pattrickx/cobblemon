@@ -1,8 +1,8 @@
-## Minecraft
+## [Minecraft](https://github.com/delath/containers-hub/tree/main/papermc)
 
 <div>
     <p>
-      Minecraft Server using 
+      Minecraft Server based on 
       <a href="https://github.com/PaperMC/Paper">
         Paper
       </a>
@@ -13,7 +13,7 @@
 </div>
 <br>
 
-## Terraria
+## [Terraria](https://github.com/delath/containers-hub/tree/main/terraria)
 
 <div>
     <p>
