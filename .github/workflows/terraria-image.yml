@@ -27,6 +27,6 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: ./terraria
-          file: ./Dockerfile
+          file: ./terraria/Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/terraria:latest
