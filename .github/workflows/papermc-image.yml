@@ -27,6 +27,6 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: ./papermc
-          file: ./Dockerfile
+          file: ./papermc/Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/papermc:latest
