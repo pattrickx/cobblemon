@@ -1,4 +1,4 @@
-# Use Alpine because it's more performance and size friendly
+# Use Alpine because it's more secure, more performant and more size friendly
 FROM alpine:latest
 
 # Install everything we need
