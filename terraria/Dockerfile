@@ -1,5 +1,5 @@
-# Use Debian because it's the most stable between the officially supported operating systems
-FROM debian:latest
+# Use Debian because of glibcl and many other dependencies of the Terraria server
+FROM debian:stable-slim
 
 # Install everything we need
 RUN apt-get update && apt-get install -y \
