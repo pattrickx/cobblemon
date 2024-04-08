@@ -1,10 +1,12 @@
 name: papermc Image CI
 
 on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 */3 * *'
   push:
     paths:
       - papermc/**
-  workflow_dispatch:
 
 jobs:
   push_to_registry:
