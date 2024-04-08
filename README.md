@@ -1,4 +1,4 @@
-## [Minecraft](https://github.com/delath/containers-hub/tree/main/papermc)
+## [Minecraft](https://github.com/delath/containers-hub/tree/main/minecraft)
 
 <div>
     <p>
@@ -6,9 +6,9 @@
       <a href="https://github.com/PaperMC/Paper">
         Paper
       </a>
-      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/image-size/delath/papermc">
-      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/stars/delath/papermc">
-      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/pulls/delath/papermc">
+      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/image-size/delath/minecraft">
+      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/stars/delath/minecraft">
+      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/pulls/delath/minecraft">
     </p>
 </div>
 <br>

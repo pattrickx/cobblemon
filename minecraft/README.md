@@ -22,13 +22,13 @@ environment:
 version: '3.8'
 
 services:
-  papermc:
-    image: delath/papermc
-    container_name: papermc
+  minecraft:
+    image: delath/minecraft
+    container_name: minecraft
     ports:
       - "25565:25565"
     volumes:
-      - ./world:/home/papermc/world
+      - ./world:/home/minecraft/world
     restart: 'unless-stopped'
     environment:
       - ALLOCATED_RAM=8G
@@ -46,5 +46,5 @@ rcon.password=<rcon_password>
 
 Then you can send any command with the following syntax
 ```bash
-docker exec -it papermc sh -c "rcon -H localhost -p 25575 -P <rcon_password> <command>"
+docker exec -it minecraft sh -c "rcon -H localhost -p 25575 -P <rcon_password> <command>"
 ```

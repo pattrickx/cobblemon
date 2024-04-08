@@ -1,4 +1,4 @@
-name: papermc Image CI
+name: minecraft Image CI
 
 on:
   workflow_dispatch:
@@ -6,11 +6,11 @@ on:
     - cron: '0 0 */3 * *'
   push:
     paths:
-      - papermc/**
+      - minecraft/**
 
 jobs:
   push_to_registry:
-    name: Push papermc image to Docker Hub
+    name: Push minecraft image to Docker Hub
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -28,7 +28,7 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
-          context: ./papermc
-          file: ./papermc/Dockerfile
+          context: ./minecraft
+          file: ./minecraft/Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/papermc:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/minecraft:latest
