@@ -5,7 +5,8 @@ FROM debian:stable-slim
 RUN apt-get update && apt-get install -y \
     unzip \
     curl \
-    tmux
+    tmux \
+    && rm -rf /var/lib/apt/lists/*
 
 # Create a user and usergroup with high UID and GID to not overlap with an existing host user or usergroup
 RUN addgroup -gid 10001 terraria && \
