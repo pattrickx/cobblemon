@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/bin/ash
 
 # Check if EULA has been accepted
-if [[ -z "$EULA" ]]; then
+if [ -z "$EULA" ]; then
     echo "Variable EULA not defined, see docs to know how to accept EULA."
     exit 1
 fi
@@ -12,7 +12,7 @@ LATEST_BUILD=$(curl -s https://api.papermc.io/v2/projects/paper/versions/${LATES
 JAR_NAME=paper-${LATEST_VERSION}-${LATEST_BUILD}.jar
 
 # Default the allocated ram to 4G if not set
-if [[ -z "$ALLOCATED_RAM" ]]; then
+if [ -z "$ALLOCATED_RAM" ]; then
     echo "Variable ALLOCATED_RAM not defined."
     ALLOCATED_RAM="4G"
 fi

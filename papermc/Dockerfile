@@ -4,7 +4,6 @@ FROM alpine:latest
 # Install everything we need
 RUN apk update \
     && apk add openjdk21-jre \
-    && apk add bash \
     && apk add curl \
     && apk add jq \
     && apk add rcon 
