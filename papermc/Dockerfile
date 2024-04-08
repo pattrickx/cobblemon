@@ -2,11 +2,11 @@
 FROM alpine:latest
 
 # Install everything we need
-RUN apk update \
-    && apk add openjdk21-jre \
-    && apk add curl \
-    && apk add jq \
-    && apk add rcon 
+RUN apk add --no-cache \
+    openjdk21-jre \
+    curl \
+    jq \
+    rcon
 
 # Create a user and usergroup with high UID and GID to not overlap with an existing host user or usergroup
 RUN addgroup -g 10001 papermc && \
