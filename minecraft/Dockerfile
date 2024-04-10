@@ -16,7 +16,7 @@ RUN addgroup -g 10001 minecraft && \
 WORKDIR /home/minecraft
 
 # Copy the entrypoint script
-COPY minecraft.sh minecraft.sh
+COPY minecraft.sh ./
 
 # Fix entrypoint script permissions
 RUN chown minecraft:minecraft minecraft.sh && \
