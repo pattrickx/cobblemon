@@ -6,7 +6,7 @@ on:
 jobs:
   push_to_registry:
     name: Push dummy image to Docker Hub
-    runs-on: ubuntu-ladummy
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
