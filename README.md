@@ -27,3 +27,18 @@
     </p>
 </div>
 <br>
+
+## [Skyblock](https://github.com/delath/containers-hub/tree/main/skyblock)
+
+<div>
+    <p>
+      Minecraft Skyblock server based on  
+      <a href="https://github.com/BluePsychoRanger/SkyBlock_Collection">
+        this Skyblock Collection
+      </a>
+      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/image-size/delath/skyblock">
+      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/stars/delath/skyblock">
+      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/pulls/delath/skyblock">
+    </p>
+</div>
+<br>

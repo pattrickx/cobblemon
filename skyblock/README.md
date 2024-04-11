@@ -22,13 +22,13 @@ environment:
 version: '3.8'
 
 services:
-  minecraft:
-    image: delath/minecraft
-    container_name: minecraft
+  skyblock:
+    image: delath/skyblock
+    container_name: skyblock
     ports:
       - "25565:25565"
     volumes:
-      - ./world:/home/minecraft/world
+      - ./world:/home/skyblock/server
     restart: 'unless-stopped'
     environment:
       - ALLOCATED_RAM=8G
@@ -46,5 +46,5 @@ rcon.password=<rcon_password>
 
 Then you can send any command with the following syntax
 ```bash
-docker exec -it minecraft sh -c "rcon -H localhost -p 25575 -P <rcon_password> <command>"
+docker exec -it skyblock sh -c "rcon -H localhost -p 25575 -P <rcon_password> <command>"
 ```

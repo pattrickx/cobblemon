@@ -6,7 +6,11 @@ if [ -z "$EULA" ]; then
     exit 1
 fi
 
-# Fetch latest Server jar name
+# Fetch latest Server jar url
+VERSIONS_JSON=$(curl -s "https://piston-meta.mojang.com/mc/game/version_manifest_v2.json")
+RELEASE="1.20.4"
+VERSION_URL=$(echo $VERSIONS_JSON | jq -r --arg VERSION "$RELEASE" '.versions[] | select(.id == $VERSION and .type == "release") | .url')
+JAR_URL=$(curl -s $VERSION_URL | jq -r '.downloads.server.url')
 
 # Default the allocated ram to 4G if not set
 if [ -z "$ALLOCATED_RAM" ]; then
@@ -14,4 +18,33 @@ if [ -z "$ALLOCATED_RAM" ]; then
     ALLOCATED_RAM="4G"
 fi
 
-# Download the latest Server jar and launch it
+# If this is the first time running the container
+if [ ! -d "/home/skyblock/server/world" ]; then
+    # Fetch all the skyblock datapacks
+    mkdir -p /home/skyblock/server/world/datapacks
+    cd /home/skyblock/server/world/datapacks
+    ISLAND_DATAPACK_URL=$(curl -sL https://api.github.com/repos/BluePsychoRanger/SkyBlock_Collection/releases/latest | jq -r '.assets[] | select(.name? | match("skyvoid_island_standard.*.zip$")) | .browser_download_url')
+    WORLDGEN_DATAPACK_URL=$(curl -sL https://api.github.com/repos/BluePsychoRanger/SkyBlock_Collection/releases/latest | jq -r '.assets[] | select(.name? | match("skyvoid_worldgen_empty.*.zip$")) | .browser_download_url')
+    ADVANCEMENTS_DATAPACK_URL=$(curl -sL https://api.github.com/repos/BluePsychoRanger/SkyBlock_Collection/releases/latest | jq -r '.assets[] | select(.name? | match("skyvoid_advancements.*.zip$")) | .browser_download_url' | sed -n '2p')
+    ADVANCEMENTS_DATAPACK_ASSETS_URL=$(curl -sL https://api.github.com/repos/BluePsychoRanger/SkyBlock_Collection/releases/latest | jq -r '.assets[] | select(.name? | match("skyvoid_advancements.*.zip$")) | .browser_download_url' | head -n 1)
+    curl -L -o skyvoid_island_standard.zip $ISLAND_DATAPACK_URL
+    curl -L -o skyvoid_worldgen_empty.zip $WORLDGEN_DATAPACK_URL
+    curl -L -o skyvoid_advancements.zip $ADVANCEMENTS_DATAPACK_URL
+    curl -L -o rp_skyvoid_advancements.zip $ADVANCEMENTS_DATAPACK_ASSETS_URL
+
+    # Download and setup the latest Server jar 
+    cd /home/skyblock/server
+    curl -o server.jar $JAR_URL
+    echo "eula=${EULA}" > eula.txt
+    chown -R skyblock:skyblock /home/skyblock
+    chmod +x server.jar
+
+else
+    # Remove the datapack responsible for generating a new island
+    cd /home/skyblock/server/world/datapacks
+    rm skyvoid_island_standard.zip
+fi
+
+# Launch the Server jar
+cd /home/skyblock/server
+su -c "java -Xmx${ALLOCATED_RAM} -Xms${ALLOCATED_RAM} -jar server.jar nogui" skyblock

@@ -7,5 +7,5 @@ services:
     ports:
       - "25565:25565"
     volumes:
-      - ./world:/home/skyblock/world
+      - ./world:/home/skyblock/server
     restart: 'unless-stopped'

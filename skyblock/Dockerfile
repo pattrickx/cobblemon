@@ -3,6 +3,9 @@ FROM alpine:latest
 
 # Install everything we need
 RUN apk add --no-cache \
+    openjdk17-jre \
+    curl \
+    jq \
     rcon
 
 # Create a user and usergroup with high UID and GID to not overlap with an existing host user or usergroup
