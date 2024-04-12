@@ -36,14 +36,9 @@ if [ ! -d "/home/skyblock/server/world" ]; then
     cd /home/skyblock/server
     curl -o server.jar $JAR_URL
     echo "eula=${EULA}" > eula.txt
-    chown -R skyblock:skyblock /home/skyblock
     chmod +x server.jar
-
-else
-    # Remove the datapack responsible for generating a new island
-    cd /home/skyblock/server/world/datapacks
-    rm skyvoid_island_standard.zip
 fi
+chown -R skyblock:skyblock /home/skyblock
 
 # Launch the Server jar
 cd /home/skyblock/server
