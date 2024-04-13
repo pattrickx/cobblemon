@@ -25,18 +25,17 @@ if [ ! -d "/home/skyblock/server/world" ]; then
     cd /home/skyblock/server/world/datapacks
     ISLAND_DATAPACK_URL=$(curl -sL https://api.github.com/repos/BluePsychoRanger/SkyBlock_Collection/releases/latest | jq -r '.assets[] | select(.name? | match("skyvoid_island_standard.*.zip$")) | .browser_download_url')
     WORLDGEN_DATAPACK_URL=$(curl -sL https://api.github.com/repos/BluePsychoRanger/SkyBlock_Collection/releases/latest | jq -r '.assets[] | select(.name? | match("skyvoid_worldgen_empty.*.zip$")) | .browser_download_url')
-    ADVANCEMENTS_DATAPACK_URL=$(curl -sL https://api.github.com/repos/BluePsychoRanger/SkyBlock_Collection/releases/latest | jq -r '.assets[] | select(.name? | match("skyvoid_advancements.*.zip$")) | .browser_download_url' | sed -n '2p')
-    ADVANCEMENTS_DATAPACK_ASSETS_URL=$(curl -sL https://api.github.com/repos/BluePsychoRanger/SkyBlock_Collection/releases/latest | jq -r '.assets[] | select(.name? | match("skyvoid_advancements.*.zip$")) | .browser_download_url' | head -n 1)
     curl -L -o skyvoid_island_standard.zip $ISLAND_DATAPACK_URL
     curl -L -o skyvoid_worldgen_empty.zip $WORLDGEN_DATAPACK_URL
-    curl -L -o skyvoid_advancements.zip $ADVANCEMENTS_DATAPACK_URL
-    curl -L -o rp_skyvoid_advancements.zip $ADVANCEMENTS_DATAPACK_ASSETS_URL
 
     # Download and setup the latest Server jar 
     cd /home/skyblock/server
     curl -o server.jar $JAR_URL
     echo "eula=${EULA}" > eula.txt
     chmod +x server.jar
+else
+    cd /home/skyblock/server/world/datapacks
+    rm skyvoid_island_standard.zip
 fi
 chown -R skyblock:skyblock /home/skyblock
 
