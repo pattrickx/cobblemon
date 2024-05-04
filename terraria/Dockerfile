@@ -22,7 +22,7 @@ COPY terraria.sh ./
 RUN chown terraria:terraria terraria.sh && \
     chmod +x terraria.sh
 
-# USER is not being used, but we are actually running the server as the user previously created inside the entrypoint
+# USER is not being used, but we are actually running the server as the terraria user inside the entrypoint
 # The reason is conflicts with volumes permissions while wanting to have this streamlined as much as possible 
 
 # Launch entrypoint script to run the server

@@ -22,7 +22,7 @@ COPY minecraft.sh ./
 RUN chown minecraft:minecraft minecraft.sh && \
     chmod +x minecraft.sh
 
-# USER is not being used, but we are actually running the server as the user previously created inside the entrypoint
+# USER is not being used, but we are actually running the server as the minecraft user inside the entrypoint
 # The reason is conflicts with volumes permissions while wanting to have this streamlined as much as possible 
 
 # Launch entrypoint script to run the server

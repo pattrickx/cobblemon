@@ -34,6 +34,7 @@ if [ ! -d "/home/skyblock/server/world" ]; then
     echo "eula=${EULA}" > eula.txt
     chmod +x server.jar
 else
+    # Remove the island generation datapack, as it will try to constantly create a new island on container restart 
     cd /home/skyblock/server/world/datapacks
     rm skyvoid_island_standard.zip
 fi
