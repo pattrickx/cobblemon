@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   terraria:
     image: delath/terraria

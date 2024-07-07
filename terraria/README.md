@@ -33,8 +33,6 @@ If you want to change the default configuration, you can do so by adding a set o
 # Example
 
 ```yaml
-version: '3.8'
-
 services:
   terraria:
     image: delath/terraria

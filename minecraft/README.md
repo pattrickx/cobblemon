@@ -19,8 +19,6 @@ environment:
 # Example
 
 ```yaml
-version: '3.8'
-
 services:
   minecraft:
     image: delath/minecraft
