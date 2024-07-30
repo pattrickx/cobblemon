@@ -47,7 +47,7 @@
 
 <div>
     <p>
-      Valheim server based on the official documentation present inside the dedicated server files
+      Valheim server based on the official documentation
       <img align="right" alt="GitHub License" src="https://img.shields.io/docker/image-size/delath/valheim">
       <img align="right" alt="GitHub License" src="https://img.shields.io/docker/stars/delath/valheim">
       <img align="right" alt="GitHub License" src="https://img.shields.io/docker/pulls/delath/valheim">
