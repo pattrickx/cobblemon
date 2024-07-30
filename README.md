@@ -42,3 +42,15 @@
     </p>
 </div>
 <br>
+
+## [Valheim](https://github.com/delath/containers-hub/tree/main/valheim)
+
+<div>
+    <p>
+      Valheim server based on the official documentation present inside the dedicated server files
+      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/image-size/delath/valheim">
+      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/stars/delath/valheim">
+      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/pulls/delath/valheim">
+    </p>
+</div>
+<br>
