@@ -28,6 +28,6 @@ chown -R valheim:valheim /home/valheim
 
 echo "Starting server PRESS CTRL-C to exit"  
 
-su -c "/home/valheim/valheim_server.x86_64 -name \"$NAME\" -port 2456 -world \"$WORLD\" -password \"$PASSWORD\" -public 0 -crossplay" valheim
+su -c "/home/valheim/server/valheim_server.x86_64 -name \"$NAME\" -port 2456 -world \"$WORLD\" -password \"$PASSWORD\" -public 0 -crossplay" valheim
 
 export LD_LIBRARY_PATH=$templdpath
