@@ -5,19 +5,19 @@ If you want to change the default configuration, you can do so by adding a set o
 NAME Is the name of the your server
   ```yaml
   environment:
-    - NAME=3
+    - NAME=Name
   ```
 
 WORLD Is the name of the your world and of the save file
   ```yaml
   environment:
-    - WORLD=AwesomeSeed
+    - WORLD=World
   ```
 
 PASSWORD Is the password of your server, the users will need to enter it when logging in
   ```yaml
   environment:
-    - PASSWORD=0
+    - PASSWORD=Password
   ```
 
 # Example
