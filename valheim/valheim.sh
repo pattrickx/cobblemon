@@ -1,5 +1,16 @@
 #!/bin/sh
 
+term_handler() {
+    echo "Termination signal received, shutting down gracefully..."
+
+    kill -TERM "$child" 2>/dev/null
+
+    wait "$child"
+    exit 0
+}
+
+trap term_handler SIGINT SIGTERM
+
 if [ -z "$NAME" ]; then
     NAME="Name"
 fi
@@ -12,7 +23,7 @@ fi
 
 mkdir /home/valheim/server
 
-mkdir ~/Steam && cd ~/Steam
+mkdir -p ~/Steam && cd ~/Steam
 
 curl -sqL "https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz" | tar zxvf -
 
@@ -28,6 +39,11 @@ chown -R valheim:valheim /home/valheim
 
 echo "Starting server PRESS CTRL-C to exit"  
 
-su -c "/home/valheim/server/valheim_server.x86_64 -name \"$NAME\" -port 2456 -world \"$WORLD\" -password \"$PASSWORD\" -public 0 -crossplay" valheim
+su -c "/home/valheim/server/valheim_server.x86_64 -name \"$NAME\" -port 2456 -world \"$WORLD\" -password \"$PASSWORD\" -public 0 -crossplay" valheim &
+
+child=$!
+echo "Server started with PID $child"
+
+wait "$child"
 
 export LD_LIBRARY_PATH=$templdpath
