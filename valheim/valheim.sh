@@ -9,7 +9,7 @@ term_handler() {
     exit 0
 }
 
-trap term_handler SIGINT SIGTERM
+trap term_handler INT TERM
 
 if [ -z "$NAME" ]; then
     NAME="Name"
