@@ -1,0 +1,10 @@
+services:
+  satisfactory:
+    image: delath/satisfactory
+    container_name: satisfactory
+    ports:
+      - '7777:7777/tcp'
+      - '7777:7777/udp'
+    volumes:
+      - './Server:/config'
+    restart: 'unless-stopped'
