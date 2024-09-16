@@ -1,0 +1,9 @@
+services:
+  rust:
+    image: delath/rust
+    container_name: rust
+    ports:
+      - "28015:28015"
+#      - "28016:28016"
+# gpu?
+    restart: 'unless-stopped'
