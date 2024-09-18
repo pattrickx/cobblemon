@@ -1,6 +1,6 @@
-# Custom configuration
+# Warning!
 
-If you want to change the default configuration, you can do so by adding a set of optional environment variables to the docker compose
+The MAXPLAYERS env is not yet supported, it is useless as of now.
 
 # Example
 

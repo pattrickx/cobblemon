@@ -54,3 +54,18 @@
     </p>
 </div>
 <br>
+
+## [Satisfactory](https://github.com/delath/containers-hub/tree/main/satisfactory)
+
+<div>
+    <p>
+      Satisfactory server based on 
+      <a href="https://satisfactory.wiki.gg/wiki/Dedicated_servers">
+        the wiki.gg documentation
+      </a>
+      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/image-size/delath/satisfactory">
+      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/stars/delath/satisfactory">
+      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/pulls/delath/satisfactory">
+    </p>
+</div>
+<br>
