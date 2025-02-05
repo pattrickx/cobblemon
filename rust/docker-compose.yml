@@ -3,7 +3,8 @@ services:
     image: delath/rust
     container_name: rust
     ports:
-      - "28015:28015"
-#      - "28016:28016"
-# gpu?
+      - "28015:28015/tcp"
+      - "28015:28015/udp"
+      - "28016:28016/udp"
+      - "28082:28082/tcp"
     restart: 'unless-stopped'
