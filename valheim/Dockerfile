@@ -1,5 +1,5 @@
 # Use Debian because glibcl is a dependency of SteamCMD
-FROM debian:stable-slim
+FROM debian:12-slim⁠
 
 # Install everything we need
 RUN apt-get update && apt-get install -y \

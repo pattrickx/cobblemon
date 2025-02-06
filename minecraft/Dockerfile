@@ -1,5 +1,5 @@
 # Use Alpine because it's more secure, more performant and more size friendly
-FROM alpine:latest
+FROM alpine:3
 
 # Install everything we need
 RUN apk add --no-cache \
