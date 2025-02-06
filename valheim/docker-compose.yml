@@ -3,8 +3,9 @@ services:
     image: delath/valheim
     container_name: valheim
     ports:
-      - "2456:2456"
-      - "2457:2457"
+      - "2456:2456/tcp"
+      - "2456:2456/udp"
+      - "2457:2457/udp"
     volumes:
       - ./World:/home/valheim/.config/unity3d/IronGate/Valheim
       - ./Server:/home/valheim/server
