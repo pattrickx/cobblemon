@@ -22,8 +22,6 @@ if [ -z "$RCON_PASSWORD" ]; then
     RCON_PASSWORD="password"
 fi
 
-mkdir /home/rust/server
-
 mkdir ~/Steam && cd ~/Steam
 
 curl -sqL "https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz" | tar zxvf -
@@ -34,4 +32,7 @@ cd /home/rust/server
 
 chown -R rust:rust /home/rust
 
-su -c "./runds.sh" rust
+su -c '
+  export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:`dirname $0`/RustDedicated_Data/Plugins:`dirname $0`/RustDedicated_Data/Plugins/x86_64;
+  ./RustDedicated -batchmode +server.worldsize $WORLD_SIZE +server.maxplayers $MAX_PLAYERS +server.hostname $SERVER_NAME +server.description $SERVER_DESCRIPTION +server.url $SERVER_WEBSITE +server.headerimage $SERVER_WEBSITE +rcon.password $RCON_PASSWORD -logfile 2>&1
+' rust
