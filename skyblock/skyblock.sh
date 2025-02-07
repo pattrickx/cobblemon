@@ -6,10 +6,10 @@ if [ -z "$EULA" ]; then
     exit 1
 fi
 
-# Fetch latest Paper jar name
-LATEST_VERSION=$(wget -qO- https://api.papermc.io/v2/projects/paper | jq -r '.versions[-1]')
-LATEST_BUILD=$(wget -qO- "https://api.papermc.io/v2/projects/paper/versions/${LATEST_VERSION}/builds" | jq -r '.builds | map(select(.channel == "default") | .build) | .[-1]')
-JAR_NAME=paper-${LATEST_VERSION}-${LATEST_BUILD}.jar
+# Fetch pinned version Paper jar name
+VERSION="1.21.4"
+LATEST_BUILD=$(wget -qO- "https://api.papermc.io/v2/projects/paper/versions/${VERSION}/builds" | jq -r '.builds | map(select(.channel == "default") | .build) | .[-1]')
+JAR_NAME=paper-${VERSION}-${LATEST_BUILD}.jar
 
 # Default the allocated ram to 4G if not set
 if [ -z "$ALLOCATED_RAM" ]; then
@@ -26,7 +26,7 @@ wget -q "https://github.com/BPR02/SkyBlock_Collection/releases/download/v3.0.1/s
 
 # Download the latest Paper jar and launch it with Aikar's Flags -> https://docs.papermc.io/paper/aikars-flags
 cd /home/skyblock/server
-wget -O paper.jar "https://api.papermc.io/v2/projects/paper/versions/${LATEST_VERSION}/builds/${LATEST_BUILD}/downloads/${JAR_NAME}"
+wget -O paper.jar "https://api.papermc.io/v2/projects/paper/versions/${VERSION}/builds/${LATEST_BUILD}/downloads/${JAR_NAME}"
 echo "eula=${EULA}" > eula.txt
 chown -R skyblock:skyblock /home/skyblock
 chmod +x paper.jar
