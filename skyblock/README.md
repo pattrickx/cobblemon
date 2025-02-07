@@ -1,9 +1,3 @@
-# Warning!
-
-As of now an issue has been dodged with the skyblock mod by [flagging the status of the container in the entrypoint](https://github.com/delath/containers-hub/blob/2a44cb2d3e1a5b32a7cb196b28dd0e4b1a11ae46/skyblock/skyblock.sh#L21), this means that you should spin up the container for the first time, only when you will actually want to log in and play, so the island will generate and the flag responsible for the island creation will switch, sadly the skyblock mod is responsible for this, so not much can be done from this image.
-I still plan to streamline this, maybe by logging a fake player to generate the island, or by manually switching the mod flag.
-
-
 # Prerequisite
 
 You need to accept EULA to run this server, you can do so by adding the following environment variable to the service configuration:

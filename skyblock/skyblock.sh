@@ -6,11 +6,10 @@ if [ -z "$EULA" ]; then
     exit 1
 fi
 
-# Fetch latest Server jar url
-VERSIONS_JSON=$(wget -qO- "https://piston-meta.mojang.com/mc/game/version_manifest_v2.json")
-RELEASE="1.20.4"
-VERSION_URL=$(echo $VERSIONS_JSON | jq -r --arg VERSION "$RELEASE" '.versions[] | select(.id == $VERSION and .type == "release") | .url')
-JAR_URL=$(wget -qO- $VERSION_URL | jq -r '.downloads.server.url')
+# Fetch latest Paper jar name
+LATEST_VERSION=$(wget -qO- https://api.papermc.io/v2/projects/paper | jq -r '.versions[-1]')
+LATEST_BUILD=$(wget -qO- "https://api.papermc.io/v2/projects/paper/versions/${LATEST_VERSION}/builds" | jq -r '.builds | map(select(.channel == "default") | .build) | .[-1]')
+JAR_NAME=paper-${LATEST_VERSION}-${LATEST_BUILD}.jar
 
 # Default the allocated ram to 4G if not set
 if [ -z "$ALLOCATED_RAM" ]; then
@@ -18,28 +17,17 @@ if [ -z "$ALLOCATED_RAM" ]; then
     ALLOCATED_RAM="4G"
 fi
 
-# If this is the first time running the container
-if [ ! -d "/home/skyblock/server/world" ]; then
-    # Fetch all the skyblock datapacks
-    mkdir -p /home/skyblock/server/world/datapacks
-    cd /home/skyblock/server/world/datapacks
-    ISLAND_DATAPACK_URL=$(wget -qO- https://api.github.com/repos/BluePsychoRanger/SkyBlock_Collection/releases/latest | jq -r '.assets[] | select(.name? | match("skyvoid_island_standard.*.zip$")) | .browser_download_url')
-    WORLDGEN_DATAPACK_URL=$(wget -qO- https://api.github.com/repos/BluePsychoRanger/SkyBlock_Collection/releases/latest | jq -r '.assets[] | select(.name? | match("skyvoid_worldgen_empty.*.zip$")) | .browser_download_url')
-    wget -q -O skyvoid_island_standard.zip $ISLAND_DATAPACK_URL
-    wget -q -O skyvoid_worldgen_empty.zip $WORLDGEN_DATAPACK_URL
+# Install skyblock datapacks
+mkdir -p /home/skyblock/server/world/datapacks
+cd /home/skyblock/server/world/datapacks
+wget -q "https://github.com/BPR02/SkyBlock_Collection/releases/download/v3.0.1/skyvoid_worldgen_v2_0_4-MC_1_21.zip"
+wget -q "https://github.com/BPR02/SkyBlock_Collection/releases/download/v3.0.1/skyvoid_island_standard_v1_1_2-MC_1_21.zip"
+wget -q "https://github.com/BPR02/SkyBlock_Collection/releases/download/v3.0.1/skyvoid_sand_island_v1_0_4-MC_1_21.zip"
 
-    # Download and setup the latest Server jar 
-    cd /home/skyblock/server
-    wget -q -O server.jar $JAR_URL
-    echo "eula=${EULA}" > eula.txt
-    chmod +x server.jar
-else
-    # Remove the island generation datapack, as it will try to constantly create a new island on container restart 
-    cd /home/skyblock/server/world/datapacks
-    rm skyvoid_island_standard.zip
-fi
-chown -R skyblock:skyblock /home/skyblock
-
-# Launch the Server jar
+# Download the latest Paper jar and launch it with Aikar's Flags -> https://docs.papermc.io/paper/aikars-flags
 cd /home/skyblock/server
-su -c "java -Xmx${ALLOCATED_RAM} -Xms${ALLOCATED_RAM} -jar server.jar nogui" skyblock
+wget -O paper.jar "https://api.papermc.io/v2/projects/paper/versions/${LATEST_VERSION}/builds/${LATEST_BUILD}/downloads/${JAR_NAME}"
+echo "eula=${EULA}" > eula.txt
+chown -R skyblock:skyblock /home/skyblock
+chmod +x paper.jar
+su -c "java -Xmx${ALLOCATED_RAM} -Xms${ALLOCATED_RAM} -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true -jar paper.jar --nogui" minecraft

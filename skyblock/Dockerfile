@@ -3,7 +3,7 @@ FROM alpine:3
 
 # Install everything we need
 RUN apk add --no-cache \
-    openjdk17-jre \
+    openjdk21-jre \
     jq \
     rcon
 
