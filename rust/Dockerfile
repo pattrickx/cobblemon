@@ -25,4 +25,4 @@ RUN chown rust:rust rust.sh && \
 # The reason is conflicts with volumes permissions while wanting to have this streamlined as much as possible 
 
 # Launch entrypoint script to run the server
-ENTRYPOINT /home/rust/rust.sh
+ENTRYPOINT ["/home/rust/rust.sh"]

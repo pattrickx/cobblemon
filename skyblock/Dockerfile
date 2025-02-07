@@ -26,4 +26,4 @@ RUN chown skyblock:skyblock skyblock.sh && \
 # The reason is conflicts with volumes permissions while wanting to have this streamlined as much as possible 
 
 # Launch entrypoint script to run the server
-ENTRYPOINT /home/skyblock/skyblock.sh
+ENTRYPOINT ["/home/skyblock/skyblock.sh"]

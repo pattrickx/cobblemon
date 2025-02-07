@@ -26,4 +26,4 @@ RUN chown terraria:terraria terraria.sh && \
 # The reason is conflicts with volumes permissions while wanting to have this streamlined as much as possible 
 
 # Launch entrypoint script to run the server
-ENTRYPOINT /home/terraria/terraria.sh
+ENTRYPOINT ["/home/terraria/terraria.sh"]

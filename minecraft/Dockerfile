@@ -25,4 +25,4 @@ RUN chown minecraft:minecraft minecraft.sh && \
 # The reason is conflicts with volumes permissions while wanting to have this streamlined as much as possible 
 
 # Launch entrypoint script to run the server
-ENTRYPOINT /home/minecraft/minecraft.sh
+ENTRYPOINT ["/home/minecraft/minecraft.sh"]

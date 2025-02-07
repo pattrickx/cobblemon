@@ -25,4 +25,4 @@ RUN chown satisfactory:satisfactory satisfactory.sh && \
 # The reason is conflicts with volumes permissions while wanting to have this streamlined as much as possible 
 
 # Launch entrypoint script to run the server
-ENTRYPOINT /home/satisfactory/satisfactory.sh
+ENTRYPOINT ["/home/satisfactory/satisfactory.sh"]
