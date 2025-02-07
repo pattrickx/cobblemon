@@ -69,3 +69,18 @@
     </p>
 </div>
 <br>
+
+## [Rust](https://github.com/delath/containers-hub/tree/main/rust)
+
+<div>
+    <p>
+      Rust server based on 
+      <a href="https://wiki.facepunch.com/rust/Creating-a-server">
+        the wiki.facepunch.com documentation
+      </a>
+      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/image-size/delath/rust">
+      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/stars/delath/rust">
+      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/pulls/delath/rust">
+    </p>
+</div>
+<br>

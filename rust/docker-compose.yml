@@ -7,4 +7,6 @@ services:
       - "28015:28015/udp"
       - "28016:28016/udp"
       - "28082:28082/tcp"
+    volumes:
+      - ./Server:/home/rust/server
     restart: 'unless-stopped'
