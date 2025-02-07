@@ -7,10 +7,10 @@ if [ -z "$EULA" ]; then
 fi
 
 # Fetch latest Server jar url
-VERSIONS_JSON=$(curl -s "https://piston-meta.mojang.com/mc/game/version_manifest_v2.json")
+VERSIONS_JSON=$(curl --ipv4 -s "https://piston-meta.mojang.com/mc/game/version_manifest_v2.json")
 RELEASE="1.20.4"
 VERSION_URL=$(echo $VERSIONS_JSON | jq -r --arg VERSION "$RELEASE" '.versions[] | select(.id == $VERSION and .type == "release") | .url')
-JAR_URL=$(curl -s $VERSION_URL | jq -r '.downloads.server.url')
+JAR_URL=$(curl --ipv4 -s $VERSION_URL | jq -r '.downloads.server.url')
 
 # Default the allocated ram to 4G if not set
 if [ -z "$ALLOCATED_RAM" ]; then
@@ -23,14 +23,14 @@ if [ ! -d "/home/skyblock/server/world" ]; then
     # Fetch all the skyblock datapacks
     mkdir -p /home/skyblock/server/world/datapacks
     cd /home/skyblock/server/world/datapacks
-    ISLAND_DATAPACK_URL=$(curl -sL https://api.github.com/repos/BluePsychoRanger/SkyBlock_Collection/releases/latest | jq -r '.assets[] | select(.name? | match("skyvoid_island_standard.*.zip$")) | .browser_download_url')
-    WORLDGEN_DATAPACK_URL=$(curl -sL https://api.github.com/repos/BluePsychoRanger/SkyBlock_Collection/releases/latest | jq -r '.assets[] | select(.name? | match("skyvoid_worldgen_empty.*.zip$")) | .browser_download_url')
-    curl -L -o skyvoid_island_standard.zip $ISLAND_DATAPACK_URL
-    curl -L -o skyvoid_worldgen_empty.zip $WORLDGEN_DATAPACK_URL
+    ISLAND_DATAPACK_URL=$(curl --ipv4 -sL https://api.github.com/repos/BluePsychoRanger/SkyBlock_Collection/releases/latest | jq -r '.assets[] | select(.name? | match("skyvoid_island_standard.*.zip$")) | .browser_download_url')
+    WORLDGEN_DATAPACK_URL=$(curl --ipv4 -sL https://api.github.com/repos/BluePsychoRanger/SkyBlock_Collection/releases/latest | jq -r '.assets[] | select(.name? | match("skyvoid_worldgen_empty.*.zip$")) | .browser_download_url')
+    curl --ipv4 -L -o skyvoid_island_standard.zip $ISLAND_DATAPACK_URL
+    curl --ipv4 -L -o skyvoid_worldgen_empty.zip $WORLDGEN_DATAPACK_URL
 
     # Download and setup the latest Server jar 
     cd /home/skyblock/server
-    curl -o server.jar $JAR_URL
+    curl --ipv4 -o server.jar $JAR_URL
     echo "eula=${EULA}" > eula.txt
     chmod +x server.jar
 else

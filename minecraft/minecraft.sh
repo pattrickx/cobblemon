@@ -7,8 +7,8 @@ if [ -z "$EULA" ]; then
 fi
 
 # Fetch latest Paper jar name
-LATEST_VERSION=$(curl -s https://api.papermc.io/v2/projects/paper | jq -r '.versions[-1]')
-LATEST_BUILD=$(curl -s https://api.papermc.io/v2/projects/paper/versions/${LATEST_VERSION}/builds | jq -r '.builds | map(select(.channel == "default") | .build) | .[-1]')
+LATEST_VERSION=$(curl --ipv4 -s https://api.papermc.io/v2/projects/paper | jq -r '.versions[-1]')
+LATEST_BUILD=$(curl --ipv4 -s https://api.papermc.io/v2/projects/paper/versions/${LATEST_VERSION}/builds | jq -r '.builds | map(select(.channel == "default") | .build) | .[-1]')
 JAR_NAME=paper-${LATEST_VERSION}-${LATEST_BUILD}.jar
 
 # Default the allocated ram to 4G if not set
@@ -19,7 +19,7 @@ fi
 
 # Download the latest Paper jar and launch it with Aikar's Flags -> https://docs.papermc.io/paper/aikars-flags
 cd /home/minecraft/world
-curl -o paper.jar https://api.papermc.io/v2/projects/paper/versions/${LATEST_VERSION}/builds/${LATEST_BUILD}/downloads/${JAR_NAME}
+curl --ipv4 -o paper.jar https://api.papermc.io/v2/projects/paper/versions/${LATEST_VERSION}/builds/${LATEST_BUILD}/downloads/${JAR_NAME}
 echo "eula=${EULA}" > eula.txt
 chown -R minecraft:minecraft /home/minecraft
 chmod +x paper.jar
