@@ -38,7 +38,7 @@ services:
     image: delath/terraria
     container_name: terraria
     ports:
-      - "7777:7777"
+      - '7777:7777/tcp'
     volumes:
       - ./world:/home/terraria/world
     restart: 'unless-stopped'

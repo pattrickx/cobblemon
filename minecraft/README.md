@@ -24,7 +24,7 @@ services:
     image: delath/minecraft
     container_name: minecraft
     ports:
-      - "25565:25565"
+      - "25565:25565/tcp"
     volumes:
       - ./world:/home/minecraft/world
     restart: 'unless-stopped'

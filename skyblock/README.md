@@ -30,7 +30,7 @@ services:
     image: delath/skyblock
     container_name: skyblock
     ports:
-      - "25565:25565"
+      - "25565:25565/tcp"
     volumes:
       - ./world:/home/skyblock/server
     restart: 'unless-stopped'
