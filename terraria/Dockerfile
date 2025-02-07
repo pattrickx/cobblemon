@@ -1,5 +1,5 @@
 # Use Debian because of glibcl and many other dependencies of the Terraria server
-FROM debian:12-slim⁠
+FROM debian:12-slim
 
 # Install everything we need
 RUN apt-get update && apt-get install -y \
