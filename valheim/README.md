@@ -2,7 +2,7 @@
 
 If you want to change the default configuration, you can do so by adding a set of optional environment variables to the docker compose
 
-NAME Is the name of the your server
+NAME Is the name of your server
   ```yaml
   environment:
     - NAME=Name
