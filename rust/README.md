@@ -38,12 +38,6 @@ SERVER_IMAGE Is the image of your server
     - SERVER_IMAGE=https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg
   ```
 
-RCON_PASSWORD Is the rcon password, if it's set too simple, it will not work
-```yaml
-environment:
-  - RCON_PASSWORD=password
-```
-
 # Example
 
 ```yaml
@@ -62,5 +56,4 @@ services:
     environment:
       - WORLD_SIZE=6000
       - SERVER_NAME=Name
-      - RCON_PASSWORD=password
 ```
