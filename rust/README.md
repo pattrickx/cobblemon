@@ -57,3 +57,11 @@ services:
       - WORLD_SIZE=6000
       - SERVER_NAME=Name
 ```
+
+# Sending commands to the server console
+
+If you want to send commands to the console you can leverage [facepunch official web rcon](http://facepunch.github.io/webrcon/#/home) by setting the password env
+  ```yaml
+  environment:
+    - RCON_PASSWORD=
+  ```

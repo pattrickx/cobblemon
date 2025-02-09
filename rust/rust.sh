@@ -6,7 +6,7 @@ export SERVER_NAME="${SERVER_NAME:-ServerName}"
 export SERVER_DESCRIPTION="${SERVER_DESCRIPTION:-Hosted from github.com/delath/containers-hub/tree/main/rust}"
 export SERVER_WEBSITE="${SERVER_WEBSITE:-https://github.com/delath/containers-hub}"
 export SERVER_IMAGE="${SERVER_IMAGE:-https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg}"
-export RCON_PASSWORD="${RCON_PASSWORD:-password}"
+export RCON_PASSWORD="${RCON_PASSWORD}"
 
 mkdir ~/Steam && cd ~/Steam
 
