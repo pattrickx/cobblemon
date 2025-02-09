@@ -27,6 +27,6 @@ su -c "
     +server.description \"$SERVER_DESCRIPTION\" \
     +server.url \"$SERVER_WEBSITE\" \
     +server.headerimage \"$SERVER_IMAGE\" \
-    +rcon.password \"$RCON_PASSWORD\" \
+    $( [ -n "$RCON_PASSWORD" ] && echo "+rcon.password '$RCON_PASSWORD'" ) \
     -logfile 2>&1
 " rust
