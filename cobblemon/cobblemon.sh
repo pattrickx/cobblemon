@@ -17,6 +17,11 @@ if [ -z "$ALLOCATED_RAM" ]; then
     ALLOCATED_RAM="8G"
 fi
 
+# Install the Fabric API mod -> https://modrinth.com/mod/fabric-api
+mkdir /home/cobblemon/world/mods
+cd /home/cobblemon/world/mods
+wget https://cdn.modrinth.com/data/P7dR8mSH/versions/9YVrKY0Z/fabric-api-0.115.0%2B1.21.1.jar
+
 # Download the Fabric jar and launch it -> https://fabricmc.net/use/server/
 cd /home/cobblemon/world
 wget -O fabric-server-mc-loader-launcher.jar "https://meta.fabricmc.net/v2/versions/loader/${MINECRAFT_VERSION}/${FABRIC_LOADER_VERSION}/${INSTALLER_VERSION}/server/jar"
