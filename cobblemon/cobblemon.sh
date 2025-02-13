@@ -28,5 +28,5 @@ cd /home/cobblemon/world
 wget -O fabric-server-mc-loader-launcher.jar "https://meta.fabricmc.net/v2/versions/loader/${MINECRAFT_VERSION}/${FABRIC_LOADER_VERSION}/${INSTALLER_VERSION}/server/jar"
 echo "eula=${EULA}" > eula.txt
 chown -R cobblemon:cobblemon /home/cobblemon
-chmod +x paper.jar
+chmod +x fabric-server-mc-loader-launcher.jar
 su -c "java -Xmx${ALLOCATED_RAM} -jar fabric-server-mc-loader-launcher.jar nogui" cobblemon
