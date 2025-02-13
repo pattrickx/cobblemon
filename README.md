@@ -90,8 +90,8 @@
 <div>
     <p>
       Minecraft Cobblemon server based on 
-      <a href="https://modrinth.com/modpack/cobblemon-fabric">
-        the official modpack
+      <a href="https://modrinth.com/mod/cobblemon">
+        the official mod
       </a>
       <img align="right" alt="GitHub License" src="https://img.shields.io/docker/image-size/delath/cobblemon">
       <img align="right" alt="GitHub License" src="https://img.shields.io/docker/stars/delath/cobblemon">

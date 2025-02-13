@@ -10,6 +10,7 @@ fi
 MINECRAFT_VERSION=1.21.1
 FABRIC_LOADER_VERSION=0.16.10
 INSTALLER_VERSION=1.0.1
+FABRIC_API_VERSION=0.115.0
 COBBLEMON_VERSION=1.6.1
 
 # Default the allocated ram to 8G if not set
@@ -21,7 +22,8 @@ fi
 # Install the Fabric API mod -> https://modrinth.com/mod/fabric-api
 mkdir /home/cobblemon/world/mods
 cd /home/cobblemon/world/mods
-wget "https://cdn.modrinth.com/data/5FFgwNNP/versions/cqaC80tF/Cobblemon%20Official%20%5BFabric%5D%20${COBBLEMON_VERSION}.mrpack"
+wget "https://cdn.modrinth.com/data/P7dR8mSH/versions/9YVrKY0Z/fabric-api-${FABRIC_API_VERSION}%2B${MINECRAFT_VERSION}.jar"
+wget "https://cdn.modrinth.com/data/MdwFAVRL/versions/v77SHSXW/Cobblemon-fabric-${COBBLEMON_VERSION}%2B${MINECRAFT_VERSION}.jar"
 
 # Download the Fabric jar and launch it -> https://fabricmc.net/use/server/
 cd /home/cobblemon/world
