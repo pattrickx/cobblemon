@@ -13,4 +13,4 @@ export SteamGameId=322330#
 
 chown -R dst:dst /home/dst
 
-su -c "cd /home/dst/server/bin64/ && exec ./dontstarve_dedicated_server_nullrenderer_x64 '${@:1}'" dst
+su -c "cd /home/dst/server/bin64/ && exec ./dontstarve_dedicated_server_nullrenderer_x64" dst
