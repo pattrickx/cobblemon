@@ -99,3 +99,18 @@
     </p>
 </div>
 <br>
+
+## [Don't Starve Together](https://github.com/delath/containers-hub/tree/main/dst)
+
+<div>
+    <p>
+      Don't Starve Together server based on 
+      <a href="https://dontstarve.wiki.gg/wiki/Guides/Don%E2%80%99t_Starve_Together_Dedicated_Servers">
+        the wiki.gg guide
+      </a>
+      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/image-size/delath/dst">
+      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/stars/delath/dst">
+      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/pulls/delath/dst">
+    </p>
+</div>
+<br>
