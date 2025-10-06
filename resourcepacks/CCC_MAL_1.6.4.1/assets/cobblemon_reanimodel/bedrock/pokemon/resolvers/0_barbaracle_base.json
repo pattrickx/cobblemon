@@ -1,0 +1,27 @@
+{
+  "species": "cobblemon:barbaracle",
+  "order": 0,
+  "baseScale": 0.75,
+  "hitbox": {
+    "width": 0.5,
+    "height": 2,
+    "fixed": false
+  },
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon_reanimodel:barbaracle",
+      "model": "cobblemon_reanimodel:barbaracle.geo",
+      "texture": "cobblemon_reanimodel:textures/pokemon/barbaracle/barbaracle.png",
+      "layers": [
+      ] 
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon_reanimodel:textures/pokemon/barbaracle/barbaracle_shiny.png",
+      "layers": [
+       
+      ]
+    }
+  ]
+}

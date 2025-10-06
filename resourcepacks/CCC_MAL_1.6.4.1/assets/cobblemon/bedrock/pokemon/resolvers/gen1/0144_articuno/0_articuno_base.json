@@ -1,0 +1,15 @@
+{
+  "species": "cobblemon:articuno",
+  "order": 1,
+  "variations": [
+    {
+      "poser": "genomons:articuno",
+      "model": "genomons:articuno2.geo",
+      "texture": "genomons:textures/pokemon/0144_articuno/articuno.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "genomons:textures/pokemon/0144_articuno/articuno_shiny.png"
+    }
+  ]
+}

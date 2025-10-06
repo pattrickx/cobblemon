@@ -1,0 +1,843 @@
+{
+  "type": "loot_table",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:badlands"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:bamboo_jungle"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:basalt_deltas"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:beach"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:birch_forest"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:cherry_grove"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:cold_ocean"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:crimson_forest"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:dark_forest"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:deep_cold_ocean"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:deep_dark"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:deep_frozen_ocean"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:deep_lukewarm_ocean"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:deep_ocean"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:desert"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:dripstone_caves"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:end_barrens"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:end_highlands"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:end_midlands"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:eroded_badlands"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:flower_forest"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:forest"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:frozen_ocean"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:frozen_peaks"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:frozen_river"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:grove"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:ice_spikes"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:jagged_peaks"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:jungle"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:lukewarm_ocean"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:lush_caves"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:mangrove_swamp"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:meadow"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:mushroom_fields"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:nether_wastes"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:ocean"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:old_growth_birch_forest"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:old_growth_pine_taiga"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:old_growth_spruce_taiga"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:plains"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:river"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:savanna_plateau"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:savanna"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:small_end_islands"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:snowy_beach"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:snowy_plains"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:snowy_slopes"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:snowy_taiga"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:soul_sand_valley"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:sparse_jungle"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:stony_peaks"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:stony_shore"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:sunflower_plains"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:swamp"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:taiga"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:the_end"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:the_void"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:warm_ocean"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:warped_forest"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:windswept_forest"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:windswept_gravelly_hills"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:windswept_hills"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:windswept_savanna"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "minecraft:wooded_badlands"
+                }
+              }
+            ]
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  }

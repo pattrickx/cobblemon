@@ -1,0 +1,101 @@
+{
+  "type": "loot_table",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:waterium-z",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:steelium-z",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:rockium-z",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:psychium-z",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:poisonium-z",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:normalium-z",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:icium-z",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:groundium-z",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:grassium-z",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:ghostium-z",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:flyinium-z",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:firium-z",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:fightinium-z",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:fairium-z",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:electrium-z",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:dragonium-z",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:darkinium-z",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:buginium-z",
+            "weight": 1
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  }

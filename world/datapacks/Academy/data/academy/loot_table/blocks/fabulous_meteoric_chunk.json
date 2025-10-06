@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "academy:basic_meteor/t3",
+          "weight": 1.0
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

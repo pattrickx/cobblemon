@@ -1,0 +1,177 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "avalugg_safari",
+            "pokemon": "avalugg",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "24-49",
+            "weight": 1.9,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:starlight_permafrost_forest"
+                ]
+            }
+        },
+        {
+            "id": "frosmoth_safari",
+            "pokemon": "frosmoth",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "15-36",
+            "weight": 2.9,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:starlight_permafrost_forest"
+                ]
+            }
+        },
+        {
+            "id": "lycanroc_safari",
+            "pokemon": "lycanroc",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "29-43",
+            "weight": 0.3,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:starlight_permafrost_forest"
+                ]
+            }
+        },
+        {
+            "id": "cryogonal_safari",
+            "pokemon": "cryogonal",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "26-49",
+            "weight": 0.9,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:starlight_permafrost_forest"
+                ]
+            }
+        },
+        {
+            "id": "eiscue_safari",
+            "pokemon": "eiscue",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-47",
+            "weight": 4.4,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:starlight_permafrost_forest"
+                ]
+            }
+        },
+        {
+            "id": "sandshrew alolan_safari",
+            "pokemon": "sandshrew alolan",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-30",
+            "weight": 2.4,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:starlight_permafrost_forest"
+                ]
+            }
+        },
+        {
+            "id": "sandslash alolan_safari",
+            "pokemon": "sandslash alolan",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "31-49",
+            "weight": 0.2,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:starlight_permafrost_forest"
+                ]
+            }
+        },
+        {
+            "id": "swinub_safari",
+            "pokemon": "swinub alolan",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-32",
+            "weight": 8.2,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:starlight_permafrost_forest"
+                ]
+            }
+        },
+        {
+            "id": "piloswine_safari",
+            "pokemon": "piloswine alolan",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "33-53",
+            "weight": 0.8,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:starlight_permafrost_forest"
+                ]
+            }
+        },
+        {
+            "id": "snom_safari",
+            "pokemon": "snom alolan",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-36",
+            "weight": 9.1,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:starlight_permafrost_forest"
+                ]
+            }
+        }
+    ]
+}

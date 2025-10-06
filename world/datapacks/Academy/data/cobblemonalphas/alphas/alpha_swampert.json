@@ -1,0 +1,11 @@
+{
+  "species": "swampert",
+  "level": "50-60",
+  "spawnUnderground": false,
+  "herdMembers": [
+  ],
+  "biome": [
+    "minecraft:beach",
+    "minecraft:stony_shore"
+  ]
+}

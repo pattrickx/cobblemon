@@ -7,11 +7,11 @@
     // Sneaky Details
     // Body text is hidden unless sneaking
     // Default value: [false]
-    shiftForDetails: true,
+    shiftForDetails: false,
     // Hide Sneak Text
     // Hide "Sneak for details" text when sneaky details is enabled
     // Default value: [false]
-    hideShiftText: true,
+    hideShiftText: false,
     // Display Mode
     // Tooltip display behavior
     // Toggle: Display keybind will toggle it on and off
@@ -42,7 +42,7 @@
       align: {
         // Default value: [CENTER]
         // Available values: [LEFT, CENTER, RIGHT]
-        x: "LEFT",
+        x: "CENTER",
         // Default value: [TOP]
         // Available values: [TOP, MIDDLE, BOTTOM]
         y: "TOP"
@@ -50,7 +50,7 @@
       anchor: {
         // Default value: [CENTER]
         // Available values: [LEFT, CENTER, RIGHT]
-        x: "LEFT",
+        x: "CENTER",
         // Default value: [TOP]
         // Available values: [TOP, MIDDLE, BOTTOM]
         y: "TOP"
@@ -59,12 +59,12 @@
       // X position relative from screen anchor
       // Position is affected by scale
       // Default value: [0]
-      x: 7,
+      x: 0,
       // Y Offset
       // Y position relative from screen anchor
       // Position is affected by scale
       // Default value: [0]
-      y: 12,
+      y: 0,
       // Boss Bars Overlap
       // If set to false, the tooltip will move down if there are boss bars visible
       // Only affect top-center alignment
@@ -76,37 +76,16 @@
       // Default value: [204]
       backgroundAlpha: 204,
       // Custom Themes
-      themes: [
-        {
-          // Custom Themes
-          id: "custom:academy",
-          // Custom Themes
-          type: "waila:gradient",
-          // Custom Themes
-          backgroundColor: 2625562,
-          // Custom Themes
-          gradientStart: 11288151,
-          // Custom Themes
-          gradientEnd: 9041919,
-          // Custom Themes
-          borderSize: 0,
-          // Custom Themes
-          borderOffset: 1,
-          // Custom Themes
-          drawCorner: false,
-          // Custom Themes
-          fontColor: 16766708
-        }
-      ],
+      themes: [],
       // Theme
       // Default value: [waila:vanilla]
-      activeTheme: "custom:academy"
+      activeTheme: "waila:vanilla"
     },
     // Scale
     // How big the tooltip is
     // 1.0 is the default
     // Default value: [1.0]
-    scale: 0.8,
+    scale: 1.0,
     // Overlay FPS
     // Lowering the overlay FPS might improve the overall game FPS
     // Set to 0 to unlock
@@ -116,7 +95,7 @@
   // Text formatters
   formatter: {
     // Default value: [§9§o%s]
-    modName: "§7§o%s",
+    modName: "§9§o%s",
     // Default value: [§f%s]
     blockName: "§f%s",
     // Default value: [§f%s]

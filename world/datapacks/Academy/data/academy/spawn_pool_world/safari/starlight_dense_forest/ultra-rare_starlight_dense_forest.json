@@ -1,0 +1,41 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "mew_safari",
+            "pokemon": "mew",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "21-41",
+            "weight": 0.3,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:starlight_dense_forest"
+                ]
+            }
+        },
+        {
+            "id": "brutebonnet_safari",
+            "pokemon": "brutebonnet",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "28-48",
+            "weight": 1.32,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:starlight_dense_forest"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "bbf5a8f03658449a96e7751a1a60fe11"
+	name: "Pattrickx#bbf5a8f0"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:ursaluna",
+  "order": 3,
+  "variations": [
+    {
+      "poser": "genomons:ursaluna_bloodmoon",
+      "model": "genomons:ursaluna_bloodmoon.geo",
+      "aspects": ["bloodmoon"],
+      "texture": "genomons:textures/pokemon/0901_ursaluna/ursaluna_bloodmoon.png",
+      "layers": [
+				{
+					"name": "emissive",
+          "emissive": true,
+					"texture": "genomons:textures/pokemon/0901_ursaluna/ursaluna_bloodmoon_emissive.png"
+				  }
+			]
+    },
+    {
+      "aspects": ["bloodmoon", "shiny"],
+      "texture": "genomons:textures/pokemon/0901_ursaluna/ursaluna_bloodmoon_shiny.png",
+      "layers": [
+				{
+					"name": "emissive",
+          "emissive": true,
+					"texture": "genomons:textures/pokemon/0901_ursaluna/ursaluna_bloodmoon_emissive.png"
+				  }
+			]
+    }
+  ]
+}

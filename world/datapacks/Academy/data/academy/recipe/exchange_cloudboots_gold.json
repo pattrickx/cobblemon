@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cloudboots:gold_cloud_boots"
+    }
+  ],
+  "result": {
+    "id": "numismatic-overhaul:gold_coin",
+    "count": 1
+  }
+}

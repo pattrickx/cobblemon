@@ -1,0 +1,29 @@
+{
+  "name": "klawf",
+  "enabled": true,
+  "offsets": {
+    "DEFAULT": {
+      "x": 0.0,
+      "y": 0.05,
+      "z": -0.45
+    },
+	"WALKING": {
+      "x": 0.0,
+      "y": 0.1,
+      "z": 0.15
+    },
+    "SWIMMING": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "DIVING": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "baseSpeedModifier": 1,
+  "landSpeedModifier": 0.45,
+  "waterSpeedModifier": 1.05
+}

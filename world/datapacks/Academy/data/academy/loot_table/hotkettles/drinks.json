@@ -1,0 +1,61 @@
+{
+  "type": "loot_table",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "hotkettles:apple_cider",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "name": "hotkettles:hot_cider",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "hotkettles:cup_of_lava",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "hotkettles:hot_chocolate",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "hotkettles:latte",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "hotkettles:mocha",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "hotkettles:pumpkin_spice_latte",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "hotkettles:dandelion_tea",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "hotkettles:rose_tea",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "hotkettles:fairy_tea",
+            "weight": 1
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  }

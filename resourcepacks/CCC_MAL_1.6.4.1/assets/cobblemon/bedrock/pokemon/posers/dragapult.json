@@ -1,0 +1,79 @@
+{
+  "portraitScale": 1.79,
+  "portraitTranslation": [ -0.65, 2.47, 0 ],
+  "profileScale": 0.45,
+  "profileTranslation": [ 0, 1, 0 ],
+  "rootBone": "dragapult",
+  "animations": {
+    "cry": "q.bedrock_stateful('dragapult', 'cry')",
+    "faint": "q.bedrock_primary('dragapult', 'faint', q.curve('one'))",
+    "recoil": "q.bedrock_stateful('dragapult', 'recoil')",
+    "physical": "q.bedrock_primary('dragapult', 'physical', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('dragapult', 'physical', q.curve('symmetrical_wide'))",
+	"dragondarts": "q.bedrock_stateful('dragapult', 'dragondarts', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND", "WALK"],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('dragapult', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('dragapult', 'blink')",
+		"q.bedrock_quirk('dragapult', 'blink2')",
+        "q.bedrock_quirk('dragapult', 'blink3')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.bedrock('dragapult', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('dragapult', 'blink')",
+		"q.bedrock_quirk('dragapult', 'blink2')",
+        "q.bedrock_quirk('dragapult', 'blink3')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('dragapult', 'air_fly')"
+      ]
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('dragapult', 'air_idle')"
+      ]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('dragapult', 'ground_walk')"
+      ]
+    },
+	"fly": {
+      "poseTypes": ["FLY"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('dragapult', 'air_fly')"
+      ]
+    },
+	"hover": {
+      "poseTypes": ["HOVER"],
+      "animations": [
+        "q.bedrock('dragapult', 'air_idle')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('dragapult', 'sleep')"]
+    }
+  }
+}

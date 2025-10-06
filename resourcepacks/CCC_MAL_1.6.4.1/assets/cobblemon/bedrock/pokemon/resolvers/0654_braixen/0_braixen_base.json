@@ -1,0 +1,23 @@
+{
+  "species": "cobblemon:braixen",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:braixen",
+      "model": "cobblemon:braixen.geo",
+      "texture": "cobblemon:textures/pokemon/0654_braixen/braixen.png",
+      "layers": [
+	  	  {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0654_braixen/flame/tempflame.png",
+          "emissive": true
+        }
+	  ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0654_braixen/braixen_shiny.png"
+    }
+  ]
+}

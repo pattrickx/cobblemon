@@ -1,0 +1,58 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "ditto_safari",
+            "pokemon": "ditto",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "1-29",
+            "weight": 2.8,
+            "condition": {
+                "biomes": [
+                    "#eternal_starlight:is_safari_surface"
+                ]
+            }
+        },
+        {
+            "id": "audino_safari",
+            "pokemon": "audino",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "19-41",
+            "weight": 7.8,
+            "condition": {
+                "biomes": [
+                    "#eternal_starlight:is_safari_surface"
+                ]
+            }
+        },
+        {
+            "id": "rotom_safari",
+            "pokemon": "rotom",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "16-49",
+            "weight": 2.1,
+            "condition": {
+                "biomes": [
+                    "#eternal_starlight:is_safari_surface"
+                ]
+            }
+        }
+    ]
+}

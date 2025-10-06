@@ -1,0 +1,17 @@
+{
+	id: "bbf5a8f0-3658-449a-96e7-751a1a60fe11"
+	type: "player"
+	player_name: "Pattrickx"
+	ranks: {
+		bbf5a8f0-3658-449a-96e7-751a1a60fe11: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Pattrickx"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59BEFF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

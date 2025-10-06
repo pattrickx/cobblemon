@@ -1,0 +1,69 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "academy:basic/t4",
+          "weight": 7
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:basic/t5",
+          "weight": 2
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:basic/t6",
+          "weight": 1
+        }
+      ],
+      "rolls": {
+          "type": "minecraft:uniform",
+          "max": 1.0,
+          "min": 1.0
+        }
+    },
+    {
+      "rolls": {
+        "min": -1,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 15,
+                "max": 25
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:water_bucket"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:binomial",
+        "n": 8,
+        "p": 0.7
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:seagrass"
+        }
+      ]
+    }
+  ]
+}

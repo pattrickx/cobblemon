@@ -1,0 +1,121 @@
+{
+    "name": "Necrozma",
+    "offsets": {
+        "DEFAULT": {
+            "x": 0,
+            "y": 0.25,
+            "z": 0.15
+        },
+        "HOVERING": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "FLYING": {
+            "x": 0,
+            "y": 1.25,
+            "z": 0
+        },
+        "SUSPENDED": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "DIVING": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "FLOATING": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "SWIMMING": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    },
+    "baseSpeedModifier": 1,
+    "landSpeedModifier": 1,
+    "waterSpeedModifier": 1,
+    "airSpeedModifier": 1.1,
+    "forms": [
+		{
+			"name": "Dusk-Mane",
+			"enabled": true,
+			"offsets": {
+				"DEFAULT": {
+					"x": 0.0,
+					"y": -.5,
+					"z": 0
+				},
+				"FLYING": {
+				  "x": 0,
+				  "y": -.35,
+				  "z": 0
+				},
+					"HOVERING": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				  }
+			},
+			"baseSpeedModifier": 1.0,
+			"landSpeedModifier": 1.0,
+			"waterSpeedModifier": 1.0,
+			"airSpeedModifier": 1.6
+		},
+		{
+			"name": "Dawn-Wings",
+			"enabled": true,
+			"offsets": {
+				"DEFAULT": {
+					"x": 0.0,
+					"y": 0,
+					"z": 0
+				},
+				"FLYING": {
+				  "x": 0,
+				  "y": .5,
+				  "z": 1
+				},
+					"HOVERING": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				  }
+			},
+			"baseSpeedModifier": 1.0,
+			"landSpeedModifier": 1.0,
+			"waterSpeedModifier": 1.0,
+			"airSpeedModifier": 1.7
+		},
+		{
+			"name": "Ultra",
+			"enabled": true,
+			"offsets": {
+				"DEFAULT": {
+					"x": 0.0,
+					"y": -.5,
+					"z": 0
+				},
+				"FLYING": {
+				  "x": 0,
+				  "y": 0,
+				  "z": 0
+				},
+					"HOVERING": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				  }
+			},
+			"baseSpeedModifier": 1.0,
+			"landSpeedModifier": 1.0,
+			"waterSpeedModifier": 1.0,
+			"airSpeedModifier":1.15
+		}
+    ]
+}

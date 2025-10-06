@@ -1,0 +1,38 @@
+{
+  "species": "cobblemon:carkol",
+  "order": 1,
+  "baseScale": 0.75,
+  "hitbox": {
+    "width": 0.5,
+    "height": 2,
+    "fixed": false
+  },
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon_reanimodel:carkol",
+      "model": "cobblemon_reanimodel:carkol.geo",
+      "texture": "cobblemon_reanimodel:textures/pokemon/carkol/carkol.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon_reanimodel:textures/pokemon/carkol/carkol_emissive.png",
+          "emissive": true
+        }
+      
+      ] 
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon_reanimodel:textures/pokemon/carkol/carkol_shiny.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon_reanimodel:textures/pokemon/carkol/carkol_emissive.png",
+          "emissive": true
+        }
+       
+      ]
+    }
+  ]
+}

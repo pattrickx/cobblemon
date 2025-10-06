@@ -1,0 +1,194 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "gastly_safari",
+            "pokemon": "gastly",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "24-41",
+            "weight": 4.6,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:dark_swamp"
+                ]
+            }
+        },
+        {
+            "id": "houndour_safari",
+            "pokemon": "houndour",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "9-24",
+            "weight": 8.9,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:dark_swamp"
+                ]
+            }
+        },
+        {
+            "id": "houndoom_safari",
+            "pokemon": "houndoom",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "25-48",
+            "weight": 0.2,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:dark_swamp"
+                ]
+            }
+        },
+        {
+            "id": "koffing_safari",
+            "pokemon": "koffing",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "9-31",
+            "weight": 7.2,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:dark_swamp"
+                ]
+            }
+        },
+        {
+            "id": "weezing_safari",
+            "pokemon": "weezing",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-47",
+            "weight": 0.3,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:dark_swamp"
+                ]
+            }
+        },
+        {
+            "id": "vullaby_safari",
+            "pokemon": "vullaby",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "27-53",
+            "weight": 2.1,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:dark_swamp"
+                ]
+            }
+        },
+        {
+            "id": "mandibuzz_safari",
+            "pokemon": "mandibuzz",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "54-65",
+            "weight": 0.1,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:dark_swamp"
+                ]
+            }
+        },
+        {
+            "id": "noibat_safari",
+            "pokemon": "noibat",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "10-25",
+            "weight": 3.1,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:dark_swamp"
+                ]
+            }
+        },
+        {
+            "id": "noivern_safari",
+            "pokemon": "noibat",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "26-41",
+            "weight": 0.1,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:dark_swamp"
+                ]
+            }
+        },
+        {
+            "id": "glimmet_safari",
+            "pokemon": "glimmet",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "10-35",
+            "weight": 7.1,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:dark_swamp"
+                ]
+            }
+        },
+        {
+            "id": "glimmora_safari",
+            "pokemon": "glimmora",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-48",
+            "weight": 0.7,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:dark_swamp"
+                ]
+            }
+        }
+    ]
+}

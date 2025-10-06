@@ -1,0 +1,109 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "deoxys_safari",
+            "pokemon": "deoxys",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "41-59",
+            "weight": 0.7,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:dark_swamp"
+                ]
+            }
+        },
+        {
+            "id": "marshadow_safari",
+            "pokemon": "marshadow",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "31-48",
+            "weight": 0.6,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:dark_swamp"
+                ]
+            }
+        },
+        {
+            "id": "pecharunt_safari",
+            "pokemon": "pecharunt",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "31-48",
+            "weight": 0.72,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:dark_swamp"
+                ]
+            }
+        },
+        {
+            "id": "fluttermane_safari",
+            "pokemon": "fluttermane",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "24-41",
+            "weight": 1.32,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:dark_swamp"
+                ]
+            }
+        },
+        {
+            "id": "roaringmoon_safari",
+            "pokemon": "roaringmoon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "31-53",
+            "weight": 1.2,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:dark_swamp"
+                ]
+            }
+        },
+        {
+            "id": "hydreigon_safari",
+            "pokemon": "hydreigon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "31-48",
+            "weight": 7.7,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:dark_swamp"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,361 @@
+{
+  "type": "loot_table",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_absol",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_ampharos",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:shiny_applin_basket",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_arboliva",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_beartic",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_bellossom",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_blastoise",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_bulbasaur",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_calyrex",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_cetoddle",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_charmander",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_cloyster",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_corviknight",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_corvisquire",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_cubchoo",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_delibird",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_dolliv",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_drifloon",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_eevee",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_eiscue",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_flaaffy",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_frigibax",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_froslass",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_furret",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_gastly",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_gengar",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_gholdengo",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_glalie",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_happiny",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_ivysaur",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_kyogre",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_lickitung",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_luvdisc",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:shiny_magikarp_fishbowl",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_mareep",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_marshadow",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_marshadow_zenith",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_mimikyu",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_munchlax",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_netherite_gholdengo",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_palossand",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_phantump",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_piloswine",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_pumpkaboo",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_quagsire",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_rabsca",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_rellor",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_riolu",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_rookidee",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_rowlet",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_sableye",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_sandygast",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_sentret",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_shellder",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_smoliv",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_snorlax",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_snorunt_family",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_snorunt",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_spheal",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_squirtle",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_stonjourner",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_swinub",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_treecko",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_trevenant",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_tropius",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_venusaur",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_wailmer",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_wailord",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_wartortle",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shiny_wooper",
+            "weight": 1
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  }

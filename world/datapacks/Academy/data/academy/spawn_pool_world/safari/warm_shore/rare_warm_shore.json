@@ -1,0 +1,296 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "squirtle_safari",
+            "pokemon": "squirtle",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "1-15",
+            "weight": 3.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:warm_shore"
+                ]
+            }
+        },
+        {
+            "id": "wartortle_safari",
+            "pokemon": "wartortle",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "16-35",
+            "weight": 1.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:warm_shore"
+                ]
+            }
+        },
+        {
+            "id": "blastoise_safari",
+            "pokemon": "blastoise",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "36-51",
+            "weight": 0.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:warm_shore"
+                ]
+            }
+        },
+        {
+            "id": "mudkip_safari",
+            "pokemon": "mudkip",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "1-15",
+            "weight": 3.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:warm_shore"
+                ]
+            }
+        },
+        {
+            "id": "marshtomp_safari",
+            "pokemon": "marshtomp",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "16-35",
+            "weight": 1.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:warm_shore"
+                ]
+            }
+        },
+        {
+            "id": "swampert_safari",
+            "pokemon": "swampert",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "36-51",
+            "weight": 0.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:warm_shore"
+                ]
+            }
+        },
+        {
+            "id": "froakie_safari",
+            "pokemon": "froakie",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "1-15",
+            "weight": 3.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:warm_shore"
+                ]
+            }
+        },
+        {
+            "id": "frogadier_safari",
+            "pokemon": "frogaider",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "16-35",
+            "weight": 1.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:warm_shore"
+                ]
+            }
+        },
+        {
+            "id": "greninja_safari",
+            "pokemon": "greninja",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "36-51",
+            "weight": 0.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:warm_shore"
+                ]
+            }
+        },
+        {
+            "id": "popplio_safari",
+            "pokemon": "popplio",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "1-15",
+            "weight": 3.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:warm_shore"
+                ]
+            }
+        },
+        {
+            "id": "brionne_safari",
+            "pokemon": "brionne",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "16-35",
+            "weight": 1.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:warm_shore"
+                ]
+            }
+        },
+        {
+            "id": "primarina_safari",
+            "pokemon": "primarina",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "36-51",
+            "weight": 0.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:warm_shore"
+                ]
+            }
+        },
+        {
+            "id": "sobble_safari",
+            "pokemon": "sobble",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "1-15",
+            "weight": 3.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:warm_shore"
+                ]
+            }
+        },
+        {
+            "id": "drizzile_safari",
+            "pokemon": "drizzile",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "16-35",
+            "weight": 1.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:warm_shore"
+                ]
+            }
+        },
+        {
+            "id": "inteleon_safari",
+            "pokemon": "inteleon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "36-51",
+            "weight": 0.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:warm_shore"
+                ]
+            }
+        },
+        {
+            "id": "barbaracle_safari",
+            "pokemon": "barbaracle",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "36-51",
+            "weight": 5.9,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:warm_shore"
+                ]
+            }
+        },
+        {
+            "id": "jolteon_safari",
+            "pokemon": "jolteon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "28-53",
+            "weight": 5.4,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:warm_shore"
+                ]
+            }
+        }
+    ]
+}

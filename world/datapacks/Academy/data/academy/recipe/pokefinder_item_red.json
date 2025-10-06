@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:red_dye"
+    },
+    {
+      "item": "cobblenav:pokefinder_item_white"
+    }
+  ],
+  "result": {
+    "id": "cobblenav:pokefinder_item_red",
+    "count": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "desolatedwellings:mountain_altar",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "random_spread",
+    "spacing": 93,
+    "separation": 60,
+    "salt": 348458485
+  }
+}

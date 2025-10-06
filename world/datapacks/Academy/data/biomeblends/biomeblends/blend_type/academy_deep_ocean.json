@@ -1,0 +1,16 @@
+{
+  "action": {
+    "type": "biomeblends:set_biome",
+    "target_biome": "minecraft:deep_ocean"
+  },
+    "horizontal_radius": 128,
+    "vertical_radius": 24,
+    "dimension_blacklist": {
+        "values": ["minecraft:overworld"],
+        "negate": true
+  },
+    "color": 1850960,
+    "use_remainder": {
+        "id": "minecraft:clay_ball"
+  }
+}

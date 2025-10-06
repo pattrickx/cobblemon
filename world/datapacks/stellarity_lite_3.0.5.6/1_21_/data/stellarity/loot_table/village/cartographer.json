@@ -1,0 +1,85 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "academy:basic/t3",
+          "weight": 7
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:basic/t4",
+          "weight": 2
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:basic/t5",
+          "weight": 1
+        }
+      ],
+      "rolls": {
+          "type": "minecraft:uniform",
+          "max": 1.0,
+          "min": 1.0
+        }
+    },
+    {
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 4,
+				"max": 6
+			},
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 7,
+					"name": "minecraft:map"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"name": "minecraft:paper",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2,
+								"max": 3
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:compass"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:shears"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "minecraft:glass_pane",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

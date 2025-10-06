@@ -1,0 +1,37 @@
+{
+  "species": "cobblemon:articuno",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [
+        "galarian"
+      ],
+      "poser": "genomons:articuno_galar",
+      "model": "genomons:articuno_galar.geo",
+      "texture": "genomons:textures/pokemon/0144_articuno/articuno_galar.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "genomons:textures/pokemon/0144_articuno/articuno_galar_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "galarian",
+        "shiny"
+      ],
+      "texture": "genomons:textures/pokemon/0144_articuno/articuno_galar_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "genomons:textures/pokemon/0144_articuno/articuno_galar_emissive.png",
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

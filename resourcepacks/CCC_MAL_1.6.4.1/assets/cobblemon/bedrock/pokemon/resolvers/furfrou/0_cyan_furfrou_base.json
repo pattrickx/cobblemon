@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:cyan_furfrou",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:cyan_furfrou",
+      "model": "cobblemon:cyan_furfrou.geo",
+      "texture": "cobblemon:textures/pokemon/furfrou/cyan_furfrou.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/furfrou/cyan_furfrou_shiny.png"
+    }
+  ]
+}

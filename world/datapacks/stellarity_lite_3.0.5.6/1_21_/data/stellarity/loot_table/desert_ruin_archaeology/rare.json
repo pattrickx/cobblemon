@@ -1,0 +1,56 @@
+{
+	"type": "minecraft:archaeology",
+	"pools": [
+		{
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "academy:basic/t4",
+          "weight": 7
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:basic/t5",
+          "weight": 2
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:basic/t6",
+          "weight": 1
+        }
+      ],
+      "rolls": {
+          "type": "minecraft:uniform",
+          "max": 1.0,
+          "min": 1.0
+        }
+    },
+    {
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:arms_up_pottery_sherd",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:brewer_pottery_sherd",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:burn_pottery_sherd",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:dune_armor_trim_smithing_template"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,56 @@
+{
+    "species": "cobblemon:lycanroc",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:lycanroc_midday",
+        "model": "cobblemon:lycanroc_midday.geo",
+        "texture": "cobblemon:textures/pokemon/lycanroc/lycanroc_midday.png",
+        "layers": []
+      },
+      {
+        "aspects": ["time-evolution-midday"],
+        "poser": "cobblemon:lycanroc_midday",
+        "model": "cobblemon:lycanroc_midday.geo",
+        "texture": "cobblemon:textures/pokemon/lycanroc/lycanroc_midday.png",
+        "layers": []
+      },
+      {
+        "aspects": ["time-evolution-midnight"],
+        "poser": "cobblemon:lycanroc_midnight",
+        "model": "cobblemon:lycanroc_midnight.geo",
+        "texture": "cobblemon:textures/pokemon/lycanroc/lycanroc_midnight.png",
+        "layers": []
+      },
+      {
+        "aspects": ["time-evolution-dusk"],
+        "poser": "cobblemon:lycanroc_dusk",
+        "model": "cobblemon:lycanroc_dusk.geo",
+        "texture": "cobblemon:textures/pokemon/lycanroc/lycanroc_dusk.png",
+        "layers": []
+      },
+      {
+        "aspects": [
+          "shiny",
+          "time-evolution-midday"
+        ],
+        "texture": "cobblemon:textures/pokemon/lycanroc/lycanroc_midday_shiny.png"
+      },
+      {
+        "aspects": [
+          "shiny",
+          "time-evolution-midnight"
+        ],
+        "texture": "cobblemon:textures/pokemon/lycanroc/lycanroc_midnight_shiny.png"
+      },
+      {
+        "aspects": [
+          "shiny",
+          "time-evolution-dusk"
+        ],
+        "texture": "cobblemon:textures/pokemon/lycanroc/lycanroc_dusk_shiny.png"
+      }
+    ]
+  }
+  

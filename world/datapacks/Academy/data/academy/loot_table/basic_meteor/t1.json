@@ -1,0 +1,71 @@
+{
+  "type": "loot_table",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "numismatic-overhaul:silver_coin",
+            "functions": [
+              {
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 2.0,
+                  "min": 1.0
+                },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 18
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:safari_ball",
+            "functions": [
+              {
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 1.0,
+                  "min": 1.0
+                },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:cobblemon/gems",
+            "functions": [
+              {
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 1.0,
+                  "min": 1.0
+                },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:cobblemon/evostones",
+            "functions": [
+              {
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 1.0,
+                  "min": 1.0
+                },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 2
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "type": "loot_table",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "academy:simpletms/tr_items",
+            "functions": [
+              {
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 1.0,
+                  "min": 1.0
+                },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:simpletms/tm_items",
+            "functions": [
+              {
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 1.0,
+                  "min": 1.0
+                },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:biomeblends/blends",
+            "functions": [
+              {
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 1.0,
+                  "min": 1.0
+                },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:cobblemon/evoitems",
+            "functions": [
+              {
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 1.0,
+                  "min": 1.0
+                },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:academy/safari_ticket",
+            "functions": [
+              {
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 1.0,
+                  "min": 1.0
+                },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+            "functions": [
+              {
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 3.0,
+                  "min": 1.0
+                },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_scrap",
+            "functions": [
+              {
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 1.0,
+                  "min": 1.0
+                },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 4
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

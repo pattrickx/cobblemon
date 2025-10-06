@@ -1,0 +1,15 @@
+{
+  "species": "cobblemon:mew",
+  "order": 1,
+  "variations": [
+    {
+      "poser": "genomons:mew",
+      "model": "genomons:mew.geo",
+      "texture": "genomons:textures/pokemon/0151_mew/mew.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "genomons:textures/pokemon/0151_mew/mew_shiny.png"
+    }
+  ]
+}

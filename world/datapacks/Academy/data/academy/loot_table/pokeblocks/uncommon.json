@@ -1,0 +1,81 @@
+{
+  "type": "loot_table",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_lickitung",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_mareep",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_dolliv",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_arboliva",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_wooper",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_gastly",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_sandygast",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_shellder",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_pumpkaboo",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_bellossom",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_piloswine",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_cubchoo",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_cetoddle",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pokeblocks:pokedoll_delibird",
+            "weight": 1
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  }

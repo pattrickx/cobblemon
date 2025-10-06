@@ -1,0 +1,109 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "magearna_safari",
+            "pokemon": "magearna",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "31-48",
+            "weight": 0.6,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:starlight_permafrost_forest"
+                ]
+            }
+        },
+        {
+            "id": "meltan_safari",
+            "pokemon": "meltan",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "1-19",
+            "weight": 0.7,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:starlight_permafrost_forest"
+                ]
+            }
+        },
+        {
+            "id": "zeraora_safari",
+            "pokemon": "zeraora",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "28-49",
+            "weight": 1.0,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:starlight_permafrost_forest"
+                ]
+            }
+        },
+        {
+            "id": "greattusk_safari",
+            "pokemon": "greattusk",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "34-53",
+            "weight": 1.4,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:starlight_permafrost_forest"
+                ]
+            }
+        },
+        {
+            "id": "ironbundle_safari",
+            "pokemon": "ironbundle",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "27-48",
+            "weight": 1.32,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:starlight_permafrost_forest"
+                ]
+            }
+        },
+        {
+            "id": "ironhands_safari",
+            "pokemon": "ironhands",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "27-48",
+            "weight": 1.32,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:starlight_permafrost_forest"
+                ]
+            }
+        }
+    ]
+}

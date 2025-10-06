@@ -1,0 +1,37 @@
+{
+  "species": "cobblemon:dewpider",
+  "order": 1,
+  "baseScale": 0.75,
+  "hitbox": {
+    "width": 0.5,
+    "height": 2,
+    "fixed": false
+  },
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon_reanimodel:dewpider",
+      "model": "cobblemon_reanimodel:dewpider.geo",
+      "texture": "cobblemon_reanimodel:textures/pokemon/dewpider/dewpider.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon_reanimodel:textures/pokemon/dewpider/dewpider_emissive.png",
+          "emissive": true
+        },
+        {
+          "name": "translucent",
+          "texture": "cobblemon_reanimodel:textures/pokemon/dewpider/dewpider_translucent.png",
+          "translucent": true
+        }
+      ] 
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon_reanimodel:textures/pokemon/dewpider/dewpider_shiny.png",
+      "layers": [
+       
+      ]
+    }
+  ]
+}

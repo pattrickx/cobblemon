@@ -1,0 +1,104 @@
+{
+	"pools": [
+		{
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "academy:basic_underground/t3",
+					"weight": 27
+        },
+				{
+          "type": "loot_table",
+          "value": "academy:basic_underground/t4",
+					"weight": 2
+        },
+				{
+          "type": "loot_table",
+          "value": "academy:basic_underground/t5",
+					"weight": 1
+        }
+      ],
+      "rolls": {
+          "type": "minecraft:uniform",
+          "max": 1.0,
+          "min": 1.0
+        }
+    },
+    {
+			"rolls": {
+				"min": 0,
+				"max": 3
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bread",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 0,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:apple",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:feather",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 0,
+								"max": 1
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:amethyst_shard",
+					"quality": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:sugar",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

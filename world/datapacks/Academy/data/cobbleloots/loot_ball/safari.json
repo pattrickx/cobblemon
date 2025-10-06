@@ -1,0 +1,104 @@
+{
+  "name": {
+    "text": "Safari Loot Ball"
+  },
+  "loot_table": "cobbleloots:loot_ball/safari",
+  "texture": "cobblemon:textures/poke_balls/safari_ball.png",
+  "xp": 1,
+  "sources": {
+    "generation": [
+      {
+        "weight": 10,
+        "biome": "cobbleloots:loot_ball/safari",
+        "dimension": [
+          "minecraft:overworld",
+          "minecraft:the_nether",
+          "minecraft:the_end"
+        ],
+        "block": {
+          "spawn": "cobbleloots:loot_ball_spawnable",
+          "base": "cobbleloots:loot_ball_base_spawnable"
+        },
+        "fluid": [],
+        "position": {
+          "x": {
+            "min": -2147483647,
+            "max": 2147483647
+          },
+          "y": {
+            "min": -2147483647,
+            "max": 2147483647
+          },
+          "z": {
+            "min": -2147483647,
+            "max": 2147483647
+          }
+        },
+        "time": {
+          "value": {
+            "min": 0,
+            "max": 2147483647
+          },
+          "period": 24000
+        },
+        "weather": {
+          "rain": true,
+          "thunder": true,
+          "clear": true
+        }
+      }
+    ],
+    "spawning": [
+      {
+        "weight": 10,
+        "biome": "cobbleloots:loot_ball/safari",
+        "dimension": [
+          "minecraft:overworld",
+          "minecraft:the_nether",
+          "minecraft:the_end"
+        ],
+        "block": {
+          "spawn": "cobbleloots:loot_ball_spawnable",
+          "base": "cobbleloots:loot_ball_base_spawnable"
+        },
+        "fluid": [],
+        "position": {
+          "x": {
+            "min": -2147483647,
+            "max": 2147483647
+          },
+          "y": {
+            "min": -2147483647,
+            "max": 2147483647
+          },
+          "z": {
+            "min": -2147483647,
+            "max": 2147483647
+          }
+        },
+        "light": {
+          "block": {
+            "min": 0,
+            "max": 15
+          },
+          "sky": {
+            "min": 0,
+            "max": 15
+          }
+        },
+        "time": {
+          "value": {
+            "min": 0,
+            "max": 2147483647
+          },
+          "period": 24000
+        },
+        "weather": {
+          "rain": true,
+          "thunder": true,
+          "clear": true
+        }
+      }
+    ]
+  }
+}

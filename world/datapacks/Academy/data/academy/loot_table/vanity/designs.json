@@ -1,0 +1,136 @@
+{
+  "type": "loot_table",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "vanity:design",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "vanity:design": "vanity_bone:vanity_bone",
+                "minecraft:item_name": "Bone"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "vanity:design",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "vanity:design": "vanity_spectral:vanity_spectral",
+                "minecraft:item_name": "Spectral"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "vanity:design",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "vanity:design": "vanity_steel:vanity_steel",
+                "minecraft:item_name": "Steel"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "vanity:design",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "vanity:design": "vanity_magma:vanity_magma",
+                "minecraft:item_name": "Magma"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "vanity:design",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "vanity:design": "vanity_druid:vanity_druid",
+                "minecraft:item_name": "Druid"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "vanity:design",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "vanity:design": "vanity_spartan:vanity_spartan",
+                "minecraft:item_name": "Spartan"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "vanity:design",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "vanity:design": "vanity_viking:vanity_viking",
+                "minecraft:item_name": "Viking"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "vanity:design",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "vanity:design": "vanity_black_gold:vanity_black_gold",
+                "minecraft:item_name": "\"Black Gold\""
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "vanity:design",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "vanity:design": "vanity_helios:vanity_helios",
+                "minecraft:item_name": "Helios"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

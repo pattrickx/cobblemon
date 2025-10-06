@@ -1,0 +1,27 @@
+{
+  "species": "cobblemon:excadrill",
+  "order": 1,
+  "baseScale": 0.75,
+  "hitbox": {
+    "width": 0.5,
+    "height": 2,
+    "fixed": false
+  },
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon_reanimodel:excadrill",
+      "model": "cobblemon_reanimodel:excadrill.geo",
+      "texture": "cobblemon_reanimodel:textures/pokemon/excadrill/excadrill.png",
+      "layers": [
+      ] 
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon_reanimodel:textures/pokemon/excadrill/excadrill_shiny.png",
+      "layers": [
+       
+      ]
+    }
+  ]
+}

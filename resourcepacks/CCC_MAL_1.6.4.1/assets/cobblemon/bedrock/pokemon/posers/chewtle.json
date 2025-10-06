@@ -1,0 +1,28 @@
+{
+ "portraitScale": 2.0,
+ "portraitTranslation": [ -0.45, -0.5, 0 ],
+ "profileScale": 1,
+ "profileTranslation": [ 0, 0.3, 0 ],
+ "cry": "bedrock(chewtle, cry)",
+ "poses": {
+   "standing": {
+     "poseName": "standing",
+     "transformTicks": 10,
+     "poseTypes": [
+       "STAND",
+       "NONE",
+       "PORTRAIT",
+       "PROFILE"
+     ],
+     "animations": [
+       "bedrock(chewtle, ground_idle)"
+     ]
+   },
+   "walking": {
+     "poseName": "walking",
+     "transformTicks": 10,
+     "poseTypes": [ "WALK" ],
+     "animations": [ "bedrock(chewtle, ground_walk)" ]
+   }
+  }
+ }

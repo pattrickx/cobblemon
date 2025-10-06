@@ -1,0 +1,80 @@
+{
+  "portraitScale": 1.21,
+  "portraitTranslation": [-0.43, 3.73, 0.0],
+  "profileScale": 0.33,
+  "profileTranslation": [0.02, 1.31, 0.0],
+  "animations": {
+    "cry" : "q.bedrock_stateful('tyranitar', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "WALK"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tyranitar', 'battle_idle')"
+        
+      ],
+      "quirks": [
+       "q.bedrock_quirk('tyranitar', 'blink')"
+     ]
+    },
+    "standing": {
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tyranitar', 'ground_idle')"
+      ],
+      "quirks": [
+       "q.bedrock_quirk('tyranitar', 'blink')"
+     ]
+    },
+    "walking": {
+      "transformTicks": 8,
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tyranitar', 'ground_walk')"
+      ],
+      "quirks": [
+       "q.bedrock_quirk('tyranitar', 'blink')"
+     ]
+    },
+    "hover": {
+      "transformTicks": 5,
+      "poseTypes": [ "FLY", "HOVER", "FLOAT" ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tyranitar', 'ground_walk')"
+       ],
+       "quirks": [
+       "q.bedrock_quirk('tyranitar', 'blink')"
+     ]
+    },
+    "float": {
+      "transformTicks": 5,
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tyranitar', 'ground_walk')"
+      ],
+      "quirks": [
+       "q.bedrock_quirk('tyranitar', 'blink')"
+     ]
+    },
+    "swim": {
+      "transformTicks": 8,
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tyranitar', 'ground_walk')"
+      ],
+      "quirks": [
+       "q.bedrock_quirk('tyranitar', 'blink')"
+     ]
+    }
+  }
+}

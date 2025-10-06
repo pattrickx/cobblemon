@@ -1,0 +1,24 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "diggersby_safari",
+            "pokemon": "diggersby",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "20-42",
+            "weight": 1.4,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:starlight_dense_forest"
+                ]
+            }
+        }
+    ]
+}

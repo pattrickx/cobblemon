@@ -1,0 +1,62 @@
+{
+  "head": "whiteneck",
+  "portraitScale": 1,
+  "portraitTranslation": [0, 2.3, 0],
+  "profileScale": 0.5,
+  "profileTranslation": [0, 1, 0],
+  "animations": {
+    "faint": "q.bedrock_primary('urshifurs', 'rsfaint', q.curve('one'))",
+    "cry": "q.bedrock_primary('urshifurs', 'cry', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('urshifurs', 'recoil')",
+    "physical": "q.bedrock_primary('urshifurs', 'rsphysical_attack', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('urshifurs', 'rsphysical_attack', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('urshifurs', 'cry', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND", "PORTRAIT", "PROFILE"],
+      "isBattle": true,
+      "animations": ["look",
+        "q.bedrock('urshifurs', 'rapidstrike')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('urshifurs', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE"],
+      "isBattle": false,
+      "animations": ["look",
+        "q.bedrock('urshifurs', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('urshifurs', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": ["look",
+        "q.bedrock('urshifurs', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('urshifurs', 'blink')"]
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.bedrock('urshifurs', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('urshifurs', 'blink')"]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.bedrock('urshifurs', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('urshifurs', 'blink')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('urshifurs', 'sleep')"]
+    }
+  }
+}

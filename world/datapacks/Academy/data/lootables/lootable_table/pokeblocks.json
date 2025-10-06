@@ -1,0 +1,688 @@
+{
+  "pools": [
+    {
+      "id": "pokeblocks:pokedoll_bulbasaur",
+      "rarity": "common",
+      "weight": "100",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_bulbasaur"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_squirtle",
+      "rarity": "common",
+      "weight": "100",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_squirtle"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_charmander",
+      "rarity": "common",
+      "weight": "100",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_charmander"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_smoliv",
+      "rarity": "common",
+      "weight": "100",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_smoliv"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_rellor",
+      "rarity": "common",
+      "weight": "100",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_rellor"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_happiny",
+      "rarity": "common",
+      "weight": "100",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_happiny"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_swinub",
+      "rarity": "common",
+      "weight": "100",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_swinub"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_drifloon",
+      "rarity": "common",
+      "weight": "100",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_drifloon"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_rookidee",
+      "rarity": "common",
+      "weight": "100",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_rookidee"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_wailmer",
+      "rarity": "common",
+      "weight": "100",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_wailmer"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_rowlet",
+      "rarity": "common",
+      "weight": "100",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_rowlet"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_treecko",
+      "rarity": "common",
+      "weight": "100",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_treecko"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_snorunt",
+      "rarity": "common",
+      "weight": "100",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_snorunt"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_spheal",
+      "rarity": "common",
+      "weight": "100",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_spheal"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_luvdisc",
+      "rarity": "common",
+      "weight": "100",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_luvdisc"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_lickitung",
+      "rarity": "uncommon",
+      "weight": "60",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_lickitung"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_mareep",
+      "rarity": "uncommon",
+      "weight": "60",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_mareep"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_dolliv",
+      "rarity": "uncommon",
+      "weight": "60",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_dolliv"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_arboliva",
+      "rarity": "uncommon",
+      "weight": "60",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_arboliva"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_wooper",
+      "rarity": "uncommon",
+      "weight": "60",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_wooper"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_gastly",
+      "rarity": "uncommon",
+      "weight": "60",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_gastly"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_sandygast",
+      "rarity": "uncommon",
+      "weight": "60",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_sandygast"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shellder",
+      "rarity": "uncommon",
+      "weight": "60",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shellder"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_pumpkaboo",
+      "rarity": "uncommon",
+      "weight": "60",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_pumpkaboo"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_bellossom",
+      "rarity": "uncommon",
+      "weight": "60",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_bellossom"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_piloswine",
+      "rarity": "uncommon",
+      "weight": "60",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_piloswine"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_cubchoo",
+      "rarity": "uncommon",
+      "weight": "60",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_cubchoo"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_cetoddle",
+      "rarity": "uncommon",
+      "weight": "60",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_cetoddle"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_delibird",
+      "rarity": "uncommon",
+      "weight": "60",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_delibird"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_bulbasaur_posed",
+      "rarity": "rare",
+      "weight": "16",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_bulbasaur_posed"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_flaaffy",
+      "rarity": "rare",
+      "weight": "16",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_flaaffy"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_snorlax",
+      "rarity": "rare",
+      "weight": "16",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_snorlax"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_sentret",
+      "rarity": "rare",
+      "weight": "16",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_sentret"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_furret",
+      "rarity": "rare",
+      "weight": "16",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_furret"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_munchlax",
+      "rarity": "rare",
+      "weight": "16",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_munchlax"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_rabsca",
+      "rarity": "rare",
+      "weight": "16",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_rabsca"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_wartortle",
+      "rarity": "rare",
+      "weight": "16",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_wartortle"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_quagsire",
+      "rarity": "rare",
+      "weight": "16",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_quagsire"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_corvisquire",
+      "rarity": "rare",
+      "weight": "16",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_corvisquire"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_eevee",
+      "rarity": "rare",
+      "weight": "16",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_eevee"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_cloyster",
+      "rarity": "rare",
+      "weight": "16",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_cloyster"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_wailord",
+      "rarity": "rare",
+      "weight": "16",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_wailord"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_phantump",
+      "rarity": "rare",
+      "weight": "16",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_phantump"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_eiscue",
+      "rarity": "rare",
+      "weight": "16",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_eiscue"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_eiscue_noice",
+      "rarity": "rare",
+      "weight": "16",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_eiscue_noice"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_glalie",
+      "rarity": "rare",
+      "weight": "16",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_glalie"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_frigibax",
+      "rarity": "rare",
+      "weight": "16",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_frigibax"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_calyrex",
+      "rarity": "epic",
+      "weight": "4",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_calyrex"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_ampharos",
+      "rarity": "epic",
+      "weight": "4",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_ampharos"
+      }
+    },
+    {
+      "id": "pokeblocks:applin_basket",
+      "rarity": "epic",
+      "weight": "4",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:applin_basket"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_sableye",
+      "rarity": "epic",
+      "weight": "4",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_sableye"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_absol",
+      "rarity": "epic",
+      "weight": "4",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_absol"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_ivysaur",
+      "rarity": "epic",
+      "weight": "4",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_ivysaur"
+      }
+    },
+    {
+      "id": "pokeblocks:magikarp_fishbowl",
+      "rarity": "epic",
+      "weight": "4",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:magikarp_fishbowl"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_stonjourner",
+      "rarity": "epic",
+      "weight": "4",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_stonjourner"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_palossand",
+      "rarity": "epic",
+      "weight": "4",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_palossand"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_tropius",
+      "rarity": "epic",
+      "weight": "4",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_tropius"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_mimikyu",
+      "rarity": "epic",
+      "weight": "4",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_mimikyu"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_beartic",
+      "rarity": "epic",
+      "weight": "4",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_beartic"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_riolu",
+      "rarity": "epic",
+      "weight": "4",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_riolu"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_froslass",
+      "rarity": "epic",
+      "weight": "4",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_froslass"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_cubchoo_animated",
+      "rarity": "epic",
+      "weight": "4",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_cubchoo_animated"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_calyrex_animated",
+      "rarity": "legendary",
+      "weight": "1",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_calyrex_animated"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_washing_machine",
+      "rarity": "legendary",
+      "weight": "1",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_washing_machine"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_venusaur",
+      "rarity": "legendary",
+      "weight": "1",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_venusaur"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_blastoise",
+      "rarity": "legendary",
+      "weight": "1",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_blastoise"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_gengar",
+      "rarity": "legendary",
+      "weight": "1",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_gengar"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_corviknight",
+      "rarity": "legendary",
+      "weight": "1",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_corviknight"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_gholdengo",
+      "rarity": "legendary",
+      "weight": "1",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_gholdengo"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_netherite_gholdengo",
+      "rarity": "legendary",
+      "weight": "1",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_netherite_gholdengo"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_kyogre",
+      "rarity": "legendary",
+      "weight": "1",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_kyogre"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_trevenant",
+      "rarity": "legendary",
+      "weight": "1",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_trevenant"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_marshadow",
+      "rarity": "legendary",
+      "weight": "1",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_marshadow"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_marshadow_zenith",
+      "rarity": "legendary",
+      "weight": "1",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_marshadow_zenith"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_snorunt_family",
+      "rarity": "legendary",
+      "weight": "1",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_snorunt_family"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_skibidi_mewlet",
+      "rarity": "legendary",
+      "weight": "1",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_skibidi_mewlet"
+      }
+    }
+  ]
+}

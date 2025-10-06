@@ -1,0 +1,50 @@
+{
+  "portraitScale": 1.3,
+  "portraitTranslation": [-0.05, 1.3, 0],
+  "profileScale": 0.3,
+  "profileTranslation": [0, 1.1, 0],
+  "animations": {
+    "faint": "q.bedrock_primary('escavalier', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('escavalier', 'cry')",
+    "physical": "q.bedrock_primary('escavalier', 'physical', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('escavalier', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('escavalier', 'status', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.look('head')", "q.bedrock('escavalier', 'battle_idle')"],
+      "quirks": ["q.bedrock_quirk('escavalier', 'blink')"]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('escavalier', 'ground_idle')"],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(escavalier, blink)"]
+        }
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": ["q.look('head')", "q.bedrock('escavalier', 'ground_walk')"],
+      "quirks": ["q.bedrock_quirk('escavalier', 'blink')"]
+    },
+    "shoulder_left": {
+      "poseTypes": ["SHOULDER_LEFT"],
+      "animations": ["q.look('head')", "q.bedrock('spidops', 'shoulder_left')"],
+      "quirks": ["q.bedrock_quirk('spidops', 'blink')"]
+    },
+    "shoulder_right": {
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('spidops', 'shoulder_right')"
+      ],
+      "quirks": ["q.bedrock_quirk('spidops', 'blink')"]
+    }
+  }
+}

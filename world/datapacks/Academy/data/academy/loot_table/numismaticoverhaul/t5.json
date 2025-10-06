@@ -1,0 +1,26 @@
+{
+  "type": "loot_table",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "numismatic-overhaul:money_bag",
+          "functions": [
+            {
+              "function": "academy:set_money_bag",
+              "bronze": {
+                "type": "uniform",
+                "min": 200,
+                "max": 300
+              },
+              "combine": true
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

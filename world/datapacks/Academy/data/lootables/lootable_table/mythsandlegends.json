@@ -1,0 +1,404 @@
+{
+  "pools": [
+    {
+      "id": "mythsandlegends:adamant_orb",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:adamant_orb"
+      }
+    },
+    {
+      "id": "mythsandlegends:blue_orb",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:blue_orb"
+      }
+    },
+    {
+      "id": "mythsandlegends:dna_splicer",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:dna_splicer"
+      }
+    },
+    {
+      "id": "mythsandlegends:eon_ticket",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:eon_ticket_latios"
+      }
+    },
+    {
+      "id": "mythsandlegends:eon_ticket",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:eon_ticket_latias"
+      }
+    },
+    {
+      "id": "mythsandlegends:griseous_orb",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:griseous_orb"
+      }
+    },
+    {
+      "id": "mythsandlegends:jade_orb",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:jade_orb"
+      }
+    },
+    {
+      "id": "mythsandlegends:lustrous_orb",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:lustrous_orb"
+      }
+    },
+    {
+      "id": "mythsandlegends:red_orb",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:red_orb"
+      }
+    },
+    {
+      "id": "mythsandlegends:rusted_shield",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:rusted_shield"
+      }
+    },
+    {
+      "id": "mythsandlegends:rusted_sword",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:rusted_sword"
+      }
+    },
+    {
+      "id": "mythsandlegends:dr_fujis_diary",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:dr_fujis_diary"
+      }
+    },
+    {
+      "id": "mythsandlegends:rainbow_wing",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:rainbow_wing"
+      }
+    },
+    {
+      "id": "mythsandlegends:silver_wing",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:silver_wing"
+      }
+    },
+    {
+      "id": "mythsandlegends:violet_book",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:violet_book"
+      }
+    },
+    {
+      "id": "mythsandlegends:scarlet_book",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:scarlet_book"
+      }
+    },
+    {
+      "id": "mythsandlegends:cocoon_of_destruction",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:cocoon_of_destruction"
+      }
+    },
+    {
+      "id": "mythsandlegends:sapling_of_life",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:sapling_of_life"
+      }
+    },
+    {
+      "id": "mythsandlegends:reveal_glass",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:reveal_glass_landorus"
+      }
+    },
+    {
+      "id": "mythsandlegends:reveal_glass",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:reveal_glass_thundurus"
+      }
+    },
+    {
+      "id": "mythsandlegends:reveal_glass",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:reveal_glass_tornadus"
+      }
+    },
+    {
+      "id": "mythsandlegends:reveal_glass",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:reveal_glass_enamorus"
+      }
+    },
+    {
+      "id": "mythsandlegends:dark_stone",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:dark_stone"
+      }
+    },
+    {
+      "id": "mythsandlegends:light_stone",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:light_stone"
+      }
+    },
+    {
+      "id": "mythsandlegends:teal_mask",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:teal_mask"
+      }
+    },
+    {
+      "id": "mythsandlegends:lunar_feather",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:lunar_feather"
+      }
+    },
+    {
+      "id": "mythsandlegends:magma_stone",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:magma_stone"
+      }
+    },
+    {
+      "id": "mythsandlegends:fini_totem",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:fini_totem"
+      }
+    },
+    {
+      "id": "mythsandlegends:grassland_blade",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:grassland_blade"
+      }
+    },
+    {
+      "id": "mythsandlegends:ironwill_sword",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:ironwill_sword"
+      }
+    },
+    {
+      "id": "mythsandlegends:koko_totem",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:koko_totem"
+      }
+    },
+    {
+      "id": "mythsandlegends:lele_totem",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:lele_totem"
+      }
+    },
+    {
+      "id": "mythsandlegends:lillies_bag",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:lillies_bag"
+      }
+    },
+    {
+      "id": "mythsandlegends:necro_prism",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:necro_prism"
+      }
+    },
+    {
+      "id": "mythsandlegends:type_null_mask",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:type_null_mask"
+      }
+    },
+    {
+      "id": "mythsandlegends:eternatus_core",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:eternatus_core"
+      }
+    },
+    {
+      "id": "mythsandlegends:kubfus_band",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:kubfus_band"
+      }
+    },
+    {
+      "id": "mythsandlegends:plasma_tablet",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:plasma_tablet"
+      }
+    },
+    {
+      "id": "mythsandlegends:prismatic_shell",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:prismatic_shell"
+      }
+    },
+    {
+      "id": "mythsandlegends:reins_of_unity",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:reins_of_unity"
+      }
+    },
+    {
+      "id": "mythsandlegends:scaly_tablet",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:scaly_tablet"
+      }
+    },
+    {
+      "id": "mythsandlegends:azelf_fang",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:azelf_fang"
+      }
+    },
+    {
+      "id": "mythsandlegends:mesprit_plume",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:mesprit_plume"
+      }
+    },
+    {
+      "id": "mythsandlegends:stone_tablet",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:stone_tablet"
+      }
+    },
+    {
+      "id": "mythsandlegends:uxie_claw",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:uxie_claw"
+      }
+    },
+    {
+      "id": "mythsandlegends:ice_tablet",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:ice_tablet"
+      }
+    },
+    {
+      "id": "mythsandlegends:steel_tablet",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:steel_tablet"
+      }
+    },
+    {
+      "id": "mythsandlegends:bulu_totem",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:bulu_totem"
+      }
+    },
+    {
+      "id": "mythsandlegends:iceroot_carrot",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:iceroot_carrot"
+      }
+    },
+    {
+      "id": "mythsandlegends:shaderoot_carrot",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "myths_and_legends:shaderoot_carrot"
+      }
+    }
+  ]
+}

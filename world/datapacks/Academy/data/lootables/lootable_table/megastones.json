@@ -1,0 +1,380 @@
+{
+  "pools": [
+    {
+      "id": "mega_showdown:abomasite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:abomasite"
+      }
+    },
+    {
+      "id": "mega_showdown:absolite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:absolite"
+      }
+    },
+    {
+      "id": "mega_showdown:aerodactylite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:aerodactylite"
+      }
+    },
+    {
+      "id": "mega_showdown:aggronite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:aggronite"
+      }
+    },
+    {
+      "id": "mega_showdown:alakazite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:alakazite"
+      }
+    },
+    {
+      "id": "mega_showdown:altarianite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:altarianite"
+      }
+    },
+    {
+      "id": "mega_showdown:ampharosite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:ampharosite"
+      }
+    },
+    {
+      "id": "mega_showdown:audinite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:audinite"
+      }
+    },
+    {
+      "id": "mega_showdown:banettite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:banettite"
+      }
+    },
+    {
+      "id": "mega_showdown:beedrillite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:beedrillite"
+      }
+    },
+    {
+      "id": "mega_showdown:blastoisinite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:blastoisinite"
+      }
+    },
+    {
+      "id": "mega_showdown:blazikenite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:blazikenite"
+      }
+    },
+    {
+      "id": "mega_showdown:cameruptite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:cameruptite"
+      }
+    },
+    {
+      "id": "mega_showdown:charizardite_y",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:charizardite_y"
+      }
+    },
+    {
+      "id": "mega_showdown:charizardite_x",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:charizardite_x"
+      }
+    },
+    {
+      "id": "mega_showdown:diancite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:diancite"
+      }
+    },
+    {
+      "id": "mega_showdown:galladite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:galladite"
+      }
+    },
+    {
+      "id": "mega_showdown:garchompite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:garchompite"
+      }
+    },
+    {
+      "id": "mega_showdown:gardevoirite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:gardevoirite"
+      }
+    },
+    {
+      "id": "mega_showdown:gengarite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:gengarite"
+      }
+    },
+    {
+      "id": "mega_showdown:glalitite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:glalitite"
+      }
+    },
+    {
+      "id": "mega_showdown:gyaradosite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:gyaradosite"
+      }
+    },
+    {
+      "id": "mega_showdown:heracronite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:heracronite"
+      }
+    },
+    {
+      "id": "mega_showdown:houndoominite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:houndoominite"
+      }
+    },
+    {
+      "id": "mega_showdown:kangaskhanite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:kangaskhanite"
+      }
+    },
+    {
+      "id": "mega_showdown:latiasite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:latiasite"
+      }
+    },
+    {
+      "id": "mega_showdown:latiosite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:latiosite"
+      }
+    },
+    {
+      "id": "mega_showdown:lopunnite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:lopunnite"
+      }
+    },
+    {
+      "id": "mega_showdown:lucarionite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:lucarionite"
+      }
+    },
+    {
+      "id": "mega_showdown:manectite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:manectite"
+      }
+    },
+    {
+      "id": "mega_showdown:mawilite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:mawilite"
+      }
+    },
+    {
+      "id": "mega_showdown:medichamite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:medichamite"
+      }
+    },
+    {
+      "id": "mega_showdown:metagrossite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:metagrossite"
+      }
+    },
+    {
+      "id": "mega_showdown:mewtwonite_y",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:mewtwonite_y"
+      }
+    },
+    {
+      "id": "mega_showdown:mewtwonite_x",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:mewtwonite_x"
+      }
+    },
+    {
+      "id": "mega_showdown:pidgeotite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:pidgeotite"
+      }
+    },
+    {
+      "id": "mega_showdown:pinsirite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:pinsirite"
+      }
+    },
+    {
+      "id": "mega_showdown:sablenite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:sablenite"
+      }
+    },
+    {
+      "id": "mega_showdown:salamencite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:salamencite"
+      }
+    },
+    {
+      "id": "mega_showdown:scizorite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:scizorite"
+      }
+    },
+    {
+      "id": "mega_showdown:sceptilite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:sceptilite"
+      }
+    },
+    {
+      "id": "mega_showdown:sharpedonite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:sharpedonite"
+      }
+    },
+    {
+      "id": "mega_showdown:slowbronite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:slowbronite"
+      }
+    },
+    {
+      "id": "mega_showdown:steelixite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:steelixite"
+      }
+    },
+    {
+      "id": "mega_showdown:swampertite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:swampertite"
+      }
+    },
+    {
+      "id": "mega_showdown:tyranitarite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:tyranitarite"
+      }
+    },
+    {
+      "id": "mega_showdown:venusaurite",
+      "rarity": "legendary",
+      "entry": {
+        "type": "lootables:item",
+        "item": "mega_showdown:venusaurite"
+      }
+    }
+  ]
+}

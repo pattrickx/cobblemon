@@ -1,0 +1,12 @@
+{
+  "species": "blastoise",
+  "level": "50-60",
+  "spawnUnderground": false,
+  "herdMembers": [
+  ],
+  "biome": [
+    "minecraft:river",
+    "minecraft:frozen_river",
+    "minecraft:warm_ocean"
+  ]
+}

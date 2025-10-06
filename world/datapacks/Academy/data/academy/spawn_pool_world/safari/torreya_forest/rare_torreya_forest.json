@@ -1,0 +1,177 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "cyndaquil_safari",
+            "pokemon": "cyndaquil",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "1-15",
+            "weight": 3.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:torreya_forest"
+                ]
+            }
+        },
+        {
+            "id": "quilava_safari",
+            "pokemon": "quilava",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "16-35",
+            "weight": 1.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:torreya_forest"
+                ]
+            }
+        },
+        {
+            "id": "typhlosion_safari",
+            "pokemon": "typhlosion",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "36-51",
+            "weight": 0.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:torreya_forest"
+                ]
+            }
+        },
+        {
+            "id": "fennekin_safari",
+            "pokemon": "fennekin",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "1-15",
+            "weight": 3.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:torreya_forest"
+                ]
+            }
+        },
+        {
+            "id": "braixen_safari",
+            "pokemon": "braixen",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "16-35",
+            "weight": 1.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:torreya_forest"
+                ]
+            }
+        },
+        {
+            "id": "delphox_safari",
+            "pokemon": "delphox",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "36-51",
+            "weight": 0.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:torreya_forest"
+                ]
+            }
+        },
+        {
+            "id": "sylveon_safari",
+            "pokemon": "sylveon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "28-53",
+            "weight": 5.4,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:torreya_forest"
+                ]
+            }
+        },
+        {
+            "id": "ralts_safari",
+            "pokemon": "ralts",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "1-20",
+            "weight": 9.8,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:torreya_forest"
+                ]
+            }
+        },
+        {
+            "id": "kirlia_safari",
+            "pokemon": "kirlia",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "21-30",
+            "weight": 2.1,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:torreya_forest"
+                ]
+            }
+        },
+        {
+            "id": "gardevoir_safari",
+            "pokemon": "gardevoir",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "31-49",
+            "weight": 0.8,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:torreya_forest"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,2 @@
+Credit to Jenova and oblvn_us for some references on integrating Regions Unexplored's biomes with Cobblemon's biome tags from their Cobblemon: Biosphere Expanded datapack <3
+All credit to the original mod authors for their data files

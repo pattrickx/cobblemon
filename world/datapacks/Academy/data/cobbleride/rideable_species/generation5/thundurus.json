@@ -1,0 +1,30 @@
+{
+  "name": "Thundurus",
+  "enabled": true,
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -1.35,
+      "z": -0.6
+    }
+  },
+  "baseSpeedModifier": 1.25,
+  "landSpeedModifier": 0.5,
+  "waterSpeedModifier": 0.5,
+  "forms": [
+		{
+			"name": "Therian",
+			"enabled": true,
+			"offsets": {
+				"DEFAULT": {
+					"x": 0.0,
+					"y": -1.95,
+					"z": 0.05
+				}
+			},
+			"baseSpeedModifier": 1.4,
+			"landSpeedModifier": 0.4,
+			"waterSpeedModifier": 0.4
+		}
+	]
+}

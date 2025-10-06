@@ -1,0 +1,41 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "wailord_safari",
+            "pokemon": "wailord",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "uncommon",
+            "level": "41-58",
+            "weight": 4.2,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:starlit_sea"
+                ]
+            }
+        },
+        {
+            "id": "wailmer_safari",
+            "pokemon": "wailmer",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "uncommon",
+            "level": "15-40",
+            "weight": 8.2,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:starlit_sea"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "phione_safari",
+            "pokemon": "phione",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "ultra-rare",
+            "level": "24-41",
+            "weight": 0.6,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:starlit_sea"
+                ]
+            }
+        }
+    ]
+}

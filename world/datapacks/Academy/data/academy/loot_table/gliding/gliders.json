@@ -1,0 +1,35 @@
+{
+  "type": "loot_table",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "gliding:wooden_glider",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gliding:stone_glider",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gliding:iron_glider",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gliding:golden_glider",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gliding:diamond_glider",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

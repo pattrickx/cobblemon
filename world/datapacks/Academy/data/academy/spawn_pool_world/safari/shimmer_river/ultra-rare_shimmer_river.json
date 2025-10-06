@@ -1,0 +1,24 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "jirachi_safari",
+            "pokemon": "jirachi",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "ultra-rare",
+            "level": "31-48",
+            "weight": 0.6,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:shimmer_river"
+                ]
+            }
+        }
+    ]
+}

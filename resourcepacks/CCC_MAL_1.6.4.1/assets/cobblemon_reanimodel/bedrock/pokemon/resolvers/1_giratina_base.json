@@ -1,0 +1,48 @@
+{
+  "species": "cobblemon:giratina",
+  "order": 1,
+  "baseScale": 0.75,
+  "hitbox": {
+    "width": 0.5,
+    "height": 2,
+    "fixed": false
+  },
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon_reanimodel:giratina",
+      "model": "cobblemon_reanimodel:giratina.geo",
+      "texture": "cobblemon_reanimodel:textures/pokemon/giratina/giratina.png",
+      "layers": [
+        
+      ] 
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon_reanimodel:textures/pokemon/giratina/giratina_shiny.png",
+      "layers": [
+        
+       
+      ]
+      
+    },
+    {
+      "aspects": ["origin-forme"],
+      "poser": "cobblemon_reanimodel:giratina_origin",
+      "model": "cobblemon_reanimodel:giratina_origin.geo",
+      "texture": "cobblemon_reanimodel:textures/pokemon/giratina/giratina_origin.png",
+      "layers": [
+        
+      ] 
+    },
+    {
+      "aspects": ["origin-forme","shiny"],
+      "texture": "cobblemon_reanimodel:textures/pokemon/giratina/giratina_origin_shiny.png",
+      "layers": [
+        
+       
+      ]
+      
+    }
+  ]
+}

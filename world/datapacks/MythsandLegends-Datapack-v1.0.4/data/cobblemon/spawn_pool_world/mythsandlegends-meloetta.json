@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mythsandlegends-meloetta-1",
+      "pokemon": "meloetta",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50",
+      "weight": 0.03,
+      "condition": {
+        "biomes": [
+          "none"
+        ]
+      }
+    }
+  ]
+} 

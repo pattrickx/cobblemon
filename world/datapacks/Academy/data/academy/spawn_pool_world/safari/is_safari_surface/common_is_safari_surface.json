@@ -1,0 +1,41 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "yungoos_safari",
+            "pokemon": "yungoos",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "12-27",
+            "weight": 0.3,
+            "condition": {
+                "biomes": [
+                    "#eternal_starlight:is_safari_surface"
+                ]
+            }
+        },
+        {
+            "id": "gumshoos_safari",
+            "pokemon": "gumshoos",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-41",
+            "weight": 0.1,
+            "condition": {
+                "biomes": [
+                    "#eternal_starlight:is_safari_surface"
+                ]
+            }
+        }
+    ]
+}

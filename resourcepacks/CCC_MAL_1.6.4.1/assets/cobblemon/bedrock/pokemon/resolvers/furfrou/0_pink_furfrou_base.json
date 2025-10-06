@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:pink_furfrou",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:pink_furfrou",
+      "model": "cobblemon:pink_furfrou.geo",
+      "texture": "cobblemon:textures/pokemon/furfrou/pink_furfrou.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/furfrou/pink_furfrou_shiny.png"
+    }
+  ]
+}

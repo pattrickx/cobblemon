@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cloudboots:iron_cloud_boots"
+    }
+  ],
+  "result": {
+    "id": "numismatic-overhaul:silver_coin",
+    "count": 50
+  }
+}

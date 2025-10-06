@@ -1,0 +1,180 @@
+{
+  "interior_template": "rad-gyms:gym_psychic",
+  "exit_block_pos": [13, 1, 2],
+  "player_spawn_relative": {
+    "pos": [13.5, 4, 33.5],
+    "yaw": -180.0
+  },
+  "reward_loot_tables":  [
+    {
+      "id": "rad-gyms:gyms/psychic/shared_loot_table",
+      "minLevel": 1,
+      "maxLevel": 100
+    },
+    {
+      "id": "rad-gyms:gyms/psychic/t0_loot_table",
+      "maxLevel": 9
+    },
+    {
+      "id": "rad-gyms:gyms/psychic/t1_loot_table",
+      "minLevel": 10,
+      "maxLevel": 19
+    },
+    {
+      "id": "rad-gyms:gyms/psychic/t2_loot_table",
+      "minLevel": 20,
+      "maxLevel": 29
+    },
+    {
+      "id": "rad-gyms:gyms/psychic/t3_loot_table",
+      "minLevel": 30,
+      "maxLevel": 39
+    },
+    {
+      "id": "rad-gyms:gyms/psychic/t4_loot_table",
+      "minLevel": 40,
+      "maxLevel": 49
+    },
+    {
+      "id": "rad-gyms:gyms/psychic/t5_loot_table",
+      "minLevel": 50,
+      "maxLevel": 59
+    },
+    {
+      "id": "rad-gyms:gyms/psychic/t6_loot_table",
+      "minLevel": 60,
+      "maxLevel": 69
+    },
+    {
+      "id": "rad-gyms:gyms/psychic/t7_loot_table",
+      "minLevel": 70,
+      "maxLevel": 79
+    },
+    {
+      "id": "rad-gyms:gyms/psychic/t8_loot_table",
+      "minLevel": 80,
+      "maxLevel": 89
+    },
+    {
+      "id": "rad-gyms:gyms/psychic/t9_loot_table",
+      "minLevel": 90,
+      "maxLevel": 99
+    },
+    {
+      "id": "rad-gyms:gyms/psychic/t10_loot_table",
+      "minLevel": 100
+    }
+  ],
+  "trainers": [
+    {
+      "id": "rad_gym_default_trainer_junior",
+      "name": "rad-gyms.npc.trainer_junior",
+      "spawn_relative": {
+        "pos": [6.5, 1, 20.5],
+        "yaw": -42.5
+      },
+      "ai": {
+        "type": "rct",
+        "data": {
+          "maxSelectMargin": 0.10,
+          "moveBias": 1.0,
+          "statusMoveBias": 0.65,
+          "switchBias": 0.10,
+          "itemBias": 0.85
+        }
+      },
+      "battleRules": {
+        "maxItemUses": 5
+      },
+      "bag": [
+        {
+          "item": "cobblemon:hyper_potion",
+          "quantity": 2
+        }
+      ],
+      "count_per_level_threshold": [
+        [1, 3],
+        [50, 4],
+        [75, 5],
+        [100, 6]
+      ],
+      "team_type": "GENERATED"
+    },
+    {
+      "id": "rad_gym_default_trainer_senior",
+      "name": "rad-gyms.npc.trainer_senior",
+      "requires": "rad_gym_default_trainer_junior",
+      "team_type": "GENERATED",
+      "spawn_relative": {
+        "pos": [20.5, 1, 14.5],
+        "yaw": 42.5
+      },
+      "ai": {
+        "type": "rct",
+        "data": {
+          "maxSelectMargin": 0.10,
+          "moveBias": 1.0,
+          "statusMoveBias": 0.65,
+          "switchBias": 0.10,
+          "itemBias": 0.85
+        }
+      },
+      "battleRules": {
+        "maxItemUses": 5
+      },
+      "bag": [
+        {
+          "item": "cobblemon:hyper_potion",
+          "quantity": 2
+        }
+      ],
+      "count_per_level_threshold": [
+        [1, 4],
+        [50, 5],
+        [75, 6]
+      ]
+    },
+    {
+      "id": "rad_gym_default_trainer_leader",
+      "name": "Psychic Gym Leader",
+      "requires": "rad_gym_default_trainer_senior",
+      "leader": true,
+      "spawn_relative": {
+        "pos": [13.5, 1, 5.5],
+        "yaw": 0.01
+      },
+      "team_type": "FIXED",
+      "team": [
+          "mewtwo ability=pressure held_item=cobblemon:life_orb nature=naive moves=aurasphere,icebeam,psystrike,fireblast",
+          "alakazam ability=magicguard held_item=cobblemon:focus_sash nature=timid moves=counter,expandingforce,dazzlinggleam,focusblast",
+          "gardevoir ability=trace held_item=cobblemon:choice_scarf nature=timid moves=moonblast,psychic,trick,mysticalfire",
+          "slowbro ability=regenerator held_item=cobblemon:heavy_duty_boots nature=relaxed moves=futuresight,bodypress,slackoff,teleport",
+          "espeon ability=magicbounce held_item=cobblemon:ability_shield nature=bold moves=lightscreen,reflect,calmmind,batonpass",
+          "exeggutor ability=chlorophyll held_item=cobblemon:choice_specs nature=modest moves=leafstorm,psychic,psyshock,gigadrain"
+        ],
+      "ai": {
+        "type": "rct",
+        "data": {
+          "maxSelectMargin": 0.10,
+          "moveBias": 1.0,
+          "statusMoveBias": 0.65,
+          "switchBias": 0.10,
+          "itemBias": 0.85
+        }
+      },
+      "battleRules": {
+        "maxItemUses": 5
+      },
+      "bag": [
+        {
+          "item": "cobblemon:hyper_potion",
+          "quantity": 2
+        }
+      ],
+      "count_per_level_threshold": [
+        [1, 5],
+        [50, 6]
+      ]
+    }
+  ]
+}

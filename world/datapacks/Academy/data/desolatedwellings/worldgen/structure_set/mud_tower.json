@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "desolatedwellings:mud_tower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "random_spread",
+    "spacing": 30,
+    "separation": 25,
+    "salt": 123845563
+  }
+}

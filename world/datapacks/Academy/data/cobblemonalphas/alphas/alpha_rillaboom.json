@@ -1,0 +1,11 @@
+{
+  "species": "rillaboom",
+  "level": "50-60",
+  "spawnUnderground": false,
+  "herdMembers": [
+  ],
+  "biome": [
+    "minecraft:jungle",
+    "minecraft:sparse_jungle"
+  ]
+}

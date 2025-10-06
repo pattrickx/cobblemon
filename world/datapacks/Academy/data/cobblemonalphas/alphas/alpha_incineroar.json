@@ -1,0 +1,11 @@
+{
+  "species": "incineroar",
+  "level": "50-60",
+  "spawnUnderground": false,
+  "herdMembers": [
+  ],
+  "biome": [
+    "minecraft:stony_peaks",
+    "minecraft:nether_wastes"
+  ]
+}

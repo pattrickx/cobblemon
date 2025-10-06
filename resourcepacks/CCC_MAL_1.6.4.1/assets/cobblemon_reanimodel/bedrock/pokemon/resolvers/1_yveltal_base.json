@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:yveltal",
+  "order": 1,
+  "baseScale": 0.75,
+  "hitbox": {
+    "width": 0.5,
+    "height": 2,
+    "fixed": false
+  },
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon_reanimodel:yveltal",
+      "model": "cobblemon_reanimodel:yveltal.geo",
+      "texture": "cobblemon_reanimodel:textures/pokemon/yveltal/yveltal.png",
+      "layers": [
+        
+      ] 
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon_reanimodel:textures/pokemon/yveltal/yveltal_shiny.png",
+      "layers": [
+        
+       
+      ]
+      
+    }
+  ]
+}

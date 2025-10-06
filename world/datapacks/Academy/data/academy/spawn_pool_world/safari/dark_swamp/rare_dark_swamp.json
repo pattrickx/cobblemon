@@ -1,0 +1,228 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "treecko_safari",
+            "pokemon": "treecko",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "1-15",
+            "weight": 3.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:dark_swamp"
+                ]
+            }
+        },
+        {
+            "id": "grovyle_safari",
+            "pokemon": "grovyle",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "16-35",
+            "weight": 1.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:dark_swamp"
+                ]
+            }
+        },
+        {
+            "id": "sceptile_safari",
+            "pokemon": "sceptile",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "36-51",
+            "weight": 0.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:dark_swamp"
+                ]
+            }
+        },
+        {
+            "id": "snivy_safari",
+            "pokemon": "snivy",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "1-15",
+            "weight": 3.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:dark_swamp"
+                ]
+            }
+        },
+        {
+            "id": "servine_safari",
+            "pokemon": "servine",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "16-35",
+            "weight": 1.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:dark_swamp"
+                ]
+            }
+        },
+        {
+            "id": "serperior_safari",
+            "pokemon": "serperior",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "36-51",
+            "weight": 0.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:dark_swamp"
+                ]
+            }
+        },
+        {
+            "id": "litten_safari",
+            "pokemon": "litten",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "1-15",
+            "weight": 3.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:dark_swamp"
+                ]
+            }
+        },
+        {
+            "id": "torracat_safari",
+            "pokemon": "torracat",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "16-35",
+            "weight": 1.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:dark_swamp"
+                ]
+            }
+        },
+        {
+            "id": "incineroar_safari",
+            "pokemon": "incineroar",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "36-51",
+            "weight": 0.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:dark_swamp"
+                ]
+            }
+        },
+        {
+            "id": "umbreon_safari",
+            "pokemon": "umbreon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "36-51",
+            "weight": 1.8,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:dark_swamp"
+                ]
+            }
+        },
+        {
+            "id": "houndstone_safari",
+            "pokemon": "houndstone",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "31-51",
+            "weight": 4.8,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:dark_swamp"
+                ]
+            }
+        },
+        {
+            "id": "mimikyu_safari",
+            "pokemon": "mimikyu",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "23-41",
+            "weight": 8.8,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:dark_swamp"
+                ]
+            }
+        },
+        {
+            "id": "pikachu_cosplay_libre_safari",
+            "pokemon": "pikachu cosplay=libre",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "18-33",
+            "weight": 2.4,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:dark_swamp"
+                ]
+            }
+        }
+    ]
+}

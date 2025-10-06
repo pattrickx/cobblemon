@@ -1,0 +1,26 @@
+{
+  "name": {
+    "text": "Dive Loot Ball",
+    "color": "blue",
+    "bold": true
+  },
+  "loot_table": "cobbleloots:loot_ball/dive",
+  "texture": "cobblemon:textures/poke_balls/dive_ball.png",
+  "xp": 5,
+  "sources": {
+    "generation": [
+      {
+        "weight": 30,
+        "biome": "cobbleloots:loot_ball/dive",
+        "fluid": "minecraft:water"
+      }
+    ],
+    "spawning": [
+      {
+        "weight": 30,
+        "biome": "cobbleloots:loot_ball/dive",
+        "fluid": "minecraft:water"
+      }
+    ]
+  }
+}

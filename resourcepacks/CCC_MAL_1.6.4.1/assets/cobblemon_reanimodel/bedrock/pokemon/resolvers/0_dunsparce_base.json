@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:dunsparce",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon_reanimodel:dunsparce",
+      "model": "cobblemon_reanimodel:dunsparce.geo",
+      "texture": "cobblemon_reanimodel:textures/pokemon/dunsparce/dunsparce.png",
+      "layers": [
+      ] 
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon_reanimodel:textures/pokemon/dunsparce/dunsparce_shiny.png",
+      "layers": [
+       
+      ]
+    }
+  ]
+}

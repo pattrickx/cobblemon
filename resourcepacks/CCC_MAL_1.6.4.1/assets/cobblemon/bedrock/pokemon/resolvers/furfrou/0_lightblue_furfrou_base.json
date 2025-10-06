@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:lightblue_furfrou",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:lightblue_furfrou",
+      "model": "cobblemon:lightblue_furfrou.geo",
+      "texture": "cobblemon:textures/pokemon/furfrou/lightblue_furfrou.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/furfrou/lightblue_furfrou_shiny.png"
+    }
+  ]
+}

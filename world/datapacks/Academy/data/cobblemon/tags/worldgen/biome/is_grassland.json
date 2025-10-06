@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+    "#cobblemon:is_plains",
+    "#cobblemon:is_savanna"
+  ]
+}

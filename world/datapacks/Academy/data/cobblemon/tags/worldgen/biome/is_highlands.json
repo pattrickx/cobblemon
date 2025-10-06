@@ -1,0 +1,10 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:meadow",
+      {
+        "id": "regions_unexplored:highland_fields",
+        "required": false
+      }
+  ]
+}

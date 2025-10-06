@@ -1,0 +1,344 @@
+{
+  "type": "loot_table",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "numismatic-overhaul:money_bag",
+          "functions": [
+            {
+              "function": "academy:set_money_bag",
+              "bronze": {
+                "type": "uniform",
+                "min": 1200,
+                "max": 1600
+              },
+              "combine": true
+            }
+          ]
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 2.0,
+        "min": 1.0
+      }
+    },
+    {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 10.0,
+                  "min": 6.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "cobblemon:exp_candy_m",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 6.0,
+                  "min": 2.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "cobblemon:rare_candy",
+            "weight": 1
+          }
+        ],
+        "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "academy:cobblemon/pokeballmaterials_t2"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "academy:cobblemon/tumblestones"
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:cobblemon/helditems"
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:cobblemon/evoitems"
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:cobblemon/xitems"
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:cobblemon/medicine"
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:cobblemon/vitamins"
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:cobblemon/evfeathers_greater"
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:cobblemon/apricornseeds"
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:cobblemon/gems"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 3.0,
+        "min": 2.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "academy:academy/roasted_berries_greater",
+          "weight": 3
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:academy/iron_smoked_apricorn_greater",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:academy/golden_smoked_apricorn_greater",
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "academy:biomeblends/blends",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "academy:shiny_incense",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 4
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 50
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:myths_and_legends/legendaries",
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 70
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:megashowdown/mega_stone",
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 70
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:megashowdown/z_crystal_type",
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 70
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:megashowdown/tera_shard",
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 70
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:megashowdown/arceus_plate",
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "academy:pokeblocks/common",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:pokeblocks/uncommon",
+          "weight": 4
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:pokeblocks/rare",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 6
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "academy:shiny_fossil",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "academy:ha_fossil",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "academy:max_iv_fossil",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 24
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "academy:academy/booster_pack",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 2
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:ability_capsule",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:ability_patch",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 30
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:woodencap"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "rolls": 1.0
+}

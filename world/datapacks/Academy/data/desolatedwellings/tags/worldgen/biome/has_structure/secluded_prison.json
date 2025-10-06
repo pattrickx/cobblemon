@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_mushroom",
+    {
+      "id": "regions_unexplored:blackwood_taiga",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:bioshroom_caves",
+      "required": false
+    },
+	{
+      "id": "regions_unexplored:fungal_fen",
+      "required": false
+    }
+  ]
+}

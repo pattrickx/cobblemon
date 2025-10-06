@@ -1,0 +1,75 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "celebi_safari",
+            "pokemon": "celebi",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "31-48",
+            "weight": 0.3,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:starlight_forest"
+                ]
+            }
+        },
+        {
+            "id": "shaymin_safari",
+            "pokemon": "shaymin",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "21-41",
+            "weight": 0.2,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:starlight_forest"
+                ]
+            }
+        },
+        {
+            "id": "ironleaves_safari",
+            "pokemon": "ironleaves",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "31-53",
+            "weight": 1.2,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:starlight_forest"
+                ]
+            }
+        },
+        {
+            "id": "slitherwing_safari",
+            "pokemon": "slitherwing",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "24-41",
+            "weight": 1.32,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:starlight_forest"
+                ]
+            }
+        }
+    ]
+}

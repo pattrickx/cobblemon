@@ -1,0 +1,180 @@
+{
+  "interior_template": "rad-gyms:gym_bug",
+  "exit_block_pos": [13, 1, 2],
+  "player_spawn_relative": {
+    "pos": [13.5, 4, 33.5],
+    "yaw": -180.0
+  },
+  "reward_loot_tables":  [
+    {
+      "id": "rad-gyms:gyms/bug/shared_loot_table",
+      "minLevel": 1,
+      "maxLevel": 100
+    },
+    {
+      "id": "rad-gyms:gyms/bug/t0_loot_table",
+      "maxLevel": 9
+    },
+    {
+      "id": "rad-gyms:gyms/bug/t1_loot_table",
+      "minLevel": 10,
+      "maxLevel": 19
+    },
+    {
+      "id": "rad-gyms:gyms/bug/t2_loot_table",
+      "minLevel": 20,
+      "maxLevel": 29
+    },
+    {
+      "id": "rad-gyms:gyms/bug/t3_loot_table",
+      "minLevel": 30,
+      "maxLevel": 39
+    },
+    {
+      "id": "rad-gyms:gyms/bug/t4_loot_table",
+      "minLevel": 40,
+      "maxLevel": 49
+    },
+    {
+      "id": "rad-gyms:gyms/bug/t5_loot_table",
+      "minLevel": 50,
+      "maxLevel": 59
+    },
+    {
+      "id": "rad-gyms:gyms/bug/t6_loot_table",
+      "minLevel": 60,
+      "maxLevel": 69
+    },
+    {
+      "id": "rad-gyms:gyms/bug/t7_loot_table",
+      "minLevel": 70,
+      "maxLevel": 79
+    },
+    {
+      "id": "rad-gyms:gyms/bug/t8_loot_table",
+      "minLevel": 80,
+      "maxLevel": 89
+    },
+    {
+      "id": "rad-gyms:gyms/bug/t9_loot_table",
+      "minLevel": 90,
+      "maxLevel": 99
+    },
+    {
+      "id": "rad-gyms:gyms/bug/t10_loot_table",
+      "minLevel": 100
+    }
+  ],
+  "trainers": [
+    {
+      "id": "rad_gym_default_trainer_junior",
+      "name": "rad-gyms.npc.trainer_junior",
+      "spawn_relative": {
+        "pos": [6.5, 1, 20.5],
+        "yaw": -42.5
+      },
+      "ai": {
+        "type": "rct",
+        "data": {
+          "maxSelectMargin": 0.10,
+          "moveBias": 1.0,
+          "statusMoveBias": 0.65,
+          "switchBias": 0.10,
+          "itemBias": 0.85
+        }
+      },
+      "battleRules": {
+        "maxItemUses": 5
+      },
+      "bag": [
+        {
+          "item": "cobblemon:hyper_potion",
+          "quantity": 2
+        }
+      ],
+      "count_per_level_threshold": [
+        [1, 3],
+        [50, 4],
+        [75, 5],
+        [100, 6]
+      ],
+      "team_type": "GENERATED"
+    },
+    {
+      "id": "rad_gym_default_trainer_senior",
+      "name": "rad-gyms.npc.trainer_senior",
+      "requires": "rad_gym_default_trainer_junior",
+      "team_type": "GENERATED",
+      "spawn_relative": {
+        "pos": [20.5, 1, 14.5],
+        "yaw": 42.5
+      },
+      "ai": {
+        "type": "rct",
+        "data": {
+          "maxSelectMargin": 0.10,
+          "moveBias": 1.0,
+          "statusMoveBias": 0.65,
+          "switchBias": 0.10,
+          "itemBias": 0.85
+        }
+      },
+      "battleRules": {
+        "maxItemUses": 5
+      },
+      "bag": [
+        {
+          "item": "cobblemon:hyper_potion",
+          "quantity": 2
+        }
+      ],
+      "count_per_level_threshold": [
+        [1, 4],
+        [50, 5],
+        [75, 6]
+      ]
+    },
+    {
+      "id": "rad_gym_default_trainer_leader",
+      "name": "Bug Gym Leader",
+      "requires": "rad_gym_default_trainer_senior",
+      "leader": true,
+      "spawn_relative": {
+        "pos": [13.5, 1, 5.5],
+        "yaw": 0.01
+      },
+      "team_type": "FIXED",
+      "team": [
+          "vikavolt ability=levitate held_item=cobblemon:sitrus_berry nature=modest moves=bugbuzz,thunderbolt,voltswitch,energyball",
+          "kleavor ability=sharpness held_item=cobblemon:assault_vest moves=stoneaxe,x-scissor,nightslash,closecombat",
+          "volcarona ability=swarm held_item=cobblemon:focus_sash nature=timid moves=quiverdance,bugbuzz,gigadrain,flamethrower",
+          "lokix ability=tintedlens held_item=cobblemon:heavy_duty_boots nature=adamant moves=firstimpression,u-turn,knockoff,suckerpunch",
+          "araquanid ability=waterbubble held_item=cobblemon:custap_berry nature=modest moves=stickyweb,surf,endeavor,endure",
+          "forretress ability=sturdy held_item=cobblemon:leftovers nature=relaxed moves=spikes,bodypress,voltswitch,gyroball"
+      ],
+      "ai": {
+        "type": "rct",
+        "data": {
+          "maxSelectMargin": 0.10,
+          "moveBias": 1.0,
+          "statusMoveBias": 0.65,
+          "switchBias": 0.10,
+          "itemBias": 0.85
+        }
+      },
+      "battleRules": {
+        "maxItemUses": 5
+      },
+      "bag": [
+        {
+          "item": "cobblemon:hyper_potion",
+          "quantity": 2
+        }
+      ],
+      "count_per_level_threshold": [
+        [1, 5],
+        [50, 6]
+      ]
+    }
+  ]
+}

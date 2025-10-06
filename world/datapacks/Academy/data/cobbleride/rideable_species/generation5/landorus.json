@@ -1,0 +1,30 @@
+{
+  "name": "Landorus",
+  "enabled": true,
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -1.35,
+      "z": -0.55
+    }
+  },
+  "baseSpeedModifier": 1.25,
+  "landSpeedModifier": 0.5,
+  "waterSpeedModifier": 0.5,
+  "forms": [
+		{
+			"name": "Therian",
+			"enabled": true,
+			"offsets": {
+				"DEFAULT": {
+					"x": 0.0,
+					"y": -0.85,
+					"z": 0.0
+				}
+			},
+			"baseSpeedModifier": 0.85,
+			"landSpeedModifier": 1.4,
+			"waterSpeedModifier": 0.5
+		}
+	]
+}

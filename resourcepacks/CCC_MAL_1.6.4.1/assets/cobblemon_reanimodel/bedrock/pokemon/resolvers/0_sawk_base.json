@@ -1,0 +1,27 @@
+{
+  "species": "cobblemon:sawk",
+  "order": 0,
+  "baseScale": 0.75,
+  "hitbox": {
+    "width": 0.5,
+    "height": 2,
+    "fixed": false
+  },
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon_reanimodel:sawk",
+      "model": "cobblemon_reanimodel:sawk.geo",
+      "texture": "cobblemon_reanimodel:textures/pokemon/sawk/sawk.png",
+      "layers": [
+      ] 
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon_reanimodel:textures/pokemon/sawk/sawk_shiny.png",
+      "layers": [
+       
+      ]
+    }
+  ]
+}

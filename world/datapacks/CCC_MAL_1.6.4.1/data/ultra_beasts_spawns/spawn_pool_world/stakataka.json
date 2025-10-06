@@ -1,0 +1,22 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "stakataka-1",
+            "pokemon": "stakataka",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "70-100",
+            "weight": 0.6,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "none"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+  "portal_spawn": {
+    "sounds": [
+      {
+        "name": "cobblemon_ultrabeast:portalspawn",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "weight": 100000
+      }
+    ]
+  },
+  "portal_ambient": {
+    "sounds": [
+      {
+        "name": "cobblemon_ultrabeast:sandstorm-01",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "weight": 100000
+      },
+      {
+        "name": "cobblemon_ultrabeast:sandstorm-02",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "weight": 100000
+      },
+      {
+        "name": "cobblemon_ultrabeast:sandstorm-03",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "weight": 100000
+      },
+      {
+        "name": "cobblemon_ultrabeast:sandstorm-04",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "weight": 100000
+      },
+      {
+        "name": "cobblemon_ultrabeast:sandstorm-05",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "weight": 100000
+      },
+      {
+        "name": "cobblemon_ultrabeast:sandstorm-06",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "weight": 100000
+      }
+    ]
+  },
+  "core_used": {
+    "sounds": [
+      {
+        "name": "cobblemon_ultrabeast:soul_fruit_wail",
+        "volume": 0.5,
+        "weight": 100000
+      }
+    ]
+  }
+}

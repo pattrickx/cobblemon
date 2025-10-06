@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "desolatedwellings:secluded_prison",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "random_spread",
+    "spacing": 90,
+    "separation": 65,
+    "salt": 913845924
+  }
+}

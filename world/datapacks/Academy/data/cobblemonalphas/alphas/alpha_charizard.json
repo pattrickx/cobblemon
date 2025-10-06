@@ -1,0 +1,12 @@
+{
+  "species": "charizard",
+  "level": "50-60",
+  "spawnUnderground": false,
+  "herdMembers": [
+  ],
+  "biome": [
+    "minecraft:crimson_forest",
+    "minecraft:nether_wastes",
+    "minecraft:stony_peaks"
+  ]
+}

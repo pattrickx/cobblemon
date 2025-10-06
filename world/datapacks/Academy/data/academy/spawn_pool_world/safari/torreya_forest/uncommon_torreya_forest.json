@@ -1,0 +1,177 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "lilligant hisuian_safari",
+            "pokemon": "lilligant hisuian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "24-53",
+            "weight": 1.7,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:torreya_forest"
+                ]
+            }
+        },
+        {
+            "id": "alcremie_safari",
+            "pokemon": "alcremie",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "22-50",
+            "weight": 2.7,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:torreya_forest"
+                ]
+            }
+        },
+        {
+            "id": "rapidash galarian_safari",
+            "pokemon": "rapidash galarian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "22-50",
+            "weight": 2.7,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:torreya_forest"
+                ]
+            }
+        },
+        {
+            "id": "hattrem_safari",
+            "pokemon": "hattrem",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "32-37",
+            "weight": 3.9,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:torreya_forest"
+                ]
+            }
+        },
+        {
+            "id": "abra_safari",
+            "pokemon": "abra",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "6-31",
+            "weight": 9.9,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:torreya_forest"
+                ]
+            }
+        },
+        {
+            "id": "kadabra_safari",
+            "pokemon": "kadabra",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "16-40",
+            "weight": 2.1,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:torreya_forest"
+                ]
+            }
+        },
+        {
+            "id": "alakazam_safari",
+            "pokemon": "alakazam",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "41-59",
+            "weight": 0.3,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:torreya_forest"
+                ]
+            }
+        },
+        {
+            "id": "chimecho_safari",
+            "pokemon": "chimecho",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "41-59",
+            "weight": 9.1,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:torreya_forest"
+                ]
+            }
+        },
+        {
+            "id": "munna_safari",
+            "pokemon": "munna",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "10-25",
+            "weight": 7.6,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:torreya_forest"
+                ]
+            }
+        },
+        {
+            "id": "musharna_safari",
+            "pokemon": "musharna",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "10-25",
+            "weight": 1.3,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:torreya_forest"
+                ]
+            }
+        }
+    ]
+}   
