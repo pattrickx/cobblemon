@@ -1,0 +1,44 @@
+# Don't change this! Version used to track needed updates.
+version = 1
+
+[disabler]
+disablerEnabled = true
+disabledEnchantments = [
+    "nova_structures:boss_behaviour",
+    "nova_structures:shulker_boss",
+    "nova_structures:shulker_miniboss",
+    "eternal_starlight:fertile",
+    "eternal_starlight:glacial_sowing",
+    "eternal_starlight:overheat",
+    "eternal_starlight:soul_snatcher",
+    "eternal_starlight:tearing"
+]
+
+[maxLevel]
+modifyMaxLevels = false
+maxLevels = [  ]
+limitObtainableEnchantmentLevel = false
+obtainableEnchantmentLevels = [  ]
+
+[trades]
+limitBookTradeLevel = false
+bookTradeLevelLimit = 5
+modifyEnchantedBookTradeUses = false
+maxEnchantedBookTradeUses = 12
+modifyEnchantedItemTradeUses = false
+maxEnchantedItemTradeUses = 3
+enchantedBookTradeRestockEnabled = true
+enchantedItemTradeRestockEnabled = true
+
+[enchantingTable]
+enchantingTableEnabled = true
+modifyMaxTablePower = false
+maxTablePower = 15
+modifyLapisCost = false
+lapisCostFormula = "i+1"
+modifyXpCost = false
+xpCostFormula = "i+1"
+
+[loot]
+modifyEnchantWithLevelsMaxPower = false
+enchantWithLevelsMaxPower = 50

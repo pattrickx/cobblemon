@@ -1,0 +1,116 @@
+{
+  "type": "loot_table",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                  "max": 8.0,
+                  "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "academy:iron_smoked_black_apricorn",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                  "max": 8.0,
+                  "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "academy:iron_smoked_blue_apricorn",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                  "max": 8.0,
+                  "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "academy:iron_smoked_green_apricorn",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                  "max": 8.0,
+                  "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "academy:iron_smoked_pink_apricorn",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                  "max": 8.0,
+                  "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "academy:iron_smoked_red_apricorn",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                  "max": 8.0,
+                  "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "academy:iron_smoked_white_apricorn",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                  "max": 8.0,
+                  "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "academy:iron_smoked_yellow_apricorn",
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

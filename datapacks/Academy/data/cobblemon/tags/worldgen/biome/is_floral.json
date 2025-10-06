@@ -1,0 +1,57 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:cherry_grove",
+	"minecraft:flower_forest",
+	"minecraft:meadow",
+	"minecraft:sunflower_plains",
+  {
+    "id": "regions_unexplored:clover_fields",
+    "required": false
+  },
+  {
+    "id": "regions_unexplored:ecalyptus_forest",
+    "required": false
+  },
+  {
+    "id": "regions_unexplored:flower_fields",
+    "required": false
+  },
+  {
+    "id": "regions_unexplored:fungal_fen",
+    "required": false
+  },
+  {
+    "id": "regions_unexplored:highland_fields",
+    "required": false
+  },
+  {
+    "id": "regions_unexplored:magnolia_woodland",
+    "required": false    
+  },
+  {
+    "id": "regions_unexplored:maple_forest",
+    "required": false
+  },
+  {
+    "id": "regions_unexplored:mauve_hills",
+    "required": false
+  },
+  {
+    "id": "regions_unexplored:orchard",
+    "required": false
+  },
+  {
+    "id": "regions_unexplored:poppy_fields",
+    "required": false
+  },
+  {
+    "id": "regions_unexplored:rocky_meadow",
+    "required": false
+  },
+  {
+    "id": "regions_unexplored:temperate_grove",
+    "required": false
+  }
+  ]
+}

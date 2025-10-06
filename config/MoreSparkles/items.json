@@ -1,0 +1,10 @@
+{
+  "shiny_charms": {
+    "shiny_charm": {
+      "multiplier": 1.1,
+      "lore": [
+        "<gray>Having one of these mysterious shining charms makes it more likely you'll encounter Shiny Cobblemon in the wild."
+      ]
+    }
+  }
+}

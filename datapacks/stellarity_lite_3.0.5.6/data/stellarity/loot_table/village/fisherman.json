@@ -1,0 +1,74 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "academy:basic/t3",
+          "weight": 7
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:basic/t4",
+          "weight": 2
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:basic/t5",
+          "weight": 1
+        }
+      ],
+      "rolls": {
+          "type": "minecraft:uniform",
+          "max": 1.0,
+          "min": 1.0
+        }
+    },
+    {
+			"rolls": {
+				"min": 5,
+				"max": 7
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:salmon"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cod"
+				}
+			]
+		},
+		{
+			"rolls": 7,
+			"entries": [
+				{
+					"type": "minecraft:group",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:ice"
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:snowball"
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							},
+							"add": false
+						}
+					]
+				}
+			]
+		}
+	]
+}

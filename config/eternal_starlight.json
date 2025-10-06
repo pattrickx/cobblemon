@@ -1,0 +1,205 @@
+{
+  "enablePortalShader": true,
+  "enableScreenShake": true,
+  "aethersentMeteorDropRate": 5.0E-4,
+  "laserBeamBreakBlocks": true,
+  "mobMaxTearyTicks": 200,
+  "mobsConfig": {
+    "boarwarf": {
+      "maxHealth": 30.0,
+      "armor": 10.0,
+      "canSpawn": false
+    },
+    "astralGolem": {
+      "maxHealth": 100.0,
+      "armor": 10.0,
+      "attackDamage": 10.0,
+      "followRange": 100.0,
+      "canSpawn": false
+    },
+    "gleech": {
+      "maxHealth": 8.0,
+      "armor": 0.0,
+      "attackDamage": 1.0,
+      "followRange": 16.0,
+      "canSpawn": false
+    },
+    "lonestarSkeleton": {
+      "maxHealth": 20.0,
+      "armor": 0.0,
+      "attackDamage": 3.2,
+      "followRange": 16.0,
+      "canSpawn": false
+    },
+    "nightfallSpider": {
+      "maxHealth": 10.0,
+      "armor": 0.0,
+      "attackDamage": 2.0,
+      "followRange": 16.0,
+      "canSpawn": false
+    },
+    "thirstWalker": {
+      "maxHealth": 40.0,
+      "armor": 0.0,
+      "attackDamage": 4.5,
+      "followRange": 32.0,
+      "canSpawn": false
+    },
+    "creteor": {
+      "maxHealth": 15.0,
+      "armor": 0.0,
+      "attackDamage": 5.0,
+      "followRange": 48.0,
+      "canSpawn": false,
+      "spawnChance": 0.7
+    },
+    "tinyCreteor": {
+      "maxHealth": 5.0,
+      "armor": 0.0,
+      "attackDamage": 2.0,
+      "followRange": 48.0,
+      "canSpawn": false
+    },
+    "stranghoul": {
+      "maxHealth": 40.0,
+      "armor": 2.0,
+      "attackDamage": 2.0,
+      "followRange": 32.0,
+      "canSpawn": false
+    },
+    "ent": {
+      "maxHealth": 10.0,
+      "armor": 0.0,
+      "canSpawn": false
+    },
+    "ratlin": {
+      "maxHealth": 15.0,
+      "armor": 0.0,
+      "canSpawn": false
+    },
+    "zombifiedRatlin": {
+      "maxHealth": 20.0,
+      "armor": 2.0,
+      "attackDamage": 3.0,
+      "followRange": 35.0,
+      "canSpawn": false
+    },
+    "shadowSnail": {
+      "maxHealth": 8.0,
+      "armor": 6.0,
+      "canSpawn": false
+    },
+    "yeti": {
+      "maxHealth": 20.0,
+      "armor": 0.0,
+      "canSpawn": false
+    },
+    "auroraDeer": {
+      "maxHealth": 20.0,
+      "armor": 0.0,
+      "attackDamage": 3.0,
+      "followRange": 16.0,
+      "canSpawn": false
+    },
+    "crystallizedMoth": {
+      "maxHealth": 20.0,
+      "armor": 0.0,
+      "attackDamage": 1.5,
+      "followRange": 64.0,
+      "canSpawn": false
+    },
+    "shimmerLacewing": {
+      "maxHealth": 20.0,
+      "armor": 0.0,
+      "canSpawn": false
+    },
+    "grimstoneGolem": {
+      "maxHealth": 20.0,
+      "armor": 0.0,
+      "canSpawn": false
+    },
+    "aethersentGolem": {
+      "maxHealth": 40.0,
+      "armor": 10.0,
+      "canSpawn": false
+    },
+    "luminoFish": {
+      "maxHealth": 3.0,
+      "armor": 0.0,
+      "attackDamage": 3.0,
+      "followRange": 16.0,
+      "canSpawn": false
+    },
+    "luminaris": {
+      "maxHealth": 3.0,
+      "armor": 0.0,
+      "attackDamage": 3.0,
+      "followRange": 64.0,
+      "canSpawn": false
+    },
+    "twilightGaze": {
+      "maxHealth": 10.0,
+      "armor": 0.0,
+      "attackDamage": 3.0,
+      "followRange": 16.0,
+      "canSpawn": false
+    },
+    "theGatekeeper": {
+      "maxHealth": 175.0,
+      "armor": 15.0,
+      "attackDamage": 5.0,
+      "followRange": 200.0,
+      "canSpawn": false
+    },
+    "starlightGolem": {
+      "maxHealth": 220.0,
+      "armor": 0.0,
+      "attackDamageScale": 1.0,
+      "followRange": 200.0,
+      "canSpawn": false
+    },
+    "freeze": {
+      "maxHealth": 15.0,
+      "armor": 0.0,
+      "attackDamage": 5.0,
+      "followRange": 32.0,
+      "canSpawn": false
+    },
+    "lunarMonstrosity": {
+      "maxHealth": 200.0,
+      "armor": 12.0,
+      "attackDamageScale": 1.0,
+      "followRange": 200.0,
+      "canSpawn": false
+    },
+    "tangled": {
+      "maxHealth": 20.0,
+      "armor": 0.0,
+      "attackDamage": 5.0,
+      "followRange": 64.0,
+      "canSpawn": false
+    },
+    "tangledSkull": {
+      "maxHealth": 10.0,
+      "armor": 0.0,
+      "attackDamage": 3.0,
+      "followRange": 64.0,
+      "canSpawn": false
+    },
+    "tangledHatred": {
+      "maxHealth": 60.0,
+      "armor": 5.0,
+      "attackDamageScale": 1.0,
+      "followRange": 100.0,
+      "canSpawn": false
+    }
+  },
+  "itemsConfig": {
+    "chainOfSouls": {
+      "maxRange": 64.0,
+      "soulAbsorbDamage": 2.0,
+      "healPercentage": 0.5
+    },
+    "crystalbornCatalystEnergyPerShard": 50
+  }
+}

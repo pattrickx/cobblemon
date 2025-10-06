@@ -1,0 +1,34 @@
+{
+  "schema_version": "2",
+  "default_packs": [
+    "vanilla",
+    "fabric",
+    "cobbreeding:pasturefix",
+    "moonlight:mods_dynamic_assets",
+    "$polymer-resources",
+    "tomsstorage_knowlogy:toms_storage",
+    "cobblemon:regionbiasforms",
+    "cobblemon:uniqueshinyforms",
+    "cobblemon:gyaradosjump",
+    "cobblemon_knowlogy:cobblemon",
+    "cobblemon_knowlogy:cobblemonpokenav",
+    "scholar:colored_books",
+    "cobblemon_knowlogy:pokepedia",
+    "exposure_knowlogy:exposure_polaroid",
+    "mega_showdown:gyaradosjumpingmega",
+    "knowlogy:1.0.0_minecraft",
+    "exposure_knowlogy:exposure",
+    "cobblemon_knowlogy:cobbleride",
+    "file/MysticMons_v3.2.1 (modified)",
+    "file/FTB-Vanilla-Like-1.0.zip",
+    "file/dCIM1.0.3",
+    "file/CobblemonTextFixv2.0.2.zip",
+    "file/Cobblemon Interface v1.4.1.zip",
+    "file/Cobblemon Classic Grass Pack v1.0 MC1.21.1.zip",
+    "file/CCC_MAL_1.6.4.1",
+    "file/Academy"
+],
+  "default_overrides": {
+    "force_compatible": true
+  }
+}

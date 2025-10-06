@@ -1,0 +1,245 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "charmander_safari",
+            "pokemon": "charmander",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "1-15",
+            "weight": 3.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:scarlet_forest"
+                ]
+            }
+        },
+        {
+            "id": "charmeleon_safari",
+            "pokemon": "charmeleon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "16-35",
+            "weight": 1.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:scarlet_forest"
+                ]
+            }
+        },
+        {
+            "id": "charizard_safari",
+            "pokemon": "charizard",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "36-51",
+            "weight": 0.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:scarlet_forest"
+                ]
+            }
+        },
+        {
+            "id": "chimchar_safari",
+            "pokemon": "chimchar",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "1-15",
+            "weight": 3.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:scarlet_forest"
+                ]
+            }
+        },
+        {
+            "id": "monferno_safari",
+            "pokemon": "monferno",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "16-35",
+            "weight": 1.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:scarlet_forest"
+                ]
+            }
+        },
+        {
+            "id": "infernape_safari",
+            "pokemon": "infernape",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "36-51",
+            "weight": 0.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:scarlet_forest"
+                ]
+            }
+        },
+        {
+            "id": "tepig_safari",
+            "pokemon": "tepig",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "1-15",
+            "weight": 3.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:scarlet_forest"
+                ]
+            }
+        },
+        {
+            "id": "pignite_safari",
+            "pokemon": "pignite",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "16-35",
+            "weight": 1.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:scarlet_forest"
+                ]
+            }
+        },
+        {
+            "id": "emboar_safari",
+            "pokemon": "emboar",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "36-51",
+            "weight": 0.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:scarlet_forest"
+                ]
+            }
+        },
+        {
+            "id": "fuecoco_safari",
+            "pokemon": "fuecoco",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "1-15",
+            "weight": 3.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:scarlet_forest"
+                ]
+            }
+        },
+        {
+            "id": "crocalor_safari",
+            "pokemon": "crocalor",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "16-35",
+            "weight": 1.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:scarlet_forest"
+                ]
+            }
+        },
+        {
+            "id": "skeledirge_safari",
+            "pokemon": "skeledirge",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "36-51",
+            "weight": 0.31,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:scarlet_forest"
+                ]
+            }
+        },
+        {
+            "id": "flareon_safari",
+            "pokemon": "flareon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "28-53",
+            "weight": 5.4,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:scarlet_forest"
+                ]
+            }
+        },
+        {
+            "id": "pikachu_cosplay_rock_star_safari",
+            "pokemon": "pikachu cosplay=rock_star",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "18-33",
+            "weight": 2.4,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:scarlet_forest"
+                ]
+            }
+        }
+    ]
+}

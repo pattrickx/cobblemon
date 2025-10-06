@@ -1,0 +1,12 @@
+{
+  "species": "skeledirge",
+  "level": "50-60",
+  "spawnUnderground": false,
+  "herdMembers": [
+  ],
+  "biome": [
+    "minecraft:nether_wastes",
+    "minecraft:basalt_delta",
+    "minecraft:soul_sand_valley"
+  ]
+}

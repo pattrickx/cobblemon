@@ -1,0 +1,102 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:master_ball",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "academy:lootbag_mythsandlegends",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "academy:lootbag_megastone",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "academy:lootbag_plushie",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:ability_patch",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:ability_capsule",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:exp_candy_xl",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:rare_candy",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:max_revive",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "numismatic-overhaul:gold_coin",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:woodencap",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:transmutationorb",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "academy:shiny_incense",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "academy:strong_shiny_incense",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "academy:uber_shiny_incense",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

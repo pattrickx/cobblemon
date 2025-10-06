@@ -1,0 +1,75 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "dratini_safari",
+            "pokemon": "dratini",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "1-15",
+            "weight": 2.1,
+            "condition": {
+                "biomes": [
+                    "#eternal_starlight:is_safari_ocean"
+                ]
+            }
+        },
+        {
+            "id": "dragonaire_safari",
+            "pokemon": "dragonaire",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "16-31",
+            "weight": 0.8,
+            "condition": {
+                "biomes": [
+                    "#eternal_starlight:is_safari_ocean"
+                ]
+            }
+        },
+        {
+            "id": "araquanid_safari",
+            "pokemon": "araquanid",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "rare",
+            "level": "16-31",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#eternal_starlight:is_safari_ocean"
+                ]
+            }
+        },
+        {
+            "id": "vaporeon_safari",
+            "pokemon": "vaporeon",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "28-53",
+            "weight": 5.4,
+            "condition": {
+                "biomes": [
+                    "#eternal_starlight:is_safari_ocean"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+  "alertShinies": false,
+  "alertLegendaries": true,
+  "alertMythicals": true,
+  "alertUltraBeasts": true,
+  "alertParadox": true,
+  "broadcastIVs": false,
+  "broadcastEVs": false,
+  "broadcastNature": false,
+  "broadcastAbility": false
+}

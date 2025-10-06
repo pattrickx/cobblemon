@@ -1,0 +1,61 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "ironbundle-1",
+            "pokemon": "ironbundle",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "50-70",
+            "weight": 1.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_freezing",
+		    "#cobblemon:is_glacial",
+		    "#cobblemon:is_tundra"
+                ]
+            }
+        },
+	 {
+            "id": "ironbundle-2",
+            "pokemon": "ironbundle",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "50-70",
+            "weight": 1.0,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_end"
+                ]
+            }
+        },
+	 {
+            "id": "ironbundle-3",
+            "pokemon": "ironbundle",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "50-70",
+            "weight": 1.0,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_end"
+                ],
+           	    "neededBaseBlocks": ["minecraft:snow_layer"]
+            }
+        }
+    ]
+}

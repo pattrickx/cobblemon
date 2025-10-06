@@ -1,0 +1,12 @@
+{
+  "species": "decidueye",
+  "level": "50-60",
+  "spawnUnderground": false,
+  "herdMembers": [
+  ],
+  "biome": [
+    "minecraft:dark_forest",
+    "minecraft:forest",
+    "minecraft:grove"
+  ]
+}

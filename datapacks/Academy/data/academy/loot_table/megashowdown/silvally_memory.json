@@ -1,0 +1,96 @@
+{
+  "type": "loot_table",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:bugmemory",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:darkmemory",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:dragonmemory",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:electricmemory",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:fairymemory",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:fightingmemory",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:firememory",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:flyingmemory",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:ghostmemory",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:grassmemory",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:groundmemory",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:icememory",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:poisonmemory",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:psychicmemory",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:rockmemory",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:steelmemory",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:watermemory",
+            "weight": 1
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  }

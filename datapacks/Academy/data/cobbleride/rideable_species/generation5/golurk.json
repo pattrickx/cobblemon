@@ -1,0 +1,56 @@
+{
+	"name": "golurk",
+	"enabled": true,
+  "offsets": {
+    "DEFAULT": {
+      "x": 0.5,
+      "y": -1,
+      "z": -0.45
+    },
+	"WALKING": {
+      "x": 0.0,
+      "y": -0.15,
+      "z": 0
+    },
+    "HOVERING": {
+      "x": 0,
+      "y": -0.15,
+      "z": 0.0
+    },
+    "FLYING": {
+      "x": 0,
+      "y": -0.15,
+      "z": 0
+    }
+  },
+  "additionalSeats": [
+    {
+    "DEFAULT": {
+      "x": 0.5,
+      "y": -1,
+      "z": -0.45
+    },
+	"WALKING": {
+      "x": 0.0,
+      "y": -0.15,
+      "z": 0
+    },
+    "HOVERING": {
+      "x": 0,
+      "y": -0.15,
+      "z": 0.0
+    },
+    "FLYING": {
+      "x": 0,
+      "y": -0.15,
+      "z": 0
+    }
+  }
+
+],
+	"baseSpeedModifier": 1.0,
+	"landSpeedModifier": 1,
+	"waterSpeedModifier": 1,
+	"airSpeedModifier":1,
+	"forms": []
+}

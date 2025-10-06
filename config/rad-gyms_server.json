@@ -1,0 +1,16 @@
+{
+    "debug": false,
+    "maxEntranceUses": 3,
+    "shardRewards": true,
+    "lapisBoostAmount": 1,
+    "ignoredSpecies": [
+        "Moltres",
+        "Lugia",
+        "Rayquaza",
+        "Arceus",
+        "Mewtwo"
+    ],
+    "ignoredForms": [
+        "gmax"
+    ]
+}

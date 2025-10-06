@@ -1,0 +1,238 @@
+{
+  "pools": [
+    {
+      "id": "academy:gengar_hat",
+      "rarity": "epic",
+      "entry": {
+      "type": "lootables:item",
+      "item": {
+      "id": "academy:outfit",
+      "count": 1,
+      "components": {
+          "academy:outfit_entry":
+            {
+              "type": "value",
+              "id": "gengar_hat"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "academy:pikachu_hat",
+      "rarity": "epic",
+      "entry": {
+      "type": "lootables:item",
+      "item": {
+      "id": "academy:outfit",
+      "count": 1,
+      "components": {
+          "academy:outfit_entry":
+            {
+              "type": "value",
+              "id": "pikachu_hat"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "academy:goomy_hat",
+      "rarity": "epic",
+      "entry": {
+      "type": "lootables:item",
+      "item": {
+      "id": "academy:outfit",
+      "count": 1,
+      "components": {
+          "academy:outfit_entry":
+            {
+              "type": "value",
+              "id": "goomy_hat"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "academy:slowking_hat",
+      "rarity": "epic",
+      "entry": {
+      "type": "lootables:item",
+      "item": {
+      "id": "academy:outfit",
+      "count": 1,
+      "components": {
+          "academy:outfit_entry":
+            {
+              "type": "value",
+              "id": "slowking_hat"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "academy:eevee_hat",
+      "rarity": "epic",
+      "entry": {
+      "type": "lootables:item",
+      "item": {
+      "id": "academy:outfit",
+      "count": 1,
+      "components": {
+          "academy:outfit_entry":
+            {
+              "type": "value",
+              "id": "eevee_hat"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "academy:flareon_hat",
+      "rarity": "epic",
+      "entry": {
+      "type": "lootables:item",
+      "item": {
+      "id": "academy:outfit",
+      "count": 1,
+      "components": {
+          "academy:outfit_entry":
+            {
+              "type": "value",
+              "id": "flareon_hat"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "academy:jolteon_hat",
+      "rarity": "epic",
+      "entry": {
+      "type": "lootables:item",
+      "item": {
+      "id": "academy:outfit",
+      "count": 1,
+      "components": {
+          "academy:outfit_entry":
+            {
+              "type": "value",
+              "id": "jolteon_hat"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "academy:vaporeon_hat",
+      "rarity": "epic",
+      "entry": {
+      "type": "lootables:item",
+      "item": {
+      "id": "academy:outfit",
+      "count": 1,
+      "components": {
+          "academy:outfit_entry":
+            {
+              "type": "value",
+              "id": "vaporeon_hat"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "academy:glaceon_hat",
+      "rarity": "epic",
+      "entry": {
+      "type": "lootables:item",
+      "item": {
+      "id": "academy:outfit",
+      "count": 1,
+      "components": {
+          "academy:outfit_entry":
+            {
+              "type": "value",
+              "id": "glaceon_hat"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "academy:leafeon_hat",
+      "rarity": "epic",
+      "entry": {
+      "type": "lootables:item",
+      "item": {
+      "id": "academy:outfit",
+      "count": 1,
+      "components": {
+          "academy:outfit_entry":
+            {
+              "type": "value",
+              "id": "leafeon_hat"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "academy:sylveon_hat",
+      "rarity": "epic",
+      "entry": {
+      "type": "lootables:item",
+      "item": {
+      "id": "academy:outfit",
+      "count": 1,
+      "components": {
+          "academy:outfit_entry":
+            {
+              "type": "value",
+              "id": "sylveon_hat"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "academy:umbreon_hat",
+      "rarity": "epic",
+      "entry": {
+      "type": "lootables:item",
+      "item": {
+      "id": "academy:outfit",
+      "count": 1,
+      "components": {
+          "academy:outfit_entry":
+            {
+              "type": "value",
+              "id": "umbreon_hat"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "academy:espeon_hat",
+      "rarity": "epic",
+      "entry": {
+      "type": "lootables:item",
+      "item": {
+      "id": "academy:outfit",
+      "count": 1,
+      "components": {
+          "academy:outfit_entry":
+            {
+              "type": "value",
+              "id": "espeon_hat"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

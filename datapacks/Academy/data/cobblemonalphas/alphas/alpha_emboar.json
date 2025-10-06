@@ -1,0 +1,12 @@
+{
+  "species": "emboar",
+  "level": "50-60",
+  "spawnUnderground": false,
+  "herdMembers": [
+  ],
+  "biome": [
+    "minecraft:eroded_badlands",
+    "minecraft:desert",
+    "minecraft:badlands"
+  ]
+}

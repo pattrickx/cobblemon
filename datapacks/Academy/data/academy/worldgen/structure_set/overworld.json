@@ -1,0 +1,29 @@
+{
+    "structures": [
+        {
+            "structure": "academy:shop",
+            "weight": 1
+        },
+        {
+            "structure": "academy:healingcenter",
+            "weight": 1
+        },
+        {
+            "structure": "academy:safariportal",
+            "weight": 1
+        },
+        {
+            "structure": "academy:cardshop",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 32,
+        "separation": 8,
+        "spread_type": "linear",
+        "salt": 8894141,
+        "frequency_reduction_method": "default",
+        "frequency": 1
+    }
+}

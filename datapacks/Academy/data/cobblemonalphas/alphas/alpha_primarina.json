@@ -1,0 +1,12 @@
+{
+  "species": "primarina",
+  "level": "50-60",
+  "spawnUnderground": false,
+  "herdMembers": [
+  ],
+  "biome": [
+    "minecraft:stony_shore",
+    "minecraft:ocean",
+    "minecraft:warm_ocean"
+  ]
+}

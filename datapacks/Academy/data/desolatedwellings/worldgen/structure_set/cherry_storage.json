@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "desolatedwellings:cherry_storage",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "random_spread",
+    "spacing": 28,
+    "separation": 23,
+    "salt": 735594395
+  }
+}

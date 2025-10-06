@@ -1,0 +1,104 @@
+{
+  "name": {
+    "text": "Master Loot Ball",
+    "color": "dark_purple",
+    "bold": true
+  },
+  "loot_table": "cobbleloots:loot_ball/master",
+  "texture": "cobblemon:textures/poke_balls/master_ball.png",
+  "xp": 50,
+  "sources": {
+    "generation": [
+      {
+        "weight": 1,
+        "dimension": [
+          "minecraft:overworld",
+          "minecraft:the_nether",
+          "minecraft:the_end"
+        ],
+        "block": {
+          "spawn": "cobbleloots:loot_ball_spawnable",
+          "base": "cobbleloots:loot_ball_base_spawnable"
+        },
+        "fluid": [],
+        "position": {
+          "x": {
+            "min": -2147483647,
+            "max": 2147483647
+          },
+          "y": {
+            "min": -2147483647,
+            "max": 2147483647
+          },
+          "z": {
+            "min": -2147483647,
+            "max": 2147483647
+          }
+        },
+        "time": {
+          "value": {
+            "min": 0,
+            "max": 2147483647
+          },
+          "period": 24000
+        },
+        "weather": {
+          "rain": true,
+          "thunder": true,
+          "clear": true
+        }
+      }
+    ],
+    "spawning": [
+      {
+        "weight": 1,
+        "dimension": [
+          "minecraft:overworld",
+          "minecraft:the_nether",
+          "minecraft:the_end"
+        ],
+        "block": {
+          "spawn": "cobbleloots:loot_ball_spawnable",
+          "base": "cobbleloots:loot_ball_base_spawnable"
+        },
+        "fluid": [],
+        "position": {
+          "x": {
+            "min": -2147483647,
+            "max": 2147483647
+          },
+          "y": {
+            "min": -2147483647,
+            "max": 2147483647
+          },
+          "z": {
+            "min": -2147483647,
+            "max": 2147483647
+          }
+        },
+        "light": {
+          "block": {
+            "min": 0,
+            "max": 15
+          },
+          "sky": {
+            "min": 0,
+            "max": 15
+          }
+        },
+        "time": {
+          "value": {
+            "min": 0,
+            "max": 2147483647
+          },
+          "period": 24000
+        },
+        "weather": {
+          "rain": true,
+          "thunder": true,
+          "clear": true
+        }
+      }
+    ]
+  }
+}

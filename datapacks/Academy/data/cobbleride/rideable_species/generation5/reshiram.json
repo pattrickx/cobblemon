@@ -1,0 +1,46 @@
+{
+    "name": "Reshiram",
+    "offsets": {
+        "DEFAULT": {
+            "x": 0,
+            "y": 2.75,
+            "z": -.05
+        },
+        "HOVERING": {
+            "x": 0,
+            "y": .75,
+            "z": .35
+        },
+        "FLYING": {
+            "x": 0,
+            "y": -.75,
+            "z": .4
+        },
+        "SUSPENDED": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "DIVING": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "FLOATING": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "SWIMMING": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    },
+    "baseSpeedModifier": 1,
+    "landSpeedModifier": 1,
+    "waterSpeedModifier": 1,
+    "airSpeedModifier": 1.5,
+    "forms": [
+    ]
+}

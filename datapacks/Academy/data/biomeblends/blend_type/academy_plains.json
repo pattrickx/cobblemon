@@ -1,0 +1,23 @@
+{
+  "action": {
+    "type": "biomeblends:set_biome",
+    "target_biome": "minecraft:plains",
+    "horizontal_radius": 512,
+    "vertical_radius": 24,
+    "dimension_blacklist": {
+        "values": ["minecraft:overworld"],
+        "negate": true
+    },
+    "color": "16711680",
+    "use_remainder": {
+        "id": "minecraft:glass_bottle"
+    },
+    "sound": {
+        "sound_id": "minecraft:block.anvil.land"
+    },
+    "particle_type": {
+        "type": "minecraft:block",
+        "block_state": "minecraft:anvil"
+    }
+  }
+}

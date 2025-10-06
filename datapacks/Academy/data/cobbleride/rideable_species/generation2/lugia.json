@@ -1,0 +1,26 @@
+{
+	"name": "lugia",
+	"enabled": true,
+	"offsets": {
+		"DEFAULT": {
+			"x": 0.0,
+			"y": 5.1,
+			"z": -0.3
+		},
+		"FLYING": {
+		  "x": 0,
+		  "y": 5.2,
+		  "z": 0.3
+		},
+		    "HOVERING": {
+			"x": 0,
+			"y": 5.15,
+			"z": -1.5
+		  }
+	},
+	"baseSpeedModifier": 1.0,
+	"landSpeedModifier": 0.8,
+	"waterSpeedModifier": 1.0,
+	"airSpeedModifier": 2.0,
+	"forms": []
+}

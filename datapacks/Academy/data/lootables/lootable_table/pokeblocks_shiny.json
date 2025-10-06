@@ -1,0 +1,572 @@
+{
+  "pools": [
+    {
+      "id": "pokeblocks:pokedoll_shiny_absol",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_absol"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_ampharos",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_ampharos"
+      }
+    },
+    {
+      "id": "pokeblocks:shiny_applin_basket",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:shiny_applin_basket"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_arboliva",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_arboliva"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_beartic",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_beartic"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_bellossom",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_bellossom"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_blastoise",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_blastoise"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_bulbasaur",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_bulbasaur"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_calyrex",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_calyrex"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_cetoddle",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_cetoddle"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_charmander",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_charmander"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_cloyster",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_cloyster"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_corviknight",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_corviknight"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_corvisquire",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_corvisquire"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_cubchoo",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_cubchoo"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_delibird",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_delibird"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_dolliv",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_dolliv"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_drifloon",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_drifloon"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_eevee",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_eevee"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_eiscue_noice",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_eiscue_noice"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_eiscue",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_eiscue"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_flaaffy",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_flaaffy"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_frigibax",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_frigibax"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_froslass",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_froslass"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_furret",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_furret"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_gastly",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_gastly"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_gengar",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_gengar"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_gholdengo",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_gholdengo"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_glalie",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_glalie"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_happiny",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_happiny"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_ivysaur",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_ivysaur"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_kyogre",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_kyogre"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_lickitung",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_lickitung"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_luvdisc",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_luvdisc"
+      }
+    },
+    {
+      "id": "pokeblocks:shiny_magikarp_fishbowl",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:shiny_magikarp_fishbowl"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_mareep",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_mareep"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_marshadow",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_marshadow"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_marshadow_zenith",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_marshadow_zenith"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_mimikyu",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_mimikyu"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_munchlax",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_munchlax"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_netherite_gholdengo",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_netherite_gholdengo"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_palossand",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_palossand"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_phantump",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_phantump"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_piloswine",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_piloswine"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_pumpkaboo",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_pumpkaboo"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_quagsire",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_quagsire"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_rabsca",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_rabsca"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_rellor",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_rellor"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_riolu",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_riolu"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_rookidee",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_rookidee"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_rowlet",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_rowlet"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_sableye",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_sableye"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_sandygast",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_sandygast"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_sentret",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_sentret"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_shellder",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_shellder"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_smoliv",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_smoliv"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_snorlax",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_snorlax"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_snorunt_family",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_snorunt_family"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_snorunt",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_snorunt"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_spheal",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_spheal"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_squirtle",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_squirtle"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_stonjourner",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_stonjourner"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_swinub",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_swinub"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_treecko",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_treecko"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_trevenant",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_trevenant"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_tropius",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_tropius"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_venusaur",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_venusaur"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_wailmer",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_wailmer"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_wailord",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_wailord"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_wartortle",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_wartortle"
+      }
+    },
+    {
+      "id": "pokeblocks:pokedoll_shiny_wooper",
+      "rarity": "epic",
+      "entry": {
+        "type": "lootables:item",
+        "item": "pokeblocks:pokedoll_shiny_wooper"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "doAlphaSpawning": true,
+  "alphaSpawnChance": 0.00005,
+  "alphaSizeMultiplier": 2.5,
+  "maximumBestIvs": 2,
+  "doHerdSpawning": true,
+  "secondsBetweenSpawns": 300,
+  "spawnAttempts": 10,
+  "requiredPlayerAmount": 1,
+  "shinyOdds": 128,
+  "minimumSpawnDistance": 24,
+  "maximumSpawnDistance": 48,
+  "spawnAnnouncementMessage": "An Alpha Cobblemon has spawned near somebody!",
+  "showCoordinatesInAnnouncement": false
+}

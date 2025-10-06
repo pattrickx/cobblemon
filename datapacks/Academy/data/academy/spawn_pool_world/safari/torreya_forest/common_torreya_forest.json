@@ -1,0 +1,229 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "togepi_safari",
+            "pokemon": "togepi",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "10-27",
+            "weight": 2.1,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:torreya_forest"
+                ]
+            }
+        },
+        {
+            "id": "spritzee_safari",
+            "pokemon": "spritzee",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "10-24",
+            "weight": 6.1,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:torreya_forest"
+                ]
+            }
+        },
+        {
+            "id": "aromatisse_safari",
+            "pokemon": "aromatisse",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "10-24",
+            "weight": 0.7,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:torreya_forest"
+                ]
+            }
+        },
+        {
+            "id": "comfey_safari",
+            "pokemon": "comfey",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "10-24",
+            "weight": 7.7,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:torreya_forest"
+                ]
+            }
+        },
+        {
+            "id": "fidough_safari",
+            "pokemon": "fidough",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "10-24",
+            "weight": 5.7,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:torreya_forest"
+                ]
+            }
+        },
+        {
+            "id": "jigglypuff_safari",
+            "pokemon": "jigglypuff",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-29",
+            "weight": 4.1,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:torreya_forest"
+                ]
+            }
+        },
+        {
+            "id": "cottonee_safari",
+            "pokemon": "cottonee",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-28",
+            "weight": 7.8,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:torreya_forest"
+                ]
+            }
+        },
+        {
+            "id": "whimsicott_safari",
+            "pokemon": "whimsicott",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "23-48",
+            "weight": 0.8,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:torreya_forest"
+                ]
+            }
+        },
+        {
+            "id": "carbink_safari",
+            "pokemon": "carbink",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "23-48",
+            "weight": 2.9,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:torreya_forest"
+                ]
+            }
+        },
+        {
+            "id": "cutiefly_safari",
+            "pokemon": "cutiefly",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-30",
+            "weight": 4.9,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:torreya_forest"
+                ]
+            }
+        },
+        {
+            "id": "morelull_safari",
+            "pokemon": "morelull",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-30",
+            "weight": 2.2,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:torreya_forest"
+                ]
+            }
+        },
+        {
+            "id": "shiinotic_safari",
+            "pokemon": "shiinotic",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "31-48",
+            "weight": 0.3,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:torreya_forest"
+                ]
+            }
+        },
+        {
+            "id": "impidimp_safari",
+            "pokemon": "impidimp",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "2-27",
+            "weight": 2.1,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:torreya_forest"
+                ]
+            }
+        }
+    ]
+}
+        

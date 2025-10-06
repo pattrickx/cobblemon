@@ -1,0 +1,38 @@
+{
+  "equipment": {
+    "MAINHAND": {
+      "id": "air",
+      "nbt": {},
+      "count": 0
+    },
+    "OFFHAND": {
+      "id": "gliding:wooden_glider",
+      "count": 1
+    },
+    "FEET": {
+      "id": "air",
+      "nbt": {},
+      "count": 0
+    },
+    "LEGS": {
+      "id": "air",
+      "nbt": {},
+      "count": 0
+    },
+    "CHEST": {
+      "id": "air",
+      "nbt": {},
+      "count": 0
+    },
+    "HEAD": {
+      "id": "air",
+      "nbt": {},
+      "count": 0
+    },
+    "BODY": {
+      "id": "air",
+      "nbt": {},
+      "count": 0
+    }
+  }
+}

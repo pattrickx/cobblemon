@@ -1,0 +1,5 @@
+{
+  "clawExtraReachAmount": 5.0,
+  "shouldSpawnClawsInRuins": false,
+  "probabilityOfClawsInRuins": 7
+}

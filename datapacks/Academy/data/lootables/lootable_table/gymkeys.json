@@ -1,0 +1,256 @@
+{
+  "pools": [
+    {
+      "id": "rad-gyms:gym_key_normal",
+      "rarity": "epic",
+      "entry": {
+      "type": "lootables:item",
+      "item": {
+      "id": "rad-gyms:gym_key",
+      "count": 1,
+      "components": {
+          "rad-gyms:gym_type_component": "normal"
+          }
+        }
+      }
+    },
+    {
+      "id": "rad-gyms:gym_key_fire",
+      "rarity": "epic",
+      "entry": {
+      "type": "lootables:item",
+      "item": {
+      "id": "rad-gyms:gym_key",
+      "count": 1,
+      "components": {
+          "rad-gyms:gym_type_component": "fire"
+          }
+        }
+      }
+    },
+    {
+      "id": "rad-gyms:gym_key_water",
+      "rarity": "epic",
+      "entry": {
+      "type": "lootables:item",
+      "item": {
+      "id": "rad-gyms:gym_key",
+      "count": 1,
+      "components": {
+          "rad-gyms:gym_type_component": "water"
+          }
+        }
+      }
+    },
+    {
+      "id": "rad-gyms:gym_key_grass",
+      "rarity": "epic",
+      "entry": {
+      "type": "lootables:item",
+      "item": {
+      "id": "rad-gyms:gym_key",
+      "count": 1,
+      "components": {
+          "rad-gyms:gym_type_component": "grass"
+          }
+        }
+      }
+    },
+    {
+      "id": "rad-gyms:gym_key_electric",
+      "rarity": "epic",
+      "entry": {
+      "type": "lootables:item",
+      "item": {
+      "id": "rad-gyms:gym_key",
+      "count": 1,
+      "components": {
+          "rad-gyms:gym_type_component": "electric"
+          }
+        }
+      }
+    },
+    {
+      "id": "rad-gyms:gym_key_ice",
+      "rarity": "epic",
+      "entry": {
+      "type": "lootables:item",
+      "item": {
+      "id": "rad-gyms:gym_key",
+      "count": 1,
+      "components": {
+          "rad-gyms:gym_type_component": "ice"
+          }
+        }
+      }
+    },
+    {
+      "id": "rad-gyms:gym_key_fighting",
+      "rarity": "epic",
+      "entry": {
+      "type": "lootables:item",
+      "item": {
+      "id": "rad-gyms:gym_key",
+      "count": 1,
+      "components": {
+          "rad-gyms:gym_type_component": "fighting"
+          }
+        }
+      }
+    },
+    {
+      "id": "rad-gyms:gym_key_poison",
+      "rarity": "epic",
+      "entry": {
+      "type": "lootables:item",
+      "item": {
+      "id": "rad-gyms:gym_key",
+      "count": 1,
+      "components": {
+          "rad-gyms:gym_type_component": "poison"
+          }
+        }
+      }
+    },
+    {
+      "id": "rad-gyms:gym_key_rock",
+      "rarity": "epic",
+      "entry": {
+      "type": "lootables:item",
+      "item": {
+      "id": "rad-gyms:gym_key",
+      "count": 1,
+      "components": {
+          "rad-gyms:gym_type_component": "rock"
+          }
+        }
+      }
+    },
+    {
+      "id": "rad-gyms:gym_key_flying",
+      "rarity": "epic",
+      "entry": {
+      "type": "lootables:item",
+      "item": {
+      "id": "rad-gyms:gym_key",
+      "count": 1,
+      "components": {
+          "rad-gyms:gym_type_component": "flying"
+          }
+        }
+      }
+    },
+    {
+      "id": "rad-gyms:gym_key_psychic",
+      "rarity": "epic",
+      "entry": {
+      "type": "lootables:item",
+      "item": {
+      "id": "rad-gyms:gym_key",
+      "count": 1,
+      "components": {
+          "rad-gyms:gym_type_component": "psychic"
+          }
+        }
+      }
+    },
+    {
+      "id": "rad-gyms:gym_key_bug",
+      "rarity": "epic",
+      "entry": {
+      "type": "lootables:item",
+      "item": {
+      "id": "rad-gyms:gym_key",
+      "count": 1,
+      "components": {
+          "rad-gyms:gym_type_component": "bug"
+          }
+        }
+      }
+    },
+    {
+      "id": "rad-gyms:gym_key_steel",
+      "rarity": "epic",
+      "entry": {
+      "type": "lootables:item",
+      "item": {
+      "id": "rad-gyms:gym_key",
+      "count": 1,
+      "components": {
+          "rad-gyms:gym_type_component": "steel"
+          }
+        }
+      }
+    },
+    {
+      "id": "rad-gyms:gym_key_dark",
+      "rarity": "epic",
+      "entry": {
+      "type": "lootables:item",
+      "item": {
+      "id": "rad-gyms:gym_key",
+      "count": 1,
+      "components": {
+          "rad-gyms:gym_type_component": "dark"
+          }
+        }
+      }
+    },
+    {
+      "id": "rad-gyms:gym_key_dragon",
+      "rarity": "epic",
+      "entry": {
+      "type": "lootables:item",
+      "item": {
+      "id": "rad-gyms:gym_key",
+      "count": 1,
+      "components": {
+          "rad-gyms:gym_type_component": "dragon"
+          }
+        }
+      }
+    },
+    {
+      "id": "rad-gyms:gym_key_ghost",
+      "rarity": "epic",
+      "entry": {
+      "type": "lootables:item",
+      "item": {
+      "id": "rad-gyms:gym_key",
+      "count": 1,
+      "components": {
+          "rad-gyms:gym_type_component": "ghost"
+          }
+        }
+      }
+    },
+    {
+      "id": "rad-gyms:gym_key_ground",
+      "rarity": "epic",
+      "entry": {
+      "type": "lootables:item",
+      "item": {
+      "id": "rad-gyms:gym_key",
+      "count": 1,
+      "components": {
+          "rad-gyms:gym_type_component": "ground"
+          }
+        }
+      }
+    },
+    {
+      "id": "rad-gyms:gym_key_fairy",
+      "rarity": "epic",
+      "entry": {
+      "type": "lootables:item",
+      "item": {
+      "id": "rad-gyms:gym_key",
+      "count": 1,
+      "components": {
+          "rad-gyms:gym_type_component": "fairy"
+          }
+        }
+      }
+    }
+  ]
+}

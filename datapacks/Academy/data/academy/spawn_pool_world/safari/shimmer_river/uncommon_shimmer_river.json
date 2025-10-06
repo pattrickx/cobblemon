@@ -1,0 +1,24 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "luvdisc_safari",
+            "pokemon": "luvdisc",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "uncommon",
+            "level": "24-41",
+            "weight": 4.6,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:shimmer_river"
+                ]
+            }
+        }
+    ]
+}

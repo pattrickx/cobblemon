@@ -1,0 +1,843 @@
+{
+  "type": "loot_table",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_badlands"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_bamboo_jungle"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_basalt_deltas"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_beach"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_birch_forest"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_cherry_grove"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_cold_ocean"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_crimson_forest"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_dark_forest"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_deep_cold_ocean"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_deep_dark"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_deep_frozen_ocean"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_deep_lukewarm_ocean"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_deep_ocean"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_desert"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_dripstone_caves"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_end_barrens"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_end_highlands"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_end_midlands"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_eroded_badlands"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_flower_forest"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_forest"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_frozen_ocean"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_frozen_peaks"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_frozen_river"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_grove"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_ice_spikes"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_jagged_peaks"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_jungle"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_lukewarm_ocean"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_lush_caves"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_mangrove_swamp"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_meadow"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_mushroom_fields"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_nether_wastes"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_ocean"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_old_growth_birch_forest"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_old_growth_pine_taiga"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_old_growth_spruce_taiga"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_plains"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_river"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_savanna_plateau"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_savanna"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_small_end_islands"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_snowy_beach"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_snowy_plains"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_snowy_slopes"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_snowy_taiga"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_soul_sand_valley"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_sparse_jungle"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_stony_peaks"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_stony_shore"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_sunflower_plains"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_swamp"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_taiga"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_the_end"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_the_void"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_warm_ocean"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_warped_forest"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_windswept_forest"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_windswept_gravelly_hills"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_windswept_hills"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_windswept_savanna"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "biomeblends:biome_blend",
+            "weight": 1,
+            "functions": [
+              {
+              "function": "minecraft:set_components",
+              "components": {
+                "biomeblends:blend_type": "biomeblends:academy_wooded_badlands"
+                }
+              }
+            ]
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  }

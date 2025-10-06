@@ -1,0 +1,12 @@
+{
+  "species": "greninja",
+  "level": "50-60",
+  "spawnUnderground": false,
+  "herdMembers": [
+  ],
+  "biome": [
+    "minecraft:beach",
+    "minecraft:river",
+    "minecraft:stony_shore"
+  ]
+}

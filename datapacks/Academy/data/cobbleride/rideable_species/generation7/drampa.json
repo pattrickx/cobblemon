@@ -1,0 +1,14 @@
+{
+  "name": "drampa",
+  "enabled": true,
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.25,
+      "z": -0.5
+    }
+  },
+  "baseSpeedModifier": 0.75,
+  "landSpeedModifier": .35,
+  "waterSpeedModifier": 0.1
+}

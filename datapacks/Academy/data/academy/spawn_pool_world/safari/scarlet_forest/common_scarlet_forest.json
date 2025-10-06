@@ -1,0 +1,75 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "darmanitan_safari",
+            "pokemon": "darmanitan",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "35-47",
+            "weight": 2.6,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:scarlet_forest"
+                ]
+            }
+        },
+        {
+            "id": "litleo_safari",
+            "pokemon": "darmanitan",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "9-31",
+            "weight": 7.8,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:scarlet_forest"
+                ]
+            }
+        },
+        {
+            "id": "rolycoly_safari",
+            "pokemon": "rolycoly",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "10-25",
+            "weight": 2.3,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:scarlet_forest"
+                ]
+            }
+        },
+        {
+            "id": "carkol_safari",
+            "pokemon": "carkol",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "26-31",
+            "weight": 0.3,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:scarlet_forest"
+                ]
+            }
+        }
+    ]
+}

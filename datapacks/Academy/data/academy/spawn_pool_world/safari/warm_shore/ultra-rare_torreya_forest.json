@@ -1,0 +1,58 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "keldeo_safari",
+            "pokemon": "keldeo",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "31-48",
+            "weight": 0.6,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:warm_shore"
+                ]
+            }
+        },
+        {
+            "id": "volcanion_safari",
+            "pokemon": "volcanion",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "31-48",
+            "weight": 0.7,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:warm_shore"
+                ]
+            }
+        },
+        {
+            "id": "walkingwake_safari",
+            "pokemon": "walkingwake",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "31-53",
+            "weight": 1.2,
+            "condition": {
+                "biomes": [
+                    "eternal_starlight:warm_shore"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+  "species": "empoleon",
+  "level": "50-60",
+  "spawnUnderground": false,
+  "herdMembers": [
+  ],
+  "biome": [
+    "minecraft:frozen_ocean",
+    "minecraft:frozen_river",
+    "minecraft:ice_spike_plains"
+  ]
+}

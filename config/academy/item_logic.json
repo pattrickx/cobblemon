@@ -1,0 +1,92 @@
+{
+  "use": [
+    {
+      "predicate": "academy:hunt",
+      "commands": [
+        "/hunt"
+      ],
+      "context": "PLAYER",
+      "consumable": false
+    },
+    {
+      "predicate": "academy:shiny_incense",
+      "commands": [
+        "/sparkles boost start ${user_name} 2 20 minutes"
+      ],
+      "context": "SERVER",
+      "consumable": true
+    },
+    {
+      "predicate": "academy:strong_shiny_incense",
+      "commands": [
+        "/sparkles boost start ${user_name} 3 40 minutes"
+      ],
+      "context": "SERVER",
+      "consumable": true
+    },
+    {
+      "predicate": "academy:uber_shiny_incense",
+      "commands": [
+        "/sparkles boost start ${user_name} 4 60 minutes"
+      ],
+      "context": "SERVER",
+      "consumable": true
+    },
+    {
+      "predicate": "academy:lootbag_mythsandlegends",
+      "commands": [
+        "/lootables random ${user_name} lootables:mythsandlegends"
+      ],
+      "context": "SERVER",
+      "consumable": true
+    },
+    {
+      "predicate": "academy:lootbag_megastone",
+      "commands": [
+        "/lootables random ${user_name} lootables:megastones"
+      ],
+      "context": "SERVER",
+      "consumable": true
+    },
+    {
+      "predicate": "academy:lootbag_shinyplushie",
+      "commands": [
+        "/lootables random ${user_name} lootables:pokeblocks_shiny"
+      ],
+      "context": "SERVER",
+      "consumable": true
+    },
+    {
+      "predicate": "academy:lootbag_plushie",
+      "commands": [
+        "/lootables random ${user_name} lootables:pokeblocks 3"
+      ],
+      "context": "SERVER",
+      "consumable": true
+    },
+    {
+      "predicate": "academy:lootbag_academybiomeblend",
+      "commands": [
+        "/lootables random ${user_name} lootables:biomeblendsacademy"
+      ],
+      "context": "SERVER",
+      "consumable": true
+    },
+    {
+      "predicate": "academy:lootbag_gymkey",
+      "commands": [
+        "/lootables random ${user_name} lootables:gymkeys"
+      ],
+      "context": "SERVER",
+      "consumable": true
+    },
+    {
+      "predicate": "academy:lootbag_hats",
+      "commands": [
+        "/lootables random ${user_name} lootables:hats"
+      ],
+      "context": "SERVER",
+      "consumable": true
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "general": {
+    "globalBaseSpeedModifier": 1.0,
+    "globalLandSpeedModifier": 0.8,
+    "globalWaterSpeedModifier": 1.0,
+    "globalAirSpeedModifier": 1.0,
+    "underwaterSpeedModifier": 1.0,
+    "waterVerticalClimbSpeed": 2.0,
+    "airVerticalClimbSpeed": 0.5,
+    "rideSpeedLimit": 0.0,
+    "isWaterBreathingShared": true
+  },
+  "client": {
+    "switchToThirdPersonOnMount": true,
+    "switchToFirstPersonOnDismount": true,
+    "dismountCombinationKey": "SNEAK",
+    "useCameraNavigation": false,
+    "useDebugKeys": false
+  },
+  "common": {
+    "canDismountInMidair": false
+  },
+  "restrictions": {
+    "overrideClientCommonConfig": false,
+    "isSaddleRequired": true,
+    "blacklistedDimensions": []
+  },
+  "speedStat": {
+    "affectsSpeed": true,
+    "speedSelection": "BASE_NATURE_VALUES",
+    "minStatThreshold": 150,
+    "maxStatThreshold": 400,
+    "minSpeedModifier": 1.0,
+    "maxSpeedModifier": 1.5
+  },
+  "sprinting": {
+    "canSprint": true,
+    "rideSprintSpeed": 1.5,
+    "canSprintOnLand": true,
+    "canSprintInWater": true,
+    "canSprintInAir": true,
+    "canExhaust": true,
+    "maxStamina": 300,
+    "recoveryTime": 300,
+    "recoveryDelay": 20,
+    "exhaustionSpeed": 0.5,
+    "exhaustionDuration": 1.0
+  }
+}

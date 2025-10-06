@@ -1,0 +1,900 @@
+{
+  "pools": [
+    {
+      "id": "biomeblends:academy_badlands",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_badlands"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_bamboo_jungle",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_bamboo_jungle"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_basalt_deltas",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_basalt_deltas"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_beach",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_beach"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_birch_forest",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_birch_forest"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_cherry_grove",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_cherry_grove"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_cold_ocean",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_cold_ocean"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_crimson_forest",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_crimson_forest"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_dark_forest",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_dark_forest"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_deep_cold_ocean",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_deep_cold_ocean"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_deep_dark",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_deep_dark"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_deep_frozen_ocean",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_deep_frozen_ocean"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_deep_lukewarm_ocean",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_deep_lukewarm_ocean"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_deep_ocean",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_deep_ocean"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_desert",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_desert"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_dripstone_caves",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_dripstone_caves"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_end_barrens",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_end_barrens"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_end_highlands",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_end_highlands"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_end_midlands",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_end_midlands"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_eroded_badlands",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_eroded_badlands"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_flower_forest",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_flower_forest"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_forest",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_forest"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_frozen_ocean",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_frozen_ocean"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_frozen_peaks",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_frozen_peaks"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_frozen_river",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_frozen_river"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_grove",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_grove"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_ice_spikes",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_ice_spikes"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_jagged_peaks",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_jagged_peaks"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_jungle",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_jungle"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_lukewarm_ocean",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_lukewarm_ocean"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_lush_caves",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_lush_caves"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_mangrove_swamp",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_mangrove_swamp"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_meadow",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_meadow"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_mushroom_fields",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_mushroom_fields"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_nether_wastes",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_nether_wastes"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_ocean",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_ocean"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_old_growth_birch_forest",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_old_growth_birch_forest"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_old_growth_pine_taiga",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_old_growth_pine_taiga"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_old_growth_spruce_taiga",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_old_growth_spruce_taiga"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_plains",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_plains"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_river",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_river"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_savanna_plateau",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_savanna_plateau"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_savanna",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_savanna"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_small_end_islands",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_small_end_islands"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_snowy_beach",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_snowy_beach"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_snowy_plains",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_snowy_plains"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_snowy_slopes",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_snowy_slopes"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_snowy_taiga",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_snowy_taiga"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_soul_sand_valley",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_soul_sand_valley"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_sparse_jungle",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_sparse_jungle"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_stony_peaks",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_stony_peaks"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_stony_shore",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_stony_shore"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_sunflower_plains",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_sunflower_plains"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_swamp",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_swamp"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_taiga",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_taiga"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_the_end",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_the_end"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_the_void",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_the_void"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_warm_ocean",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_warm_ocean"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_warped_forest",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_warped_forest"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_windswept_forest",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_windswept_forest"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_windswept_gravelly_hills",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_windswept_gravelly_hills"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_windswept_hills",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_windswept_hills"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_windswept_savanna",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_windswept_savanna"
+          }
+        }
+      }
+    },
+    {
+      "id": "biomeblends:academy_wooded_badlands",
+      "rarity": "uncommon",
+      "entry": {
+        "type": "lootables:item",
+        "item": {
+          "id": "biomeblends:biome_blend",
+          "count": 1,
+          "components": {
+            "biomeblends:blend_type": "biomeblends:academy_wooded_badlands"
+          }
+        }
+      }
+    }
+  ]
+}

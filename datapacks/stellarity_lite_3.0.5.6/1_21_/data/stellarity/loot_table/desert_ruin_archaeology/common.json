@@ -1,0 +1,64 @@
+{
+	"type": "minecraft:archaeology",
+	"pools": [
+		{
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "academy:basic/t3",
+          "weight": 7
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:basic/t4",
+          "weight": 2
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:basic/t5",
+          "weight": 1
+        }
+      ],
+      "rolls": {
+          "type": "minecraft:uniform",
+          "max": 1.0,
+          "min": 1.0
+        }
+    },
+    {
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:beetroot_seeds"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:coal"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gold_nugget"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:end_rod"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:sandstone"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:terracotta"
+				}
+			]
+		}
+	]
+}

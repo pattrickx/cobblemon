@@ -1,0 +1,68 @@
+{
+	"pools": [
+		{
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "academy:basic_underground/t2",
+					"weight": 15
+        },
+				{
+          "type": "loot_table",
+          "value": "academy:basic_underground/t3",
+					"weight": 2
+        },
+				{
+          "type": "loot_table",
+          "value": "academy:basic_underground/t4",
+					"weight": 1
+        }
+      ],
+      "rolls": {
+          "type": "minecraft:uniform",
+          "max": 1.0,
+          "min": 1.0
+        }
+    },
+    {
+			"rolls": {
+				"type": "minecraft:binomial",
+				"n": 5,
+				"p": 0.25
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gunpowder"
+				}
+			]
+		},
+		{
+			"rolls": {
+				"type": "minecraft:binomial",
+				"n": 5,
+				"p": 0.5
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bone"
+				}
+			]
+		},
+		{
+			"rolls": {
+				"type": "minecraft:binomial",
+				"n": 5,
+				"p": 0.5
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:rotten_flesh"
+				}
+			]
+		}
+	]
+}

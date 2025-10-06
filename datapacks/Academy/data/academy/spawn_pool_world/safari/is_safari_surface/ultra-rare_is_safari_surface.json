@@ -1,0 +1,58 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "chansey_safari",
+            "pokemon": "chansey",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "21-42",
+            "weight": 5.6,
+            "condition": {
+                "biomes": [
+                    "#eternal_starlight:is_safari_surface"
+                ]
+            }
+        },
+        {
+            "id": "happiny_safari",
+            "pokemon": "happiny",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "6-17",
+            "weight": 7.9,
+            "condition": {
+                "biomes": [
+                    "#eternal_starlight:is_safari_surface"
+                ]
+            }
+        },
+        {
+            "id": "blissey_safari",
+            "pokemon": "blissey",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "28-47",
+            "weight": 2.9,
+            "condition": {
+                "biomes": [
+                    "#eternal_starlight:is_safari_surface"
+                ]
+            }
+        }
+    ]
+}

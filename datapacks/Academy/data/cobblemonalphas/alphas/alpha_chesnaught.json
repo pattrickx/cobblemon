@@ -1,0 +1,12 @@
+{
+  "species": "chesnaught",
+  "level": "50-60",
+  "spawnUnderground": false,
+  "herdMembers": [
+  ],
+  "biome": [
+    "minecraft:jungle",
+    "minecraft:sparse_jungle",
+    "minecraft:sunflower_forest"
+  ]
+}

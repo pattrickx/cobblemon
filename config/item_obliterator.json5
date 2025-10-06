@@ -1,0 +1,170 @@
+{
+  // -----------------------------------------------------------
+  //              Item Obliterator by ElocinDev
+  // -----------------------------------------------------------
+  //  
+  // How to add items?
+  //   - They are json strings, so you need to separate each
+  //     entry with a comma, except the last
+  //   - If you start an entry with !, it will be treated as a regular expression
+  //     Example: "!minecraft:.*_sword" to disable all swords
+  //  
+  // -----------------------------------------------------------
+  // Do not touch this
+  "configVersion": 3,
+  // -----------------------------------------------------------
+  // Items here will be unusable completely
+  //    Example: minecraft:diamond
+  "blacklisted_items": [
+    "!eternal_starlight:.*",
+    "!ohmymeteors:.*",
+    "cloudboots:golden_feather",
+    "fading_clouds:blue_cloud_bottle",
+    "fading_clouds:lavender_cloud_bottle",
+    "fading_clouds:lilac_cloud_bottle",
+    "fading_clouds:pink_cloud_bottle",
+    "fading_clouds:purple_cloud_bottle",
+    "pokeblocks:poke_coin",
+    "pokeblocks:poke_egg",
+    "pokeblocks:nickel",
+    "pokeblocks:dime",
+    "pokeblocks:raid_pass",
+    "pokeblocks:raid_voucher",
+    "pokeblocks:radiant_voucher",
+    "pokeblocks:summer_raid_soul",
+    "pokeblocks:summer_token",
+    "myths_and_legends:old_sea_map",
+    "myths_and_legends:gs_ball",
+    "myths_and_legends:aurora_ticket",
+    "myths_and_legends:bonus_disk",
+    "myths_and_legends:member_card",
+    "myths_and_legends:azure_flute",
+    "myths_and_legends:oaks_letter",
+    "myths_and_legends:genesect_drive",
+    "myths_and_legends:liberty_pass",
+    "myths_and_legends:sacred_sword",
+    "myths_and_legends:meloetta_headset",
+    "myths_and_legends:diancies_crown",
+    "myths_and_legends:prism_bottle",
+    "myths_and_legends:hoopa_ring",
+    "myths_and_legends:steam_valve",
+    "myths_and_legends:antique_pokeball",
+    "myths_and_legends:soul_heart",
+    "myths_and_legends:marshadow_hood",
+    "myths_and_legends:zeraoras_thunderclaw",
+    "myths_and_legends:mystery_box",
+    "myths_and_legends:zarudes_cape",
+    "myths_and_legends:mythical_pecha_berry",
+    "myths_and_legends:clear_bell",
+    "myths_and_legends:tidal_bell",
+    "myths_and_legends:zygarde_cell",
+    "myths_and_legends:zygarde_core",
+    "myths_and_legends:zygarde_cube",
+    "myths_and_legends:sun_flute",
+    "myths_and_legends:moon_flute",
+    "myths_and_legends:scroll_of_water",
+    "myths_and_legends:ancient_tablet",
+    "myths_and_legends:scroll_of_darkness",
+    "myths_and_legends:cavern_shield",
+    "lootr:trophy",
+    "minecraft:elytra",
+    "!rad-gyms:shard_.*",
+    "!rad-gyms:exit_rope",
+    "biomeswevegone:music_disk_better_days",
+    "toffys_hooks:climbing_hook",
+    "toffys_hooks:ice_skates",
+    "mega_showdown:pika_case",
+    "libraryferret:iron_coins_jtl",
+    "libraryferret:emerald_coins_jtl",
+    "libraryferret:gold_coins_jtl",
+    "libraryferret:diamond_coins_jtl",
+    "libraryferret:netherite_coins_jtl"
+  ],
+  // -----------------------------------------------------------
+  // Removes an item if it contains certain Component Data. If the whole entry (or expression) is present, the item gets removed.
+  // Use with caution! This is a very expensive operation and can cause lag if you have a lot of items blacklisted.
+  // 	
+  // 	 Example to disable a regeneration potion: Potion:"minecraft:regeneration"
+  // 	
+  // 	 You can also use regular expressions by starting the value with !
+  "blacklisted_component_data": [],
+  // -----------------------------------------------------------
+  // If true, the mod will log all components of your main hand item every second.
+  // This is useful for finding the specific component data of an item to blacklist it.
+  //  
+  // Only enable it if you need it, as this is only meant to be used for debugging.
+  "debug_print_components": false,
+  // -----------------------------------------------------------
+  // Items here will not be able to be right-clicked (Interact)
+  //    Example: minecraft:apple
+  "only_disable_interactions": [
+    "examplemod:example_item"
+  ],
+  // -----------------------------------------------------------
+  // Items here will not be able to be used to attack
+  //    Example: minecraft:diamond_sword
+  "only_disable_attacks": [
+    "examplemod:example_item"
+  ],
+  // -----------------------------------------------------------
+  // Items here will get their recipes disabled
+  // Keep in mind this already is applied to blacklisted items
+  "only_disable_recipes": [
+    "cobblemon:safari_ball",
+    "cobblemon:master_ball",
+    "cobblemon:beast_ball",
+    "!cloudboots:.*",
+    "!naturescompass:.*",
+    "!gliding:.*",
+    "!fading_clouds:.*",
+    "!mermod:.*",
+    "!telepass:.*",
+    "!cobblemonboxlink:.*",
+    "!cobblemon_utility:.*",
+    "cobblenav:pokenav_item_gholdengo",
+    "!constructionwand:.*",
+    "cobblemon:ability_capsule",
+    "cobblemon:ability_patch",
+    "mega_showdown:ash_cap",
+    "mega_showdown:dynamax_band",
+    "mega_showdown:power_spot",
+    "mega_showdown:star_core",
+    "mega_showdown:tera_orb",
+    "fireworkcapsules:ball_capsule",
+    "fireworkcapsules:bug_sticker",
+    "fireworkcapsules:dark_sticker",
+    "fireworkcapsules:dragon_sticker",
+    "fireworkcapsules:electric_sticker",
+    "fireworkcapsules:fairy_sticker",
+    "fireworkcapsules:fighting_sticker",
+    "fireworkcapsules:fire_sticker",
+    "fireworkcapsules:flying_sticker",
+    "fireworkcapsules:ghost_sticker",
+    "fireworkcapsules:grass_sticker",
+    "fireworkcapsules:ground_sticker",
+    "fireworkcapsules:ice_sticker",
+    "fireworkcapsules:normal_sticker",
+    "fireworkcapsules:poison_sticker",
+    "fireworkcapsules:psychic_sticker",
+    "fireworkcapsules:rock_sticker",
+    "fireworkcapsules:steel_sticker",
+    "fireworkcapsules:water_sticker",
+    "!toffys_hooks:.*",
+    "!wingedsandals:.*",
+    "!gachamachine:gacha_coin.*",
+    "!biomeblends:.*",
+    "cobblemon:pasture",
+    "fightorflight:oran_lucky_egg",
+    "!rad-gyms:cache_.*",
+    "rad-gyms:gym_key",
+    "vanity:styling_table"
+  ],
+  // -----------------------------------------------------------
+  // If true, the mod will use a hashset to handle the blacklisted items
+  // This is a more optimized approach only if you have a lot of items blacklisted (20 or more is recommended)
+  // If you just have a small amount of items blacklisted, keep this false
+  //  
+  // [!] Enabling this will disable all regular expressions
+  // [!] Does not apply to NBT, only item blacklist / interaction / attack
+  "use_hashmap_optimizations": false
+}

@@ -1,0 +1,96 @@
+{
+  "type": "loot_table",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:flameplate",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:splashplate",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:zapplate",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:meadowplate",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:icicleplate",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:fistplate",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:toxicplate",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:earthplate",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:skyplate",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:mindplate",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:insectplate",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:stoneplate",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:spookyplate",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:dracoplate",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:dreadplate",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:ironplate",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mega_showdown:pixieplate",
+            "weight": 1
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  }

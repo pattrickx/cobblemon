@@ -1,0 +1,12 @@
+{
+  "species": "blaziken",
+  "level": "50-60",
+  "spawnUnderground": false,
+  "herdMembers": [
+  ],
+  "biome": [
+    "minecraft:savanna",
+    "minecraft:crimson_forest",
+    "minecraft:savanna_plateau"
+  ]
+}

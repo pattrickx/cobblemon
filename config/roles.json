@@ -1,0 +1,17 @@
+{
+  "everyone": {
+    "overrides": {
+      "commands": {
+        "role": "deny",
+        "balance": "deny",
+        "baltop": "deny",
+		    "eco": "deny",
+		    "pay": "deny",
+		    "withdraw": "deny",
+		    "economy": "deny",
+		    "hunt": "allow",
+		    "hunts": "allow"
+      }
+    }
+  }
+}

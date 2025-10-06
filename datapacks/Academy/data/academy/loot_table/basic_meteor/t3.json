@@ -1,0 +1,101 @@
+{
+  "type": "loot_table",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "academy:megashowdown/arceus_plate",
+            "functions": [
+              {
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 1.0,
+                  "min": 1.0
+                },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:megashowdown/mega_stone",
+            "functions": [
+              {
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 1.0,
+                  "min": 1.0
+                },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 12
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:megashowdown/rotom_form",
+            "functions": [
+              {
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 1.0,
+                  "min": 1.0
+                },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 4
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:megashowdown/silvally_memory",
+            "functions": [
+              {
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 1.0,
+                  "min": 1.0
+                },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 4
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:megashowdown/tera_shard",
+            "functions": [
+              {
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 1.0,
+                  "min": 1.0
+                },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 12
+        },
+        {
+          "type": "loot_table",
+          "value": "academy:megashowdown/z_crystal_type",
+            "functions": [
+              {
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 1.0,
+                  "min": 1.0
+                },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 12
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

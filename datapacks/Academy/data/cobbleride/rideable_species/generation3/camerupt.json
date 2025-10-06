@@ -1,0 +1,16 @@
+{
+  "name": "camerupt",
+  "enabled": true,
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": .35,
+      "z": 1
+    }
+  },
+  "baseSpeedModifier": 0.75,
+  "landSpeedModifier": 0.55,
+  "waterSpeedModifier": 0.45,
+  "airSpeedModifier": 0.75,
+  "forms": []
+}

@@ -1,0 +1,13 @@
+{
+  "species": "feraligatr",
+  "level": "50-60",
+  "spawnUnderground": false,
+  "herdMembers": [
+  ],
+  "biome": [
+    "minecraft:river",
+    "minecraft:ocean",
+    "minecraft:beach",
+    "minecraft:stony_shore"
+  ]
+}

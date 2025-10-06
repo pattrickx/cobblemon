@@ -1,0 +1,16 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:jagged_peaks",
+    "minecraft:snowy_beach",
+    "minecraft:snowy_plains",
+    "minecraft:snowy_slopes",
+    "#cobblemon:is_glacial",
+    "#cobblemon:is_snowy_forest",
+	"#cobblemon:is_snowy_taiga",
+    {
+      "id": "regions_unexplored:frozen_tundra",
+      "required": false
+    }
+  ]
+}

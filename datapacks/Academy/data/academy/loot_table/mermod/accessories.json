@@ -1,0 +1,45 @@
+{
+  "type": "loot_table",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mermod:mermaid_bra_modifier",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mermod:glowing_pearl_modifier",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mermod:tail_gradient_modifier",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mermod:tail_moisturizer_modifier",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mermod:moon_rock_modifier",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mermod:ursula_shell_modifier",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mermod:deep_sea_crystal_modifier",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
