@@ -27,11 +27,11 @@ RUN cd ./mods && \
     rm -f mods.z01 mods.z02 mods.zip combined-mods.zip
 
 # Copy the entrypoint script
-COPY cobblemon.sh ./
+COPY start.sh ./
 
 # Fix entrypoint script permissions
-RUN chown cobblemon:cobblemon cobblemon.sh && \
-    chmod +x cobblemon.sh
+RUN chown cobblemon:cobblemon start.sh && \
+    chmod +x start.sh
 
 # Note: USER is not set here because of possible volume permission issues.
 # The entrypoint script should drop privileges if needed.
