@@ -13,7 +13,11 @@ RUN addgroup -g 10001 cobblemon && \
 
 # Set working directory
 WORKDIR /home/cobblemon
+RUN apt-get update -y --fix-missing && \
+    apt-get install -y git
 
+# Clona o repositório privado
+RUN git clone https://github.com/pattrickx/cobblemon.git .
 # Copy the entrypoint script
 COPY cobblemon.sh ./
 
