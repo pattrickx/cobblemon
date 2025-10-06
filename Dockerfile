@@ -8,7 +8,8 @@ RUN apk add --no-cache \
     rcon \
     git \
     nano \
-    zip
+    zip \
+    bash
 
 # Create a user and usergroup with high UID and GID to not overlap with an existing host user or usergroup
 RUN addgroup -g 10001 cobblemon && \
@@ -20,17 +21,23 @@ WORKDIR /home/cobblemon
 # Clone the private repository (use build args or SSH in CI for private repos)
 RUN git clone https://github.com/pattrickx/cobblemon.git .
 
-# Descompactar os arquivos splitados do mods
+# Combine and extract split ZIP files directly into the mods folder
 RUN cd ./mods && \
-    zip -F mods.zip --out combined-mods.zip && \
-    unzip -q combined-mods.zip -d . && \
-    rm -f mods.z01 mods.z02 mods.zip combined-mods.zip
+    if [ -f "mods.z01" ]; then \
+        zip -s 0 mods.zip --out complete-mods.zip && \
+        unzip -q complete-mods.zip -d . && \
+        rm -f mods.z01 mods.z02 mods.zip complete-mods.zip; \
+    else \
+        unzip -q mods.zip -d . && \
+        rm -f mods.zip; \
+    fi
 
 # Copy the entrypoint script
 COPY start.sh ./
 
-# Fix entrypoint script permissions
-RUN chown cobblemon:cobblemon start.sh && \
+# Fix entrypoint script permissions and ensure it uses bash
+RUN sed -i '1s|.*|#!/usr/bin/env bash|' start.sh && \
+    chown cobblemon:cobblemon start.sh && \
     chmod +x start.sh
 
 # Note: USER is not set here because of possible volume permission issues.
