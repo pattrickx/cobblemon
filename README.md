@@ -1,116 +1,48 @@
-## [Minecraft](https://github.com/delath/containers-hub/tree/main/minecraft)
+# Prerequisite
 
-<div>
-    <p>
-      Minecraft Server based on 
-      <a href="https://github.com/PaperMC/Paper">
-        Paper
-      </a>
-      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/image-size/delath/minecraft">
-      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/stars/delath/minecraft">
-      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/pulls/delath/minecraft">
-    </p>
-</div>
-<br>
+You need to accept EULA to run this server, you can do so by adding the following environment variable to the service configuration:
 
-## [Terraria](https://github.com/delath/containers-hub/tree/main/terraria)
+```yaml
+environment:
+  - EULA=true
+```
 
-<div>
-    <p>
-      Terraria server built following the official 
-      <a href="https://terraria.wiki.gg/wiki/Server">
-        documentation
-      </a>
-      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/image-size/delath/terraria">
-      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/stars/delath/terraria">
-      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/pulls/delath/terraria">
-    </p>
-</div>
-<br>
+# Increasing RAM Allocation
 
-## [Skyblock](https://github.com/delath/containers-hub/tree/main/skyblock)
+If you need to increase the RAM (by default it's 4GB), you can do so by adding the following environment variable to the service configuration:
 
-<div>
-    <p>
-      Minecraft Skyblock server based on  
-      <a href="https://github.com/BluePsychoRanger/SkyBlock_Collection">
-        this Skyblock Collection
-      </a>
-      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/image-size/delath/skyblock">
-      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/stars/delath/skyblock">
-      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/pulls/delath/skyblock">
-    </p>
-</div>
-<br>
+```yaml
+environment:
+  - ALLOCATED_RAM=8G
+```
 
-## [Valheim](https://github.com/delath/containers-hub/tree/main/valheim)
+# Example
 
-<div>
-    <p>
-      Valheim server based on the official documentation
-      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/image-size/delath/valheim">
-      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/stars/delath/valheim">
-      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/pulls/delath/valheim">
-    </p>
-</div>
-<br>
+```yaml
+services:
+  cobblemon:
+    image: delath/cobblemon
+    container_name: cobblemon
+    ports:
+      - "25565:25565/tcp"
+    volumes:
+      - ./world:/home/cobblemon/world
+    restart: 'unless-stopped'
+    environment:
+      - ALLOCATED_RAM=12G
+      - EULA=true
+```
 
-## [Satisfactory](https://github.com/delath/containers-hub/tree/main/satisfactory)
+# Sending commands to the server console
 
-<div>
-    <p>
-      Satisfactory server based on 
-      <a href="https://satisfactory.wiki.gg/wiki/Dedicated_servers">
-        the wiki.gg documentation
-      </a>
-      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/image-size/delath/satisfactory">
-      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/stars/delath/satisfactory">
-      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/pulls/delath/satisfactory">
-    </p>
-</div>
-<br>
+If you want to send commands to the console you can leverage minecraft official rcon support, you would need to generate all server files by starting the server at least once and edit the `server.properties` rcon related fields 
+```txt
+enable-rcon=true
+rcon.port=25575
+rcon.password=<rcon_password>
+```
 
-## [Rust](https://github.com/delath/containers-hub/tree/main/rust)
-
-<div>
-    <p>
-      Rust server based on 
-      <a href="https://wiki.facepunch.com/rust/Creating-a-server">
-        the wiki.facepunch.com documentation
-      </a>
-      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/image-size/delath/rust">
-      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/stars/delath/rust">
-      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/pulls/delath/rust">
-    </p>
-</div>
-<br>
-
-## [Cobblemon](https://github.com/delath/containers-hub/tree/main/cobblemon)
-
-<div>
-    <p>
-      Minecraft Cobblemon server based on 
-      <a href="https://modrinth.com/mod/cobblemon">
-        the official mod
-      </a>
-      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/image-size/delath/cobblemon">
-      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/stars/delath/cobblemon">
-      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/pulls/delath/cobblemon">
-    </p>
-</div>
-<br>
-
-## [Don't Starve Together](https://github.com/delath/containers-hub/tree/main/dst)
-
-<div>
-    <p>
-      Don't Starve Together server based on 
-      <a href="https://dontstarve.wiki.gg/wiki/Guides/Don%E2%80%99t_Starve_Together_Dedicated_Servers">
-        the wiki.gg guide
-      </a>
-      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/image-size/delath/dst">
-      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/stars/delath/dst">
-      <img align="right" alt="GitHub License" src="https://img.shields.io/docker/pulls/delath/dst">
-    </p>
-</div>
-<br>
+Then you can send any command with the following syntax
+```bash
+docker exec -it cobblemon sh -c "rcon -H localhost -p 25575 -P <rcon_password> <command>"
+```
