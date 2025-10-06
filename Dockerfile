@@ -7,7 +7,8 @@ RUN apk add --no-cache \
     jq \
     rcon \
     git \
-    nano
+    nano \
+    zip
 
 # Create a user and usergroup with high UID and GID to not overlap with an existing host user or usergroup
 RUN addgroup -g 10001 cobblemon && \
@@ -18,6 +19,12 @@ WORKDIR /home/cobblemon
 
 # Clone the private repository (use build args or SSH in CI for private repos)
 RUN git clone https://github.com/pattrickx/cobblemon.git .
+
+# Descompactar os arquivos splitados do mods
+RUN cd ./mods && \
+    zip -F mods.zip --out combined-mods.zip && \
+    unzip -q combined-mods.zip -d . && \
+    rm -f mods.z01 mods.z02 mods.zip combined-mods.zip
 
 # Copy the entrypoint script
 COPY cobblemon.sh ./

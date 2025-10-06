@@ -1,39 +1,52 @@
 {
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2025-10-06 09:42:15 -0300"
+      "unlock_right_away": "2025-10-06 15:19:36 -0300"
     },
     "done": true
   },
   "jbt:recipes": {
     "criteria": {
-      "requirement": "2025-10-06 09:42:15 -0300"
+      "requirement": "2025-10-06 15:19:36 -0300"
     },
     "done": true
   },
   "biomeswevegone:biomeswevegone/root": {
     "criteria": {
-      "tick": "2025-10-06 09:42:15 -0300"
+      "tick": "2025-10-06 15:19:36 -0300"
     },
     "done": true
   },
   "beautify:progression/root": {
     "criteria": {
-      "Install": "2025-10-06 09:42:15 -0300"
+      "Install": "2025-10-06 15:19:36 -0300"
     },
     "done": true
   },
   "jbt:visible/root": {
     "criteria": {
-      "tick": "2025-10-06 09:42:15 -0300"
+      "tick": "2025-10-06 15:19:36 -0300"
+    },
+    "done": true
+  },
+  "regions_unexplored:parent": {
+    "criteria": {
+      "load_in_world": "2025-10-06 15:19:38 -0300"
     },
     "done": true
   },
   "lootr:root": {
     "criteria": {
-      "always_true": "2025-10-06 09:42:15 -0300"
+      "always_true": "2025-10-06 15:19:36 -0300"
     },
     "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2025-10-06 15:21:01 -0300",
+      "minecraft:lukewarm_ocean": "2025-10-06 15:19:38 -0300"
+    },
+    "done": false
   },
   "DataVersion": 3955
 }
