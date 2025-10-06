@@ -6,7 +6,8 @@ RUN apk add --no-cache \
     openjdk21-jre \
     jq \
     rcon \
-    git
+    git \
+    nano
 
 # Create a user and usergroup with high UID and GID to not overlap with an existing host user or usergroup
 RUN addgroup -g 10001 cobblemon && \
