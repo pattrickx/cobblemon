@@ -1,11 +1,12 @@
 # Use Alpine because it's more secure, more performant and more size friendly
 FROM alpine:3
 
-# Install everything we need
+# Install everything we need (including git before cloning)
 RUN apk add --no-cache \
     openjdk21-jre \
     jq \
-    rcon
+    rcon \
+    git
 
 # Create a user and usergroup with high UID and GID to not overlap with an existing host user or usergroup
 RUN addgroup -g 10001 cobblemon && \
@@ -13,11 +14,10 @@ RUN addgroup -g 10001 cobblemon && \
 
 # Set working directory
 WORKDIR /home/cobblemon
-RUN apt-get update -y --fix-missing && \
-    apt-get install -y git
 
-# Clona o repositório privado
+# Clone the private repository (use build args or SSH in CI for private repos)
 RUN git clone https://github.com/pattrickx/cobblemon.git .
+
 # Copy the entrypoint script
 COPY cobblemon.sh ./
 
@@ -25,8 +25,8 @@ COPY cobblemon.sh ./
 RUN chown cobblemon:cobblemon cobblemon.sh && \
     chmod +x cobblemon.sh
 
-# USER is not being used, but we are actually running the server as the cobblemon user inside the entrypoint
-# The reason is conflicts with volumes permissions while wanting to have this streamlined as much as possible 
+# Note: USER is not set here because of possible volume permission issues.
+# The entrypoint script should drop privileges if needed.
 
 # Launch entrypoint script to run the server
 ENTRYPOINT ["/home/cobblemon/cobblemon.sh"]
