@@ -37,4 +37,4 @@ RUN chown cobblemon:cobblemon cobblemon.sh && \
 # The entrypoint script should drop privileges if needed.
 
 # Launch entrypoint script to run the server
-ENTRYPOINT ["/home/cobblemon/cobblemon.sh"]
+ENTRYPOINT ["/home/cobblemon/start.sh"]
